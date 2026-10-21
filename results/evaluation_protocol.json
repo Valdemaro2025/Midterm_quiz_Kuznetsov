@@ -1,0 +1,23 @@
+{
+  "train_airings_end_at_or_before": "2020-05-18 00:00:00",
+  "validation_airings_start_at_or_after": "2020-05-18 00:00:00",
+  "validation_airings_end_at_or_before": "2020-07-27 00:00:00",
+  "candidate_count": 6361,
+  "repeat_policy": "allowed for all models",
+  "target": "top 5 IDs by number of >=80% covered broadcasts; numeric ID ascending on count ties",
+  "primary_population": "template users with >=5 distinct qualifying validation programs",
+  "all_positive_population": "template users with >=1 qualifying validation program",
+  "empty_truth": "AP=0; additionally reported all-template mean",
+  "ranking": "positive primary score descending; numeric ID ascending for ties; common decayed popularity fills missing slots",
+  "all_models_train_only": true,
+  "new_item_metadata": "no future schedule attributes used as features; only candidate availability",
+  "random_seed": 42,
+  "selection_warning": "Hyperparameters and hybrid selected on this holdout; scores are selection estimates, not an independent test.",
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  },
+  "elapsed_seconds": 13.66540458399686
+}

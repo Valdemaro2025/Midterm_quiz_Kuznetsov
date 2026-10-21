@@ -1,0 +1,29 @@
+{
+  "method": "improved_hybrid_w0.1",
+  "settings": {
+    "kind": "hybrid",
+    "repeat_parameters": {
+      "kind": "repeat",
+      "half_life_days": 0,
+      "threshold": 0.2,
+      "mode": "coverage",
+      "exposure_exponent": 0
+    },
+    "rule_half_life_days": 28,
+    "min_support_users": 3,
+    "shrinkage": 10,
+    "other_weight": 0.1,
+    "fusion": "nonnegative scores / per-user maximum, then convex sum"
+  },
+  "fit_seconds": 0.06669524999597343,
+  "score_seconds": 0,
+  "map5_primary": 0.3982434782608696,
+  "primary_users": 1150,
+  "map5_all_positive": 0.38312421468318075,
+  "positive_users": 1238,
+  "map5_all_template": 0.37643474426807755,
+  "template_users": 1260,
+  "no_high_coverage_history_users": 18,
+  "unique_recommended_ids": 281,
+  "repeat_fraction": 0.9168253968253969
+}

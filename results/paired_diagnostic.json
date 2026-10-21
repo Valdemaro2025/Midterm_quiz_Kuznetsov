@@ -1,0 +1,13 @@
+{
+  "versus": "repeat_h0",
+  "users": 1150,
+  "mean_delta_map5": 0.01583188405796696,
+  "improved_users": 396,
+  "worse_users": 271,
+  "unchanged_users": 483,
+  "descriptive_bootstrap_95_interval": [
+    0.010282681159417979,
+    0.02128557971013756
+  ],
+  "warning": "Same holdout used for selection; interval does not adjust for selection and is not independent generalization evidence."
+}

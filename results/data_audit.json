@@ -1,0 +1,79 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "files": {
+    "export_arh_11-20-final.csv": {
+      "rows": 1074235,
+      "labelled_valid_rows": 115613,
+      "unique_positive_ids": 5847,
+      "channels": 400,
+      "nonpositive_duration": 1,
+      "min_start": "2020-03-08T23:00:00",
+      "max_end": "2020-05-18T12:00:00",
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "export_arh_21-30-final.csv": {
+      "rows": 1074394,
+      "labelled_valid_rows": 121505,
+      "unique_positive_ids": 6363,
+      "channels": 403,
+      "nonpositive_duration": 0,
+      "min_start": "2020-05-18T00:00:00",
+      "max_end": "2020-07-27T12:00:00",
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "export_arh_31-42-final.csv": {
+      "rows": 1295378,
+      "labelled_valid_rows": 144774,
+      "unique_positive_ids": 6636,
+      "channels": 404,
+      "nonpositive_duration": 0,
+      "min_start": "2020-07-27T00:00:00",
+      "max_end": "2020-10-19T12:00:00",
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "dataset11-30.csv": {
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    },
+    "submission.csv": {
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    }
+  },
+  "schedule_spillover_rows_excluded": 550,
+  "duplicate_labelled_airings_removed": 0,
+  "same_interval_multiple_labelled_ids": 0,
+  "views": {
+    "rows": 5821987,
+    "users": 4914,
+    "duration_mismatches": 117,
+    "min_start": "2020-03-09T00:00:02",
+    "max_end": "2020-07-26T23:59:58",
+    "duration_quantiles": {
+      "min": 61.0,
+      "p25": 133.0,
+      "p50": 396.0,
+      "p75": 1452.0,
+      "p90": 3911.0,
+      "p95": 6345.0,
+      "p99": 14080.139999999665,
+      "max": 342145.0
+    }
+  },
+  "test_users": 1260,
+  "test_users_absent_from_entire_log": 0,
+  "join": {
+    "unioned_user_channel_intervals": 5441773,
+    "overlap_pairs": 3616902,
+    "user_airing_pairs": 3012970,
+    "coverage_above_one": 0,
+    "high_coverage_airings": 611451,
+    "all_user_channel_union_seconds": 8503411121,
+    "sum_labelled_overlap_seconds": 4494699376,
+    "note": "Labelled overlap sum is not a unique-time coverage ratio if schedule airings overlap."
+  },
+  "elapsed_seconds": 20.36921374999656
+}

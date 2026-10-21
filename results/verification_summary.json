@@ -1,0 +1,20 @@
+{
+  "performed_by": "Codex assistant, not yet independently checked by student",
+  "synthetic_interval_tests": 3,
+  "model_metric_temporal_tests": 5,
+  "raw_csv_overlap_samples": 64,
+  "all_passed": true,
+  "submission_sha256": "05754f4f6d6d8dbdca96a3374e14b8ae04e498902ec5152f5febc042e488fc47",
+  "dependencies_for_models": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "data_not_modified": true,
+  "notes": [
+    "Raw source file hashes are recorded in data_audit.json.",
+    "Original native AI-session export is still required and has not been fabricated.",
+    "Future-only user/item changes cannot alter the training vocabulary; an explicit test passes."
+  ]
+}

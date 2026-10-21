@@ -1,0 +1,644 @@
+[
+  {
+    "label": "light",
+    "user_id": "52369349052901997",
+    "training_high_coverage_airings": 15.0,
+    "training_top": [
+      {
+        "id": 2400480,
+        "count": 4.0
+      },
+      {
+        "id": 240081,
+        "count": 2.0
+      },
+      {
+        "id": 6200371,
+        "count": 2.0
+      },
+      {
+        "id": 700389,
+        "count": 1.0
+      },
+      {
+        "id": 6700482,
+        "count": 1.0
+      },
+      {
+        "id": 10002514,
+        "count": 1.0
+      },
+      {
+        "id": 90039162,
+        "count": 1.0
+      },
+      {
+        "id": 90058934,
+        "count": 1.0
+      }
+    ],
+    "truth": [
+      1000236,
+      2400480,
+      10002253,
+      200352,
+      6500479
+    ],
+    "methods": {
+      "popularity": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          12001682,
+          240081,
+          20088,
+          2400508
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_h0": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          700389,
+          6700482
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "content": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          5900347,
+          2500261,
+          2500507
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "als_f32_a10": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          200344,
+          6700482,
+          10002514
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "association": {
+        "user_id": "52369349052901997",
+        "ap5": 0.1,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          240081,
+          2400480,
+          2400467,
+          200344,
+          2400508
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "hybrid_association_w0.1": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          6700482,
+          10002514
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_schedule_e0.25": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          6200371,
+          240081,
+          700389,
+          6700482
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_schedule_e0.5": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          6200371,
+          240081,
+          700389,
+          6700482
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_schedule_e1.0": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          6200371,
+          240081,
+          700389,
+          6700482
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_partial_t0.2": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          700389,
+          10003012
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "repeat_partial_t0.5": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          700389,
+          90078209
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "improved_hybrid_w0.1": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          700389,
+          10002514
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      },
+      "improved_hybrid_w0.25": {
+        "user_id": "52369349052901997",
+        "ap5": 0.2,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          6200371,
+          700389,
+          10002514
+        ],
+        "truth": [
+          1000236,
+          2400480,
+          10002253,
+          200352,
+          6500479
+        ]
+      }
+    }
+  },
+  {
+    "label": "heavy",
+    "user_id": "2593664958585400806",
+    "training_high_coverage_airings": 173.0,
+    "training_top": [
+      {
+        "id": 2400480,
+        "count": 63.0
+      },
+      {
+        "id": 20088,
+        "count": 35.0
+      },
+      {
+        "id": 240081,
+        "count": 22.0
+      },
+      {
+        "id": 10002451,
+        "count": 10.0
+      },
+      {
+        "id": 200344,
+        "count": 4.0
+      },
+      {
+        "id": 6700482,
+        "count": 4.0
+      },
+      {
+        "id": 200337,
+        "count": 3.0
+      },
+      {
+        "id": 1100411,
+        "count": 3.0
+      }
+    ],
+    "truth": [
+      2400480,
+      20088,
+      1000633,
+      2500430,
+      6700482
+    ],
+    "methods": {
+      "popularity": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.3,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          12001682,
+          240081,
+          20088,
+          2400508
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_h0": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.4,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          200344
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "content": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.3,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          240081,
+          5900347,
+          20088,
+          5900319
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "als_f32_a10": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          6700482,
+          2400480,
+          10002451,
+          2400508,
+          20088
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "association": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.05,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          240081,
+          2400467,
+          200344,
+          2400480,
+          2400508
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "hybrid_association_w0.1": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.4,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          200344
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_schedule_e0.25": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          6700482
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_schedule_e0.5": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          6700482
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_schedule_e1.0": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          6700482
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_partial_t0.2": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          6700482
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "repeat_partial_t0.5": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.52,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          6700482
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "improved_hybrid_w0.1": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.4,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          10002451,
+          2400508
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      },
+      "improved_hybrid_w0.25": {
+        "user_id": "2593664958585400806",
+        "ap5": 0.4,
+        "relevant_items": 5,
+        "at_least_5_relevant": true,
+        "no_high_coverage_history": false,
+        "predicted": [
+          2400480,
+          20088,
+          240081,
+          2400467,
+          2400508
+        ],
+        "truth": [
+          2400480,
+          20088,
+          1000633,
+          2500430,
+          6700482
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "selected_method": "improved_hybrid_w0.1",
+  "selected_settings": {
+    "kind": "hybrid",
+    "repeat_parameters": {
+      "kind": "repeat",
+      "half_life_days": 0,
+      "threshold": 0.2,
+      "mode": "coverage",
+      "exposure_exponent": 0
+    },
+    "rule_half_life_days": 28,
+    "min_support_users": 3,
+    "shrinkage": 10,
+    "other_weight": 0.1,
+    "fusion": "nonnegative scores / per-user maximum, then convex sum"
+  },
+  "validation_map5_primary": 0.3982434782608696,
+  "validation_primary_users": 1150,
+  "training_cutoff": "2020-07-27 00:00:00",
+  "max_view_stop": "2020-07-26T23:59:58",
+  "max_training_airing_end": "2020-07-27T00:00:00",
+  "candidate_count": 6636,
+  "no_partial_history_template_users": 2,
+  "unique_recommended_programs": 248,
+  "sha256": "05754f4f6d6d8dbdca96a3374e14b8ae04e498902ec5152f5febc042e488fc47",
+  "rows": 1260,
+  "validation_checks": {
+    "header": true,
+    "template_user_ids_and_order": true,
+    "unique_users": true,
+    "five_distinct_positive_ids_each": true,
+    "all_ids_in_future_schedule": true
+  },
+  "elapsed_seconds": 1.194204166997224,
+  "python": "3.11.9",
+  "kaggle_status": "NOT SUBMITTED; no public/private score is claimed"
+}
