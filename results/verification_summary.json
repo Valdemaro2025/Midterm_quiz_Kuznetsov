@@ -14,7 +14,7 @@
   "data_not_modified": true,
   "notes": [
     "Raw source file hashes are recorded in data_audit.json.",
-    "A byte-identical native session snapshot is supplied separately; it is excluded from the public repository.",
+    "Original user-facing AI-session export remains pending; no reconstructed or edited transcript is supplied.",
     "Future-only user/item changes cannot alter the training vocabulary; an explicit test passes."
   ],
   "native_session_model": "gpt-6.1-sol",

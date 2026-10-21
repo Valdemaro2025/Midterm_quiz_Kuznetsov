@@ -6,7 +6,7 @@ Repository supplied by the student: https://github.com/Valdemaro2025/Midterm_qui
 
 ## Status
 
-Preprocessing, three required-family algorithms (content filtering, implicit matrix factorization, singleton association rules), baselines, model comparison and submission generation are implemented. The current CSV has **not yet been submitted to Kaggle**; local MAP@5 is not a Kaggle public/private score. The final PDF must later include the actual score screenshot and repository URL. A byte-identical snapshot of the native Codex JSONL session is supplied separately from the public repository. Result JSON files are not a substitute for that log; refresh the native snapshot after further work.
+Preprocessing, three required-family algorithms (content filtering, implicit matrix factorization, singleton association rules), baselines, model comparison and submission generation are implemented. The current CSV has **not yet been submitted to Kaggle**; local MAP@5 is not a Kaggle public/private score. The final PDF must later include the actual score screenshot and repository URL. The original user-facing AI-session export is still pending. Result JSON files are not a substitute for it. Do not reconstruct or edit a session log. See NATIVE_EXPORT_NOTES.md for the verified export limitation.
 
 ## Install and reproduce
 
