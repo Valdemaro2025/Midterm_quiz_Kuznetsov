@@ -2,11 +2,11 @@
 
 Individual LLM4Rec midterm project by Vladimir Kuznetsov.
 
-Repository supplied by the student: https://github.com/Valdemaro2025/Midterm_quiz_Kuznetsov . Local contents have not yet been verified as published there. Input: the official Kaggle SWEET.TV competition archive. No external competition solution code or additional viewing data was used.
+Repository supplied by the student: https://github.com/Valdemaro2025/Midterm_quiz_Kuznetsov . Code, results and the exact final CSV have been published to the main branch. Input: the official Kaggle SWEET.TV competition archive. No external competition solution code or additional viewing data was used.
 
 ## Status
 
-Local preprocessing, three required-family algorithms (content filtering, implicit matrix factorization, singleton association rules), baselines, model comparison and submission generation are implemented. The current CSV has **not yet been submitted to Kaggle**; local MAP@5 is not a Kaggle public/private score. The final PDF must later include the actual score screenshot and repository URL. The original native AI-session export must be obtained from the tool, not reconstructed from these result files.
+Preprocessing, three required-family algorithms (content filtering, implicit matrix factorization, singleton association rules), baselines, model comparison and submission generation are implemented. The current CSV has **not yet been submitted to Kaggle**; local MAP@5 is not a Kaggle public/private score. The final PDF must later include the actual score screenshot and repository URL. A byte-identical snapshot of the native Codex JSONL session is supplied separately from the public repository. Result JSON files are not a substitute for that log; refresh the native snapshot after further work.
 
 ## Install and reproduce
 
@@ -72,4 +72,4 @@ These checks were performed by the AI assistant and executed tools. They do not 
 3. scikit-learn, *Feature extraction*, TF-IDF and normalized representations: https://scikit-learn.org/stable/modules/feature_extraction.html
 4. R. Agrawal, T. Imielinski and A. Swami, "Mining association rules between sets of items in large databases," ACM SIGMOD Record, vol. 22, no. 2, pp. 207-216, 1993. https://doi.org/10.1145/170036.170072 ; original paper: https://www.cs.cmu.edu/~natassa/courses/15-721/papers/p207-agrawal.pdf
 
-The implementation was generated and checked with Codex desktop. No external trained models, external datasets or third-party competition notebooks were used. Keep the original AI session export unmodified.
+The implementation was generated and checked with Codex desktop. The native log records model `gpt-6.1-sol` and runner version `0.163.0-alpha.11`; the desktop app version was not separately measured. No external trained models, external datasets or third-party competition notebooks were used. Keep the original AI session export unmodified.

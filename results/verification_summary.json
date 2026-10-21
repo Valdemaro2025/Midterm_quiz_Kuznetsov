@@ -14,7 +14,9 @@
   "data_not_modified": true,
   "notes": [
     "Raw source file hashes are recorded in data_audit.json.",
-    "Original native AI-session export is still required and has not been fabricated.",
+    "A byte-identical native session snapshot is supplied separately; it is excluded from the public repository.",
     "Future-only user/item changes cannot alter the training vocabulary; an explicit test passes."
-  ]
+  ],
+  "native_session_model": "gpt-6.1-sol",
+  "native_runner_version": "0.163.0-alpha.11"
 }
