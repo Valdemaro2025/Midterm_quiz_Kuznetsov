@@ -1,0 +1,86 @@
+{
+  "horizon12": [
+    {
+      "map_at_5": 0.40832385361552026,
+      "name": "ease_l100_b10",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.40562896825396827,
+      "name": "ease_l100_b20",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.4049614197530864,
+      "name": "ease_l100_b30",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3305066137566138,
+      "name": "ease_l100_b100",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.4086161816578483,
+      "name": "ease_l1000_b10",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.40427579365079364,
+      "name": "ease_l1000_b20",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.40101521164021164,
+      "name": "ease_l1000_b30",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.31786596119929456,
+      "name": "ease_l1000_b100",
+      "status": "completed"
+    }
+  ],
+  "original10": [
+    {
+      "map_at_5": 0.38922773368606706,
+      "name": "ease_l100_b10",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3878013668430335,
+      "name": "ease_l100_b20",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3840227072310406,
+      "name": "ease_l100_b30",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3059865520282187,
+      "name": "ease_l100_b100",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3888542768959436,
+      "name": "ease_l1000_b10",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.38646604938271606,
+      "name": "ease_l1000_b20",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.3820802469135802,
+      "name": "ease_l1000_b30",
+      "status": "completed"
+    },
+    {
+      "map_at_5": 0.2993597883597884,
+      "name": "ease_l1000_b100",
+      "status": "completed"
+    }
+  ]
+}

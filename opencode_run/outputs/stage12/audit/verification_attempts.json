@@ -1,0 +1,13 @@
+{
+  "attempts": [
+    {
+      "command": "python3 -B outputs/stage12/code/audit.py",
+      "exit_code": 1,
+      "failure": "JSON serialization of a NumPy boolean in the audit result",
+      "correction": "Convert audit check values to native Python bool before serialization",
+      "model_changes": false,
+      "configuration_or_model_fits_repeated": false
+    }
+  ],
+  "subsequent_success_record": "audit/validation.json"
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "component_attributed_runtime_seconds": 1.284,
+    "configuration_runtime_seconds": 0.369,
+    "fusion_only_runtime_seconds": 0.369,
+    "kind": "hybrid",
+    "map_at_5": 0.37854629629629616,
+    "map_at_least_5_positive": 0.3991536231884056,
+    "map_with_positive": 0.38527329025309626,
+    "name": "hybrid_70_30",
+    "runtime_accounting": {
+      "association_component_seconds_estimate": 0.547,
+      "component_attributed_total_seconds": 1.284,
+      "fusion_only_seconds": 0.369,
+      "repeat_component_seconds_estimate": 0.333,
+      "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+      "shared_index_seconds": 0.035
+    },
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 0.369,
+    "users_needing_fallback": 18
+  },
+  {
+    "configuration_runtime_seconds": 0.333,
+    "kind": "repeat",
+    "map_at_5": 0.3740970017636681,
+    "map_at_least_5_positive": 0.3950492753623184,
+    "map_with_positive": 0.3807449290971097,
+    "name": "repeat_50",
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 0.333,
+    "users_needing_fallback": 35
+  },
+  {
+    "component_attributed_runtime_seconds": 1.281,
+    "configuration_runtime_seconds": 0.366,
+    "fusion_only_runtime_seconds": 0.366,
+    "kind": "hybrid",
+    "map_at_5": 0.3732347883597882,
+    "map_at_least_5_positive": 0.39285217391304317,
+    "map_with_positive": 0.37986739364566485,
+    "name": "hybrid_50_50",
+    "runtime_accounting": {
+      "association_component_seconds_estimate": 0.547,
+      "component_attributed_total_seconds": 1.281,
+      "fusion_only_seconds": 0.366,
+      "repeat_component_seconds_estimate": 0.333,
+      "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+      "shared_index_seconds": 0.035
+    },
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 0.366,
+    "users_needing_fallback": 18
+  },
+  {
+    "configuration_runtime_seconds": 0.324,
+    "kind": "repeat",
+    "map_at_5": 0.36749382716049367,
+    "map_at_least_5_positive": 0.38839420289855053,
+    "map_with_positive": 0.3740244121342666,
+    "name": "repeat_80",
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 0.324,
+    "users_needing_fallback": 68
+  },
+  {
+    "configuration_runtime_seconds": 0.547,
+    "kind": "association_rules",
+    "map_at_5": 0.2960723104056437,
+    "map_at_least_5_positive": 0.31073043478260864,
+    "map_with_positive": 0.30133369233530777,
+    "name": "ar_c5_conf_max_80",
+    "shared_index_runtime_seconds": 0.035,
+    "total_runtime_seconds": 0.582,
+    "users_needing_fallback": 18
+  },
+  {
+    "configuration_runtime_seconds": 2.5,
+    "kind": "cbf",
+    "map_at_5": 0.014949735449735426,
+    "map_at_least_5_positive": 0.015350724637681133,
+    "map_with_positive": 0.015215401184706493,
+    "name": "cbf_genre_cast_log_pop",
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 2.5,
+    "users_needing_fallback": 10
+  },
+  {
+    "configuration_runtime_seconds": 2.369,
+    "kind": "cbf",
+    "map_at_5": 0.006847883597883597,
+    "map_at_least_5_positive": 0.007278260869565217,
+    "map_with_positive": 0.006969574582660204,
+    "name": "cbf_category_log_pop",
+    "shared_index_runtime_seconds": null,
+    "total_runtime_seconds": 2.369,
+    "users_needing_fallback": 10
+  }
+]

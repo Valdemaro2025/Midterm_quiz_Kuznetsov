@@ -1,0 +1,169 @@
+{
+  "all_passed": true,
+  "attempt_event_count": 34,
+  "checks": {
+    "all_previous_artifacts_unchanged": true,
+    "bounded_11_unique_configs": true,
+    "challenger_submission_all_stage5_checks": true,
+    "challenger_submission_sha256": true,
+    "final_boundary_handling_verified": true,
+    "final_cache_no_future_airings": true,
+    "independent_later_labels_match_documented_rules": true,
+    "original_submission_sha256": true,
+    "primary/hybrid_70_30/independent_metrics_and_predictions": true,
+    "primary/hybrid_repeat_fraction20_h28_w70/independent_metrics_and_predictions": true,
+    "primary/hybrid_repeat_fraction20_h28_w85/independent_metrics_and_predictions": true,
+    "primary/hybrid_repeat_fraction20_h28_w95/independent_metrics_and_predictions": true,
+    "primary/repeat_50/independent_metrics_and_predictions": true,
+    "primary/repeat_count20/independent_metrics_and_predictions": true,
+    "primary/repeat_count35/independent_metrics_and_predictions": true,
+    "primary/repeat_count50_h14/independent_metrics_and_predictions": true,
+    "primary/repeat_count50_h28/independent_metrics_and_predictions": true,
+    "primary/repeat_count50_h56/independent_metrics_and_predictions": true,
+    "primary/repeat_fraction20/independent_metrics_and_predictions": true,
+    "primary/repeat_fraction20_h28/independent_metrics_and_predictions": true,
+    "primary/repeat_fraction50/independent_metrics_and_predictions": true,
+    "robustness/hybrid_70_30/independent_metrics_and_predictions": true,
+    "robustness/hybrid_repeat_fraction20_h28_w85/independent_metrics_and_predictions": true,
+    "robustness/repeat_50/independent_metrics_and_predictions": true,
+    "robustness_no_training_future": true,
+    "robustness_no_validation_before_cutoff": true,
+    "three_fixed_robustness_strategies": true
+  },
+  "checks_passed": 27,
+  "checks_total": 27,
+  "combined_unique_configs": 30,
+  "failed_attempts": [],
+  "independent_metrics": [
+    {
+      "map_at_k": 0.3785462962962963,
+      "map_with_at_least_k_positive": 0.39915362318840575,
+      "map_with_positive": 0.3852732902530964,
+      "name": "hybrid_70_30",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3815606261022928,
+      "map_with_at_least_k_positive": 0.4029913043478261,
+      "map_with_positive": 0.38834118650152577,
+      "name": "hybrid_repeat_fraction20_h28_w70",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3817142857142857,
+      "map_with_at_least_k_positive": 0.40290724637681163,
+      "map_with_positive": 0.388497576736672,
+      "name": "hybrid_repeat_fraction20_h28_w85",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.37745568783068784,
+      "map_with_at_least_k_positive": 0.39867246376811594,
+      "map_with_positive": 0.38416330102315566,
+      "name": "hybrid_repeat_fraction20_h28_w95",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.37409700176366845,
+      "map_with_at_least_k_positive": 0.3950492753623188,
+      "map_with_positive": 0.38074492909711005,
+      "name": "repeat_50",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3669759700176367,
+      "map_with_at_least_k_positive": 0.3879391304347826,
+      "map_with_positive": 0.373497352360438,
+      "name": "repeat_count20",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3721402116402116,
+      "map_with_at_least_k_positive": 0.39337391304347824,
+      "map_with_positive": 0.37875336564351103,
+      "name": "repeat_count35",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.34772398589065256,
+      "map_with_at_least_k_positive": 0.3672405797101449,
+      "map_with_positive": 0.35390324896786934,
+      "name": "repeat_count50_h14",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.365673721340388,
+      "map_with_at_least_k_positive": 0.38631304347826084,
+      "map_with_positive": 0.37217196194579066,
+      "name": "repeat_count50_h28",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.37027380952380956,
+      "map_with_at_least_k_positive": 0.3919304347826087,
+      "map_with_positive": 0.37685379644588046,
+      "name": "repeat_count50_h56",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.37109611992945324,
+      "map_with_at_least_k_positive": 0.3928144927536232,
+      "map_with_positive": 0.3776907197989589,
+      "name": "repeat_fraction20",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3739642857142857,
+      "map_with_at_least_k_positive": 0.39522028985507246,
+      "map_with_positive": 0.3806098546042003,
+      "name": "repeat_fraction20_h28",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.37077226631393295,
+      "map_with_at_least_k_positive": 0.3923159420289855,
+      "map_with_positive": 0.3773611111111111,
+      "name": "repeat_fraction50",
+      "ok": true,
+      "scope": "primary"
+    },
+    {
+      "map_at_k": 0.3518101851851852,
+      "map_with_at_least_k_positive": 0.37805379268661227,
+      "map_with_positive": 0.35951405785347396,
+      "name": "hybrid_70_30",
+      "ok": true,
+      "scope": "robustness"
+    },
+    {
+      "map_at_k": 0.35470767195767194,
+      "map_with_at_least_k_positive": 0.3811332728921124,
+      "map_with_positive": 0.3624749932414166,
+      "name": "hybrid_repeat_fraction20_h28_w85",
+      "ok": true,
+      "scope": "robustness"
+    },
+    {
+      "map_at_k": 0.3495610670194004,
+      "map_with_at_least_k_positive": 0.375346025989725,
+      "map_with_positive": 0.35721568892493466,
+      "name": "repeat_50",
+      "ok": true,
+      "scope": "robustness"
+    }
+  ],
+  "new_unique_configs": 11,
+  "preserved_files": 280
+}

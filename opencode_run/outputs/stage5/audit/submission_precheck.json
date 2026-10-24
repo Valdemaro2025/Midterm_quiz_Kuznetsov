@@ -1,0 +1,87 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "header_exact",
+      "detail": [
+        "user_id,tv_show_id"
+      ],
+      "ok": true
+    },
+    {
+      "check": "no_bom",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "two_columns",
+      "detail": [],
+      "ok": true
+    },
+    {
+      "check": "exact_header_fields",
+      "detail": [
+        "user_id",
+        "tv_show_id"
+      ],
+      "ok": true
+    },
+    {
+      "check": "row_count_1260",
+      "detail": 1260,
+      "ok": true
+    },
+    {
+      "check": "unique_users",
+      "detail": 0,
+      "ok": true
+    },
+    {
+      "check": "template_order_exact",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "no_missing_user",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "user_ids_string_exact",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "five_tokens_each",
+      "detail": [],
+      "ok": true
+    },
+    {
+      "check": "distinct_ids_each",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "positive_integer_ids",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "candidate_pool_membership",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "no_extra_index_column",
+      "detail": null,
+      "ok": true
+    }
+  ],
+  "checks_passed": 14,
+  "checks_total": 14,
+  "header": [
+    "user_id",
+    "tv_show_id"
+  ],
+  "row_count": 1260
+}

@@ -1,0 +1,266 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "stage3_log_preserved_12",
+      "detail": 12,
+      "ok": true
+    },
+    {
+      "check": "stage4_budget_at_most_8",
+      "detail": 7,
+      "ok": true
+    },
+    {
+      "check": "stage4_all_attempts_ok",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "combined_attempt_count",
+      "detail": 19,
+      "ok": true
+    },
+    {
+      "check": "stage4_kind_counts",
+      "detail": {
+        "association_rules": 1,
+        "cbf": 2,
+        "hybrid": 2,
+        "repeat": 2
+      },
+      "ok": true
+    },
+    {
+      "check": "individuals_predeclared",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "hybrids_predeclared",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "hybrid_weight_sum",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "recompute:repeat_50",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.3740970017636681,
+        "coverage_ok": true,
+        "map_at_5": 0.3740970017636681,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:repeat_80",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.36749382716049367,
+        "coverage_ok": true,
+        "map_at_5": 0.36749382716049367,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:cbf_category_log_pop",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.006847883597883597,
+        "coverage_ok": true,
+        "map_at_5": 0.006847883597883597,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:cbf_genre_cast_log_pop",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.014949735449735426,
+        "coverage_ok": true,
+        "map_at_5": 0.014949735449735426,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:ar_c5_conf_max_80",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.2960723104056437,
+        "coverage_ok": true,
+        "map_at_5": 0.2960723104056437,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:hybrid_50_50",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.3732347883597882,
+        "coverage_ok": true,
+        "map_at_5": 0.3732347883597882,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "recompute:hybrid_70_30",
+      "detail": {
+        "aps_ok": true,
+        "attempt_map": 0.37854629629629616,
+        "coverage_ok": true,
+        "map_at_5": 0.37854629629629616,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "category_cbf_six_lists",
+      "detail": 6,
+      "ok": true
+    },
+    {
+      "check": "all_users_have_exact_ties",
+      "detail": 1260,
+      "ok": true
+    },
+    {
+      "check": "most_top5_are_lowest_tied_ids",
+      "detail": 1250,
+      "ok": true
+    },
+    {
+      "check": "association_shared_runtime_reported",
+      "detail": 0.375,
+      "ok": true
+    },
+    {
+      "check": "hybrid_runtime_component_attributed_estimate",
+      "detail": {
+        "hybrid_50_50": {
+          "component_total": 1.2810000000000001,
+          "ok": true,
+          "reported_total": 1.281
+        },
+        "hybrid_70_30": {
+          "component_total": 1.2840000000000003,
+          "ok": true,
+          "reported_total": 1.284
+        }
+      },
+      "ok": true
+    },
+    {
+      "check": "combined_hybrid_runtime_corrected",
+      "detail": {
+        "hybrid_50_50": 1.281,
+        "hybrid_70_30": 1.284
+      },
+      "ok": true
+    },
+    {
+      "check": "heavy_user_rule",
+      "detail": "13571199046623737884",
+      "ok": true
+    },
+    {
+      "check": "light_user_rule",
+      "detail": "390859419742464109",
+      "ok": true
+    },
+    {
+      "check": "worked_ap_arithmetic",
+      "detail": {
+        "expected": 0.1,
+        "stored": 0.1
+      },
+      "ok": true
+    },
+    {
+      "check": "failure_case_has_zero_hits",
+      "detail": [],
+      "ok": true
+    },
+    {
+      "check": "two_user_personal_training_history_thresholds",
+      "detail": {
+        "flag_definition": "in_training_history and personal_seen_* fields use counts keyed by the selected user's train_idx; they describe that user's personal training history. in_training_history means the user has positive_airings > 0 for the item. global_item_coverage is a separate item-level calculation across all training users.",
+        "rows_checked": 55
+      },
+      "ok": true
+    },
+    {
+      "check": "two_user_global_item_coverage_independent",
+      "detail": {
+        "global_definition": "global_item_coverage counts distinct training users and their airings for the item across all training users, split by any-positive, >=50%, and >=80% coverage. It does not describe the selected user's history.",
+        "rows_checked": 55
+      },
+      "ok": true
+    }
+  ],
+  "checks_passed": 27,
+  "checks_total": 27,
+  "combined_attempts": 19,
+  "recomputed_stage4": [
+    {
+      "kind": "hybrid",
+      "map_at_5": 0.37854629629629616,
+      "map_at_least_5_positive": 0.3991536231884056,
+      "map_with_positive": 0.38527329025309626,
+      "name": "hybrid_70_30"
+    },
+    {
+      "kind": "repeat",
+      "map_at_5": 0.3740970017636681,
+      "map_at_least_5_positive": 0.3950492753623184,
+      "map_with_positive": 0.3807449290971097,
+      "name": "repeat_50"
+    },
+    {
+      "kind": "hybrid",
+      "map_at_5": 0.3732347883597882,
+      "map_at_least_5_positive": 0.39285217391304317,
+      "map_with_positive": 0.37986739364566485,
+      "name": "hybrid_50_50"
+    },
+    {
+      "kind": "repeat",
+      "map_at_5": 0.36749382716049367,
+      "map_at_least_5_positive": 0.38839420289855053,
+      "map_with_positive": 0.3740244121342666,
+      "name": "repeat_80"
+    },
+    {
+      "kind": "association_rules",
+      "map_at_5": 0.2960723104056437,
+      "map_at_least_5_positive": 0.31073043478260864,
+      "map_with_positive": 0.30133369233530777,
+      "name": "ar_c5_conf_max_80"
+    },
+    {
+      "kind": "cbf",
+      "map_at_5": 0.014949735449735426,
+      "map_at_least_5_positive": 0.015350724637681133,
+      "map_with_positive": 0.015215401184706493,
+      "name": "cbf_genre_cast_log_pop"
+    },
+    {
+      "kind": "cbf",
+      "map_at_5": 0.006847883597883597,
+      "map_at_least_5_positive": 0.007278260869565217,
+      "map_with_positive": 0.006969574582660204,
+      "name": "cbf_category_log_pop"
+    }
+  ],
+  "stage3_attempts": 12,
+  "stage4_attempts": 7
+}

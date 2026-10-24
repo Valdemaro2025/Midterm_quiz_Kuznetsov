@@ -1,0 +1,10 @@
+{
+  "cutoff": 1595808000,
+  "distinct_user_airings": 611449,
+  "duplicate_representations_dropped": 0,
+  "equals_verified_full_history_counts": true,
+  "max_qualifying_airing_end": 1595808000,
+  "qualification": "5*unioned_covered_seconds >= 4*original_duration; fully contained training airings",
+  "qualifying_airings_sum": 611449,
+  "qualifying_rows": 611449
+}

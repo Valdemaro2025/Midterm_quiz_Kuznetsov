@@ -1,0 +1,169 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_prior_artifacts_byte_preserved": true,
+    "complete_31_configuration_history_retained": true,
+    "exactly_four_new_configurations": true,
+    "external_maps_verified": true,
+    "external_paired_intervals_reproduced": true,
+    "external_review_preserved": true,
+    "external_schedule_drift_counts_verified": true,
+    "external_submission_diagnostics_verified": true,
+    "external_tie_count_verified": true,
+    "horizon12/A_repeat50_hybrid85/independent_metrics": true,
+    "horizon12/A_repeat50_hybrid85/user_aps": true,
+    "horizon12/A_repeat50_hybrid85/valid_predictions": true,
+    "horizon12/B_schedule_adjusted_hybrid70/independent_metrics": true,
+    "horizon12/B_schedule_adjusted_hybrid70/user_aps": true,
+    "horizon12/B_schedule_adjusted_hybrid70/valid_predictions": true,
+    "horizon12/C_channel_time/independent_metrics": true,
+    "horizon12/C_channel_time/user_aps": true,
+    "horizon12/C_channel_time/valid_predictions": true,
+    "horizon12/D_hybrid90_schedule10/independent_metrics": true,
+    "horizon12/D_hybrid90_schedule10/user_aps": true,
+    "horizon12/D_hybrid90_schedule10/valid_predictions": true,
+    "horizon12/repeat_50/independent_metrics": true,
+    "horizon12/repeat_50/user_aps": true,
+    "horizon12/repeat_50/valid_predictions": true,
+    "horizon12/stage5_hybrid_70_30/independent_metrics": true,
+    "horizon12/stage5_hybrid_70_30/user_aps": true,
+    "horizon12/stage5_hybrid_70_30/valid_predictions": true,
+    "horizon12/submitted_stage6/independent_metrics": true,
+    "horizon12/submitted_stage6/user_aps": true,
+    "horizon12/submitted_stage6/valid_predictions": true,
+    "horizon12/submitted_stage7/independent_metrics": true,
+    "horizon12/submitted_stage7/user_aps": true,
+    "horizon12/submitted_stage7/valid_predictions": true,
+    "horizon12_C_evaluated_before_D": true,
+    "horizon12_bootstrap_reproduced": true,
+    "horizon12_cohort_1260": true,
+    "horizon12_labels_in_candidates": true,
+    "horizon12_no_training_future": true,
+    "horizon_did_not_reuse_weeks21_30_only_pool": true,
+    "horizon_exactly_8_train_12_validation_weeks": true,
+    "horizon_uses_both_schedule_sources": true,
+    "no_failed_attempts": true,
+    "no_stage8_submission_generated": true,
+    "original10/A_repeat50_hybrid85/independent_metrics": true,
+    "original10/A_repeat50_hybrid85/user_aps": true,
+    "original10/A_repeat50_hybrid85/valid_predictions": true,
+    "original10/B_schedule_adjusted_hybrid70/independent_metrics": true,
+    "original10/B_schedule_adjusted_hybrid70/user_aps": true,
+    "original10/B_schedule_adjusted_hybrid70/valid_predictions": true,
+    "original10/C_channel_time/independent_metrics": true,
+    "original10/C_channel_time/user_aps": true,
+    "original10/C_channel_time/valid_predictions": true,
+    "original10/D_hybrid90_schedule10/independent_metrics": true,
+    "original10/D_hybrid90_schedule10/user_aps": true,
+    "original10/D_hybrid90_schedule10/valid_predictions": true,
+    "original10/repeat_50/independent_metrics": true,
+    "original10/repeat_50/user_aps": true,
+    "original10/repeat_50/valid_predictions": true,
+    "original10/stage5_hybrid_70_30/independent_metrics": true,
+    "original10/stage5_hybrid_70_30/user_aps": true,
+    "original10/stage5_hybrid_70_30/valid_predictions": true,
+    "original10/submitted_stage6/independent_metrics": true,
+    "original10/submitted_stage6/user_aps": true,
+    "original10/submitted_stage6/valid_predictions": true,
+    "original10/submitted_stage7/independent_metrics": true,
+    "original10/submitted_stage7/user_aps": true,
+    "original10/submitted_stage7/valid_predictions": true,
+    "original10_C_evaluated_before_D": true,
+    "original10_bootstrap_reproduced": true,
+    "original10_cohort_1260": true,
+    "original10_labels_in_candidates": true,
+    "original10_no_training_future": true,
+    "original_labels_preserved_exactly": true,
+    "raw_data_and_template_unchanged": true,
+    "repeated_fits_not_new_configurations": true,
+    "stage5_best_designation_unchanged": true
+  },
+  "checks_passed": 76,
+  "checks_total": 76,
+  "combined_unique_configurations": 35,
+  "independent_metrics": {
+    "horizon12/A_repeat50_hybrid85": {
+      "map_at_k": 0.39754298941798943,
+      "map_with_at_least_k_positive": 0.41214901306644425,
+      "map_with_positive": 0.4039549731182796
+    },
+    "horizon12/B_schedule_adjusted_hybrid70": {
+      "map_at_k": 0.40615806878306876,
+      "map_with_at_least_k_positive": 0.4208479288295802,
+      "map_with_positive": 0.4127090053763441
+    },
+    "horizon12/C_channel_time": {
+      "map_at_k": 0.3742156084656085,
+      "map_with_at_least_k_positive": 0.38758965804837364,
+      "map_with_positive": 0.3802513440860215
+    },
+    "horizon12/D_hybrid90_schedule10": {
+      "map_at_k": 0.4024757495590829,
+      "map_with_at_least_k_positive": 0.41704197942730054,
+      "map_with_positive": 0.4089672939068101
+    },
+    "horizon12/repeat_50": {
+      "map_at_k": 0.3925271164021164,
+      "map_with_at_least_k_positive": 0.4069613566861273,
+      "map_with_positive": 0.3988581989247312
+    },
+    "horizon12/stage5_hybrid_70_30": {
+      "map_at_k": 0.39652491181657845,
+      "map_with_at_least_k_positive": 0.41091465109813735,
+      "map_with_positive": 0.40292047491039423
+    },
+    "horizon12/submitted_stage6": {
+      "map_at_k": 0.4017096560846561,
+      "map_with_at_least_k_positive": 0.41598554350847927,
+      "map_with_positive": 0.4081888440860215
+    },
+    "horizon12/submitted_stage7": {
+      "map_at_k": 0.4013077601410935,
+      "map_with_at_least_k_positive": 0.4159049207673061,
+      "map_with_positive": 0.4077804659498208
+    },
+    "original10/A_repeat50_hybrid85": {
+      "map_at_k": 0.37898544973544973,
+      "map_with_at_least_k_positive": 0.40004057971014495,
+      "map_with_positive": 0.3857202477113624
+    },
+    "original10/B_schedule_adjusted_hybrid70": {
+      "map_at_k": 0.3878139329805997,
+      "map_with_at_least_k_positive": 0.40926666666666667,
+      "map_with_positive": 0.3947056183809011
+    },
+    "original10/C_channel_time": {
+      "map_at_k": 0.3626351410934744,
+      "map_with_at_least_k_positive": 0.38435942028985504,
+      "map_with_positive": 0.3690793843116137
+    },
+    "original10/D_hybrid90_schedule10": {
+      "map_at_k": 0.3846232363315697,
+      "map_with_at_least_k_positive": 0.40595072463768117,
+      "map_with_positive": 0.39145822114521633
+    },
+    "original10/repeat_50": {
+      "map_at_k": 0.37409700176366845,
+      "map_with_at_least_k_positive": 0.3950492753623188,
+      "map_with_positive": 0.38074492909711005
+    },
+    "original10/stage5_hybrid_70_30": {
+      "map_at_k": 0.3785462962962963,
+      "map_with_at_least_k_positive": 0.39915362318840575,
+      "map_with_positive": 0.3852732902530964
+    },
+    "original10/submitted_stage6": {
+      "map_at_k": 0.3817142857142857,
+      "map_with_at_least_k_positive": 0.40290724637681163,
+      "map_with_positive": 0.388497576736672
+    },
+    "original10/submitted_stage7": {
+      "map_at_k": 0.37915696649029984,
+      "map_with_at_least_k_positive": 0.4007333333333334,
+      "map_with_positive": 0.38589481242146834
+    }
+  },
+  "new_unique_configurations": 4,
+  "preserved_files": 483,
+  "previous_unique_configurations": 31
+}

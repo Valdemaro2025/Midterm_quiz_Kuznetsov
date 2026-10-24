@@ -1,0 +1,15 @@
+{
+  "description": "Reporting-only clarification: inherited fusion rules omit reference model name/weights; actual evaluated top-level weights unchanged. Controls spell out frozen thresholds and weights.",
+  "experiments_rerun": false,
+  "files": [
+    "primary/methods/hybrid_repeat_fraction20_h28_w95/parameters.json",
+    "primary/methods/repeat_50/parameters.json",
+    "primary/methods/hybrid_70_30/parameters.json",
+    "primary/methods/hybrid_repeat_fraction20_h28_w85/parameters.json",
+    "primary/methods/hybrid_repeat_fraction20_h28_w70/parameters.json",
+    "robustness/methods/repeat_50/parameters.json",
+    "robustness/methods/hybrid_70_30/parameters.json",
+    "robustness/methods/hybrid_repeat_fraction20_h28_w85/parameters.json"
+  ],
+  "predictions_changed": false
+}

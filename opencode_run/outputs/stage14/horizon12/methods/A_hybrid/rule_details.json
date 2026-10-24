@@ -1,0 +1,12 @@
+{
+  "adjust_completed_scores_only": true,
+  "aggregate": "max",
+  "antecedents_with_rules": 1292,
+  "max_antecedents_per_user": 50,
+  "rule_learning_unchanged": true,
+  "score": "confidence",
+  "total_rules": 31070,
+  "training_items": 2022,
+  "training_users": 4680,
+  "users_with_rules": 1238
+}

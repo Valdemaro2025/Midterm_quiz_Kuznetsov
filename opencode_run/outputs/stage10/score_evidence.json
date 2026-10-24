@@ -1,0 +1,17 @@
+{
+  "historical_artifacts_modified": false,
+  "interpretation": "returned feedback motivates this follow-up; not preplanned or independent confirmation",
+  "source": "user-reported latest screenshot confirms column identities",
+  "stage5": {
+    "private": 0.40974,
+    "public": 0.42586,
+    "submission": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv"
+  },
+  "stage9": {
+    "private": 0.41656,
+    "public": 0.43185,
+    "sha256": "f88ac045cd9c4347e72fd7a3a90f4c97748d44a055af8faf5c93a684fa0f9ea9",
+    "submission": "outputs/stage9/kuznetsov_vladimir_midterm_submission_schedule.csv"
+  },
+  "used_as_optimization_targets": false
+}

@@ -1,0 +1,8 @@
+{
+  "private_or_public_scores_used_for_selection": false,
+  "reason": "No configuration passed the original conservative rule on both splits and the 12-week interval",
+  "refitted": false,
+  "retain": "Stage 9",
+  "selected": null,
+  "submission_generated": false
+}

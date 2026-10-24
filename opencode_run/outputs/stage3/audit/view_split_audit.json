@@ -1,0 +1,42 @@
+{
+  "clipped_at_train_end": 1007,
+  "clipped_at_val_end": 0,
+  "id_maps": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/views/id_maps.json",
+  "id_scope": {
+    "train": "training segments only",
+    "val": "validation segments only"
+  },
+  "nonpositive_view_duration": 0,
+  "parse_failures": 0,
+  "rows_after_val": 0,
+  "rows_before_train": 0,
+  "rows_crossing_train_end": 1007,
+  "rows_crossing_val_end": 0,
+  "rows_split_across_windows": 1007,
+  "segments_written": {
+    "train": 3945173,
+    "val": 1877821
+  },
+  "total_rows": 5821987,
+  "train_channels": 199,
+  "train_npz": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/views/views_train.npz",
+  "train_users": 4876,
+  "val_channels": 198,
+  "val_npz": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/views/views_val.npz",
+  "val_users": 4820,
+  "view_file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/dataset11-30.csv",
+  "windows": {
+    "train": [
+      "2020-03-09 00:00:00",
+      "2020-05-18 00:00:00"
+    ],
+    "val": [
+      "2020-05-18 00:00:00",
+      "2020-07-27 00:00:00"
+    ]
+  },
+  "written": {
+    "train": 3945173,
+    "val": 1877821
+  }
+}

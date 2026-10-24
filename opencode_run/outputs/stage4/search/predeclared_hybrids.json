@@ -1,0 +1,34 @@
+{
+  "declared_before_execution": true,
+  "fusion_rule": "Per-user max-normalize each method's candidate scores, then take the weighted sum. No score rounding. Ties use training popularity then ascending program ID.",
+  "hybrid_configurations": [
+    {
+      "kind": "hybrid",
+      "name": "hybrid_50_50",
+      "params": {
+        "association_source": "ar_c5_conf_max_80",
+        "association_weight": 0.5,
+        "normalization": "per-user max normalization",
+        "repeat_source": "repeat_50",
+        "repeat_weight": 0.5,
+        "tie_break": "training_popularity_then_id"
+      }
+    },
+    {
+      "kind": "hybrid",
+      "name": "hybrid_70_30",
+      "params": {
+        "association_source": "ar_c5_conf_max_80",
+        "association_weight": 0.3,
+        "normalization": "per-user max normalization",
+        "repeat_source": "repeat_50",
+        "repeat_weight": 0.7,
+        "tie_break": "training_popularity_then_id"
+      }
+    }
+  ],
+  "selected_association": "ar_c5_conf_max_80",
+  "selected_repeat": "repeat_50",
+  "selection_rule": "highest validation MAP@5 among all individually evaluated variants; runtime only as tie-breaker",
+  "stage": 4
+}

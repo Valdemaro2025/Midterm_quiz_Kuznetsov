@@ -1,0 +1,10 @@
+{
+  "cohort_size": 1260,
+  "cohort_with_at_least_k_positive_size": 1150,
+  "cohort_with_positive_size": 1238,
+  "k": 5,
+  "mean_ap_at_5": 0.37854629629629616,
+  "mean_ap_at_5_at_least_5_positive": 0.3991536231884056,
+  "mean_ap_at_5_with_positive": 0.38527329025309626,
+  "users_with_no_positive": 22
+}

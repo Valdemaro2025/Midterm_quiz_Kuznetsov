@@ -1,0 +1,6 @@
+{"category": "new_unique", "event": "started", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "primary", "time_epoch": 1792702657.653777}
+{"category": "new_unique", "event": "completed", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "primary", "time_epoch": 1792702660.961681}
+{"category": "fixed_configuration_evaluation_or_reuse", "event": "started", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "robustness", "time_epoch": 1792702660.961805}
+{"category": "fixed_configuration_evaluation_or_reuse", "event": "completed", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "robustness", "time_epoch": 1792702663.3876328}
+{"category": "same_configuration_refit", "event": "started", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "full_history", "time_epoch": 1792702688.8771179}
+{"category": "same_configuration_refit", "event": "completed", "name": "hybrid_repeat_fraction20_nodecay_w85", "scope": "full_history", "time_epoch": 1792702692.11697}

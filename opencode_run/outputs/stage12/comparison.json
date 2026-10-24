@@ -1,0 +1,98 @@
+[
+  {
+    "beta": 0.1,
+    "eligible": true,
+    "horizon12_MAP": 0.40994775132275135,
+    "horizon12_binary_MAP": 0.40832385361552026,
+    "horizon12_count_minus_binary": 0.0016238977072310923,
+    "horizon12_gain": 0.00378968253968254,
+    "horizon12_interval": [
+      0.0012910052910052926,
+      0.00629642857142857
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.368131250004808,
+    "minimum_gain": 0.002140652557319223,
+    "name": "logcount_ease_l100_b10",
+    "original10_MAP": 0.38995458553791884,
+    "original10_binary_MAP": 0.38922773368606706,
+    "original10_count_minus_binary": 0.0007268518518517841,
+    "original10_gain": 0.002140652557319223,
+    "original10_interval": [
+      -0.00014706238977072467,
+      0.00444760251322751
+    ]
+  },
+  {
+    "beta": 1.0,
+    "eligible": false,
+    "horizon12_MAP": 0.3596917989417989,
+    "horizon12_binary_MAP": 0.3305066137566138,
+    "horizon12_count_minus_binary": 0.029185185185185147,
+    "horizon12_gain": -0.04646626984126984,
+    "horizon12_interval": [
+      -0.05480317460317465,
+      -0.038228587962963016
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.337638375007373,
+    "minimum_gain": -0.04646626984126984,
+    "name": "logcount_ease_l100_b100",
+    "original10_MAP": 0.34594995590828925,
+    "original10_binary_MAP": 0.3059865520282187,
+    "original10_count_minus_binary": 0.03996340388007058,
+    "original10_gain": -0.041863977072310404,
+    "original10_interval": [
+      -0.05010453593474432,
+      -0.0336320381393298
+    ]
+  },
+  {
+    "beta": 0.1,
+    "eligible": true,
+    "horizon12_MAP": 0.4099309964726631,
+    "horizon12_binary_MAP": 0.4086161816578483,
+    "horizon12_count_minus_binary": 0.0013148148148148242,
+    "horizon12_gain": 0.0037729276895943566,
+    "horizon12_interval": [
+      0.0011189153439153453,
+      0.006351884920634922
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.6831927910025115,
+    "minimum_gain": 0.0022874779541446197,
+    "name": "logcount_ease_l1000_b10",
+    "original10_MAP": 0.39010141093474426,
+    "original10_binary_MAP": 0.3888542768959436,
+    "original10_count_minus_binary": 0.001247134038800668,
+    "original10_gain": 0.0022874779541446197,
+    "original10_interval": [
+      -0.00018475529100529193,
+      0.004783730158730158
+    ]
+  },
+  {
+    "beta": 1.0,
+    "eligible": false,
+    "horizon12_MAP": 0.3554909611992945,
+    "horizon12_binary_MAP": 0.31786596119929456,
+    "horizon12_count_minus_binary": 0.037624999999999964,
+    "horizon12_gain": -0.050667107583774254,
+    "horizon12_interval": [
+      -0.060023021384479784,
+      -0.0411976300705468
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.689147375007451,
+    "minimum_gain": -0.050667107583774254,
+    "name": "logcount_ease_l1000_b100",
+    "original10_MAP": 0.34050727513227513,
+    "original10_binary_MAP": 0.2993597883597884,
+    "original10_count_minus_binary": 0.04114748677248675,
+    "original10_gain": -0.047306657848324524,
+    "original10_interval": [
+      -0.05617399140211649,
+      -0.0383396439594356
+    ]
+  }
+]

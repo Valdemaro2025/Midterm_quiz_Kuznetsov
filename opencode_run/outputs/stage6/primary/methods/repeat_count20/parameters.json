@@ -1,0 +1,6 @@
+{
+  "half_life_days": null,
+  "name": "repeat_count20",
+  "threshold": 0.2,
+  "weighting": "count"
+}

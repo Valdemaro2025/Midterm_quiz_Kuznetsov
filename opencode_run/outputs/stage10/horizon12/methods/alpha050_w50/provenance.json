@@ -1,0 +1,7 @@
+{
+  "category": "new_unique",
+  "declaration": "declaration.json",
+  "future_viewing_used": false,
+  "source_manifest": "preservation_before.json",
+  "training_cutoff": 1588550400
+}

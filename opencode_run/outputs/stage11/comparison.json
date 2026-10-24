@@ -1,0 +1,170 @@
+[
+  {
+    "available_both_splits": true,
+    "beta": 0.1,
+    "eligible": false,
+    "horizon12_MAP": 0.40832385361552026,
+    "horizon12_gain": 0.0021657848324514993,
+    "horizon12_interval": [
+      -0.0003983134920634915,
+      0.004740762786596118
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.349117457997636,
+    "minimum_gain": 0.0014138007054673714,
+    "name": "ease_l100_b10",
+    "original10_MAP": 0.38922773368606706,
+    "original10_gain": 0.0014138007054673714,
+    "original10_interval": [
+      -0.0009625661375661388,
+      0.0037890321869488504
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 0.2,
+    "eligible": false,
+    "horizon12_MAP": 0.40562896825396827,
+    "horizon12_gain": -0.000529100529100529,
+    "horizon12_interval": [
+      -0.004175154320987654,
+      0.003187841710758375
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.3597387080008048,
+    "minimum_gain": -0.000529100529100529,
+    "name": "ease_l100_b20",
+    "original10_MAP": 0.3878013668430335,
+    "original10_gain": -1.2566137566138825e-05,
+    "original10_interval": [
+      -0.0035401895943562556,
+      0.003618672839506168
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 0.3,
+    "eligible": false,
+    "horizon12_MAP": 0.4049614197530864,
+    "horizon12_gain": -0.0011966490299823622,
+    "horizon12_interval": [
+      -0.0058955687830687786,
+      0.003442361111111111
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.345982415998151,
+    "minimum_gain": -0.003791225749559084,
+    "name": "ease_l100_b30",
+    "original10_MAP": 0.3840227072310406,
+    "original10_gain": -0.003791225749559084,
+    "original10_interval": [
+      -0.008222459215167557,
+      0.0005662533068783019
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 1.0,
+    "eligible": false,
+    "horizon12_MAP": 0.3305066137566138,
+    "horizon12_gain": -0.07565145502645503,
+    "horizon12_interval": [
+      -0.08512256944444437,
+      -0.06623134920634913
+    ],
+    "lambda": 100,
+    "measured_cost_sum_seconds": 2.3518995829981577,
+    "minimum_gain": -0.08182738095238096,
+    "name": "ease_l100_b100",
+    "original10_MAP": 0.3059865520282187,
+    "original10_gain": -0.08182738095238096,
+    "original10_interval": [
+      -0.09158807870370383,
+      -0.07208020833333334
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 0.1,
+    "eligible": false,
+    "horizon12_MAP": 0.4086161816578483,
+    "horizon12_gain": 0.002458112874779542,
+    "horizon12_interval": [
+      -0.0002700066137566141,
+      0.005167592592592595
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.732906625002215,
+    "minimum_gain": 0.0010403439153439137,
+    "name": "ease_l1000_b10",
+    "original10_MAP": 0.3888542768959436,
+    "original10_gain": 0.0010403439153439137,
+    "original10_interval": [
+      -0.0015358024691358042,
+      0.0036078317901234547
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 0.2,
+    "eligible": false,
+    "horizon12_MAP": 0.40427579365079364,
+    "horizon12_gain": -0.0018822751322751326,
+    "horizon12_interval": [
+      -0.005989467592592597,
+      0.00229150683421517
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.730894874996011,
+    "minimum_gain": -0.0018822751322751326,
+    "name": "ease_l1000_b20",
+    "original10_MAP": 0.38646604938271606,
+    "original10_gain": -0.001347883597883599,
+    "original10_interval": [
+      -0.005329199735449743,
+      0.0026166942239858894
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 0.3,
+    "eligible": false,
+    "horizon12_MAP": 0.40101521164021164,
+    "horizon12_gain": -0.0051428571428571435,
+    "horizon12_interval": [
+      -0.010332682980599644,
+      4.990630511463416e-05
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.735875082998973,
+    "minimum_gain": -0.005733686067019401,
+    "name": "ease_l1000_b30",
+    "original10_MAP": 0.3820802469135802,
+    "original10_gain": -0.005733686067019401,
+    "original10_interval": [
+      -0.010544835758377431,
+      -0.0008768959435626111
+    ]
+  },
+  {
+    "available_both_splits": true,
+    "beta": 1.0,
+    "eligible": false,
+    "horizon12_MAP": 0.31786596119929456,
+    "horizon12_gain": -0.08829210758377425,
+    "horizon12_interval": [
+      -0.09842852733686053,
+      -0.07785300925925943
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.7187140839960193,
+    "minimum_gain": -0.08845414462081129,
+    "name": "ease_l1000_b100",
+    "original10_MAP": 0.2993597883597884,
+    "original10_gain": -0.08845414462081129,
+    "original10_interval": [
+      -0.09850792548500889,
+      -0.07863790784832472
+    ]
+  }
+]

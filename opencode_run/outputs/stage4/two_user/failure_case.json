@@ -1,0 +1,140 @@
+{
+  "cause": "With category-only features, every candidate in a category has an identical score after IDF weighting. All 1,260 users have at least 19 candidates tied at their maximum score (median 3,211), so the Top-5 is determined entirely by the tie-break. This user's maximum category is Фильмы, and popularity-then-ID returns five films, none of which is a validation hit.",
+  "kind": "category-only CBF",
+  "method": "cbf_category_log_pop",
+  "top5": [
+    {
+      "category": "Фильмы",
+      "global_item_coverage": {
+        "positive_airings": 1721,
+        "primary80_airings": 225,
+        "sens50_airings": 459,
+        "training_users_any_positive": 1322,
+        "training_users_at_least_50": 412,
+        "training_users_at_least_80": 213
+      },
+      "in_training_history": false,
+      "personal_seen_any_positive_coverage": false,
+      "personal_seen_at_least_50_percent_coverage": false,
+      "personal_seen_at_least_80_percent_coverage": false,
+      "rank": 1,
+      "title": "Х/ф 'Геракл: Начало легенды'.",
+      "training_counts": {
+        "positive": 0,
+        "primary80": 0,
+        "sens50": 0
+      },
+      "tv_show_id": 90077217,
+      "validation_all_qualifying_hit": false,
+      "validation_primary_hit": false,
+      "validation_primary_label_rank": null
+    },
+    {
+      "category": "Фильмы",
+      "global_item_coverage": {
+        "positive_airings": 1656,
+        "primary80_airings": 178,
+        "sens50_airings": 368,
+        "training_users_any_positive": 1275,
+        "training_users_at_least_50": 340,
+        "training_users_at_least_80": 167
+      },
+      "in_training_history": false,
+      "personal_seen_any_positive_coverage": false,
+      "personal_seen_at_least_50_percent_coverage": false,
+      "personal_seen_at_least_80_percent_coverage": false,
+      "rank": 2,
+      "title": "Х/ф 'Пророк'.",
+      "training_counts": {
+        "positive": 0,
+        "primary80": 0,
+        "sens50": 0
+      },
+      "tv_show_id": 90064639,
+      "validation_all_qualifying_hit": false,
+      "validation_primary_hit": false,
+      "validation_primary_label_rank": null
+    },
+    {
+      "category": "Фильмы",
+      "global_item_coverage": {
+        "positive_airings": 2031,
+        "primary80_airings": 172,
+        "sens50_airings": 421,
+        "training_users_any_positive": 1548,
+        "training_users_at_least_50": 390,
+        "training_users_at_least_80": 162
+      },
+      "in_training_history": true,
+      "personal_seen_any_positive_coverage": true,
+      "personal_seen_at_least_50_percent_coverage": false,
+      "personal_seen_at_least_80_percent_coverage": false,
+      "rank": 3,
+      "title": "Х/ф 'Великий уравнитель'.",
+      "training_counts": {
+        "positive": 2,
+        "primary80": 0,
+        "sens50": 0
+      },
+      "tv_show_id": 90077687,
+      "validation_all_qualifying_hit": false,
+      "validation_primary_hit": false,
+      "validation_primary_label_rank": null
+    },
+    {
+      "category": "Фильмы",
+      "global_item_coverage": {
+        "positive_airings": 1485,
+        "primary80_airings": 170,
+        "sens50_airings": 317,
+        "training_users_any_positive": 1207,
+        "training_users_at_least_50": 288,
+        "training_users_at_least_80": 159
+      },
+      "in_training_history": true,
+      "personal_seen_any_positive_coverage": true,
+      "personal_seen_at_least_50_percent_coverage": false,
+      "personal_seen_at_least_80_percent_coverage": false,
+      "rank": 4,
+      "title": "Х/ф 'DOA: Живым или мёртвым'.",
+      "training_counts": {
+        "positive": 1,
+        "primary80": 0,
+        "sens50": 0
+      },
+      "tv_show_id": 90064086,
+      "validation_all_qualifying_hit": false,
+      "validation_primary_hit": false,
+      "validation_primary_label_rank": null
+    },
+    {
+      "category": "Фильмы",
+      "global_item_coverage": {
+        "positive_airings": 1588,
+        "primary80_airings": 170,
+        "sens50_airings": 334,
+        "training_users_any_positive": 1214,
+        "training_users_at_least_50": 309,
+        "training_users_at_least_80": 159
+      },
+      "in_training_history": true,
+      "personal_seen_any_positive_coverage": true,
+      "personal_seen_at_least_50_percent_coverage": false,
+      "personal_seen_at_least_80_percent_coverage": false,
+      "rank": 5,
+      "title": "Х/ф 'Безбашенные'.",
+      "training_counts": {
+        "positive": 2,
+        "primary80": 0,
+        "sens50": 0
+      },
+      "tv_show_id": 90080832,
+      "validation_all_qualifying_hit": false,
+      "validation_primary_hit": false,
+      "validation_primary_label_rank": null
+    }
+  ],
+  "training_history_flag_definition": "in_training_history and personal_seen_* flags are keyed by the selected user's train_idx and describe that user's personal training history. in_training_history means that user's positive_airings > 0 for the item. global_item_coverage is separately aggregated across all training users.",
+  "user": "13571199046623737884",
+  "validation_hits": []
+}

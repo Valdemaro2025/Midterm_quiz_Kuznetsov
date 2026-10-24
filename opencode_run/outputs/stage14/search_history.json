@@ -1,0 +1,58 @@
+{
+  "new_configurations": [
+    {
+      "AR_opportunity_adjustment": true,
+      "K": null,
+      "name": "A_standalone",
+      "role": "standalone",
+      "target": "original_any_primary80",
+      "variant": "A"
+    },
+    {
+      "AR_opportunity_adjustment": true,
+      "K": null,
+      "name": "A_hybrid",
+      "role": "hybrid",
+      "target": "original_any_primary80",
+      "variant": "A"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 5,
+      "name": "B_standalone",
+      "role": "standalone",
+      "target": "fractional_preferred_primary80",
+      "variant": "B"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 5,
+      "name": "B_hybrid",
+      "role": "hybrid",
+      "target": "fractional_preferred_primary80",
+      "variant": "B"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 10,
+      "name": "C_standalone",
+      "role": "standalone",
+      "target": "fractional_preferred_primary80",
+      "variant": "C"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 10,
+      "name": "C_hybrid",
+      "role": "hybrid",
+      "target": "fractional_preferred_primary80",
+      "variant": "C"
+    }
+  ],
+  "new_unique": 6,
+  "previous_unique": 58,
+  "prior_history": "outputs/stage13/search_history.json",
+  "prior_history_sha256": "aaa303de6426a47d3e94e3809fb12675f85964bcd1ecd4f7ae2429603080474d",
+  "shared_AR_fits_and_repeated_backtests_not_new_configurations": true,
+  "total_unique": 64
+}

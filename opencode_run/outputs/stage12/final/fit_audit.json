@@ -1,0 +1,15 @@
+{
+  "B_sha256": "aad8f3d26bcb8eaa6a94ecf26e2f86074a308dbe2afde7c3eeb015becc8170ca",
+  "coefficient_max": 0.5237457824047052,
+  "coefficient_min": -0.06775340763648004,
+  "column_division_sample_max_error": 0.0,
+  "direct_Cholesky_solve_coefficient_audit_seconds": 0.5374453750046086,
+  "dtype": "float64",
+  "inverse_residual_sample_max_abs": 2.220446049250313e-15,
+  "items": 3864,
+  "lambda": 1000,
+  "negative_coefficients": 10676712,
+  "negative_coefficients_preserved": true,
+  "positive_coefficients": 4249920,
+  "zero_diagonal": true
+}

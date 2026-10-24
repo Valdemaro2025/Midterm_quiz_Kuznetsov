@@ -1,0 +1,12 @@
+{
+  "association_weight": 0.3,
+  "fusion": "weighted sum of normalized scores; no score rounding",
+  "mean_scored_candidates_per_user": 131.06507936507936,
+  "normalization": "per-user max normalization of each method's candidate scores",
+  "repeat_weight": 0.7,
+  "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+  "users_needing_fallback": 15,
+  "users_with_association_only": 1,
+  "users_with_both_sources": 1244,
+  "users_with_repeat_only": 3
+}

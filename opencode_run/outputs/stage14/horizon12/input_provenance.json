@@ -1,0 +1,8 @@
+{
+  "feature_threshold": ">=80% actual observed coverage",
+  "input_loading_and_training_aggregation_seconds": 0.7318344159939443,
+  "labels_used_as_training_features": false,
+  "max_training_airing_end": 1588550400,
+  "repeat_history_threshold": ">=50% actual observed coverage",
+  "training_cutoff": 1588550400
+}

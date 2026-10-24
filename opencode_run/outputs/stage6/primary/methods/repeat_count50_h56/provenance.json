@@ -1,0 +1,10 @@
+{
+  "category": "new_unique",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "68af9a2f58d18ea783b423280ccafe0adf91f6995f5a1e1e4947bed085839664",
+  "repeats_allowed": true,
+  "scope": "primary",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "primary/provenance.json",
+  "training_cutoff": 1589760000
+}

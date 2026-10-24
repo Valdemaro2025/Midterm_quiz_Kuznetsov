@@ -1,0 +1,14 @@
+{
+  "actor_limit": 300,
+  "fields": [
+    "category",
+    "genres",
+    "decade",
+    "director",
+    "actors"
+  ],
+  "profile_counts": "positive_airings",
+  "profile_weight": "logcount",
+  "tie_break": "training_popularity_then_id",
+  "use_idf": true
+}

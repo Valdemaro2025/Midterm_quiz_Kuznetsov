@@ -1,0 +1,11 @@
+{
+  "fallback_filled": 0,
+  "rule": "full-history training popularity restricted to test candidates",
+  "top5_global": [
+    2400480,
+    240081,
+    2400467,
+    2400508,
+    200344
+  ]
+}

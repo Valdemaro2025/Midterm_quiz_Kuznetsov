@@ -1,0 +1,10 @@
+{
+  "actual_union_seconds_only": true,
+  "coverage_source": "outputs/stage5/interactions/history_user_airing.npz",
+  "future_airings": 0,
+  "label_rule": "unchanged >=80% actual coverage frequency top5 labels",
+  "labels_candidates_cohort_source": "outputs/stage6/robustness",
+  "max_training_airing_end": 1592179200,
+  "robustness_interpretation": "overlapping temporal robustness check, not independent untouched test",
+  "training_cutoff": 1592179200
+}

@@ -1,0 +1,8 @@
+{
+  "category": "control_reproduction",
+  "declaration": "declaration.json",
+  "labels_as_features": false,
+  "repeat_EASE_unchanged": true,
+  "source_manifest": "preservation_before.json",
+  "training_cutoff": 1588550400
+}

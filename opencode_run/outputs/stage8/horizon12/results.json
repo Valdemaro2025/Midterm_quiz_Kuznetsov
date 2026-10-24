@@ -1,0 +1,98 @@
+[
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.3925271164021159,
+    "map_with_at_least_k_positive": 0.4069613566861269,
+    "map_with_positive": 0.3988581989247307,
+    "name": "repeat_50",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.3965249118165784,
+    "map_with_at_least_k_positive": 0.4109146510981372,
+    "map_with_positive": 0.4029204749103942,
+    "name": "stage5_hybrid_70_30",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.40170965608465586,
+    "map_with_at_least_k_positive": 0.4159855435084791,
+    "map_with_positive": 0.40818884408602124,
+    "name": "submitted_stage6",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.40130776014109315,
+    "map_with_at_least_k_positive": 0.41590492076730584,
+    "map_with_positive": 0.4077804659498205,
+    "name": "submitted_stage7",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "new_unique",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.3975429894179891,
+    "map_with_at_least_k_positive": 0.41214901306644397,
+    "map_with_positive": 0.4039549731182792,
+    "name": "A_repeat50_hybrid85",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "new_unique",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.4061580687830687,
+    "map_with_at_least_k_positive": 0.42084792882958,
+    "map_with_positive": 0.412709005376344,
+    "name": "B_schedule_adjusted_hybrid70",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "new_unique",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.37421560846560825,
+    "map_with_at_least_k_positive": 0.3875896580483734,
+    "map_with_positive": 0.3802513440860213,
+    "name": "C_channel_time",
+    "users_with_no_positive": 20
+  },
+  {
+    "category": "new_unique",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1199,
+    "cohort_with_positive_size": 1240,
+    "k": 5,
+    "map_at_k": 0.40247574955908283,
+    "map_with_at_least_k_positive": 0.4170419794273005,
+    "map_with_positive": 0.40896729390680997,
+    "name": "D_hybrid90_schedule10",
+    "users_with_no_positive": 20
+  }
+]

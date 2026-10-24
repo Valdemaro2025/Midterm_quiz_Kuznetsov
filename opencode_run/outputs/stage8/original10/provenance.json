@@ -1,0 +1,26 @@
+{
+  "cache_validity": "unioned coverage for fully contained airings is invariant to clipping views at split boundaries",
+  "candidate_count": 6361,
+  "candidate_ids_only_in_weeks19_20": [],
+  "cutoff": 1589760000,
+  "description": "unchanged original frozen 10-week validation",
+  "interaction_rows": 1821940,
+  "label_rule": ">=80% actual coverage; top5 by qualifying-airing frequency descending then ID ascending; fewer if fewer qualify",
+  "max_training_observation_airing_end": 1589760000,
+  "target_airings": 121238,
+  "target_airings_by_source": {
+    "history_11_20": 0,
+    "history_21_30": 121238
+  },
+  "train_airings": 115243,
+  "training_weeks": 10.0,
+  "training_window": [
+    1583712000,
+    1589760000
+  ],
+  "validation_weeks": 10.0,
+  "validation_window": [
+    1589760000,
+    1595808000
+  ]
+}

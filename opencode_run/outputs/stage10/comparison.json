@@ -1,0 +1,128 @@
+[
+  {
+    "alpha": 0.25,
+    "association_weight": 0.3,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": -0.00289021164021164,
+    "horizon12_interval": [
+      -0.0049708994708994704,
+      -0.0007764550264550268
+    ],
+    "horizon12_map": 0.4032678571428571,
+    "minimum_gain": -0.0035462962962962965,
+    "name": "alpha025_w70",
+    "original10_gain": -0.0035462962962962965,
+    "original10_interval": [
+      -0.005279133597883598,
+      -0.0018134920634920646
+    ],
+    "original10_map": 0.38426763668430336,
+    "repeat_weight": 0.7
+  },
+  {
+    "alpha": 0.75,
+    "association_weight": 0.3,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": 0.0030522486772486773,
+    "horizon12_interval": [
+      0.0012109457671957674,
+      0.004910102513227515
+    ],
+    "horizon12_map": 0.4092103174603175,
+    "minimum_gain": 0.0010531305114638441,
+    "name": "alpha075_w70",
+    "original10_gain": 0.0010531305114638441,
+    "original10_interval": [
+      -0.0006649581128747802,
+      0.0027222552910052896
+    ],
+    "original10_map": 0.3888670634920635,
+    "repeat_weight": 0.7
+  },
+  {
+    "alpha": 1.0,
+    "association_weight": 0.3,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": 0.00024537037037037013,
+    "horizon12_interval": [
+      -0.002537731481481479,
+      0.0029557539682539716
+    ],
+    "horizon12_map": 0.4064034391534392,
+    "minimum_gain": -0.001577160493827161,
+    "name": "alpha100_w70",
+    "original10_gain": -0.001577160493827161,
+    "original10_interval": [
+      -0.0043273974867724845,
+      0.0011461970899470876
+    ],
+    "original10_map": 0.3862367724867725,
+    "repeat_weight": 0.7
+  },
+  {
+    "alpha": 0.5,
+    "association_weight": 0.5,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": -0.0066706349206349215,
+    "horizon12_interval": [
+      -0.011365079365079352,
+      -0.0019377976190476213
+    ],
+    "horizon12_map": 0.3994874338624339,
+    "minimum_gain": -0.0066706349206349215,
+    "name": "alpha050_w50",
+    "original10_gain": -0.006222442680776015,
+    "original10_interval": [
+      -0.010457473544973549,
+      -0.001957947530864211
+    ],
+    "original10_map": 0.38159149029982364,
+    "repeat_weight": 0.5
+  },
+  {
+    "alpha": 0.5,
+    "association_weight": 0.15,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": -0.00024801587301587354,
+    "horizon12_interval": [
+      -0.003642245370370371,
+      0.0031489583333333317
+    ],
+    "horizon12_map": 0.4059100529100529,
+    "minimum_gain": -0.00039219576719576836,
+    "name": "alpha050_w85",
+    "original10_gain": -0.00039219576719576836,
+    "original10_interval": [
+      -0.003754067460317462,
+      0.002929265873015871
+    ],
+    "original10_map": 0.3874217372134039,
+    "repeat_weight": 0.85
+  },
+  {
+    "alpha": 0.5,
+    "association_weight": 0.0,
+    "changed_independent_parameters": 1,
+    "eligible": false,
+    "horizon12_gain": -0.01338910934744268,
+    "horizon12_interval": [
+      -0.018516435185185195,
+      -0.008312819664902988
+    ],
+    "horizon12_map": 0.3927689594356261,
+    "minimum_gain": -0.01338910934744268,
+    "name": "alpha050_w100",
+    "original10_gain": -0.01034347442680776,
+    "original10_interval": [
+      -0.015310576499118133,
+      -0.005659374999999997
+    ],
+    "original10_map": 0.3774704585537919,
+    "repeat_weight": 1.0
+  }
+]

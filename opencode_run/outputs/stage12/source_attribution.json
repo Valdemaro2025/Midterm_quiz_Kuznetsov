@@ -1,0 +1,9 @@
+{
+  "external_diagnostic_files_read": false,
+  "implementation_diagnostics_verification": "performed in this OpenCode session using only project data/code",
+  "normalization": "user-declared experimental convention, not a standard/proven-optimal preprocessing claim",
+  "paper_for_unchanged_EASE_solver": "Harald Steck, Embarrassingly Shallow Autoencoders for Sparse Data, WWW 2019, https://arxiv.org/abs/1905.03375",
+  "personal_user_analysis_or_verification_claimed": false,
+  "personal_verification": "pending",
+  "suggestion": "external AI assistant Codex suggested testing frequency-preserving EASE"
+}

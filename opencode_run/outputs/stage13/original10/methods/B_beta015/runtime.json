@@ -1,0 +1,8 @@
+{
+  "component_clip_adjust_normalize_seconds": 0.01545679199625738,
+  "direct_variant_seconds": 1.2422052920010174,
+  "fusion_rank_seconds": 1.226730124995811,
+  "measured_cost_for_selection_seconds": 1.4611377920009545,
+  "reused_EASE_fit_query_seconds": 0.21893249999993714,
+  "scope": "reused EASE fit/query plus directly measured component/fusion work; component-attributed, not standalone end-to-end runtime"
+}

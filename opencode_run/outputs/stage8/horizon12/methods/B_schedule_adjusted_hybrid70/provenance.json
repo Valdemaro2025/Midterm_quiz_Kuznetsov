@@ -1,0 +1,10 @@
+{
+  "category": "new_unique",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "c440e95dbf1261daf4a5963830565b6bcf4b516debd4212eb908b2419467da20",
+  "repeats_allowed": true,
+  "scope": "horizon12",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "horizon12/provenance.json",
+  "training_cutoff": 1588550400
+}

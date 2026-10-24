@@ -1,0 +1,38 @@
+[
+  {
+    "category": "robustness",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1103,
+    "cohort_with_positive_size": 1233,
+    "k": 5,
+    "map_at_k": 0.34956106701939993,
+    "map_with_at_least_k_positive": 0.3753460259897246,
+    "map_with_positive": 0.3572156889249342,
+    "name": "repeat_50",
+    "users_with_no_positive": 27
+  },
+  {
+    "category": "robustness",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1103,
+    "cohort_with_positive_size": 1233,
+    "k": 5,
+    "map_at_k": 0.35181018518518536,
+    "map_with_at_least_k_positive": 0.37805379268661243,
+    "map_with_positive": 0.35951405785347407,
+    "name": "hybrid_70_30",
+    "users_with_no_positive": 27
+  },
+  {
+    "category": "robustness",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1103,
+    "cohort_with_positive_size": 1233,
+    "k": 5,
+    "map_at_k": 0.3547076719576723,
+    "map_with_at_least_k_positive": 0.38113327289211313,
+    "map_with_positive": 0.3624749932414169,
+    "name": "hybrid_repeat_fraction20_h28_w85",
+    "users_with_no_positive": 27
+  }
+]

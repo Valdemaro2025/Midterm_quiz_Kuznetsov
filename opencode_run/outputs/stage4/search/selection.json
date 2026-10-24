@@ -1,0 +1,27 @@
+{
+  "best_association": {
+    "details": {
+      "aggregate": "max",
+      "antecedents_with_rules": 1770,
+      "max_antecedents_per_user": 50,
+      "score": "confidence",
+      "total_rules": 51600,
+      "training_items": 2489,
+      "training_users": 4737,
+      "users_with_rules": 1242
+    },
+    "map_at_5": 0.2960723104056437,
+    "name": "ar_c5_conf_max_80",
+    "shared_index_seconds": 0.035
+  },
+  "best_repeat": {
+    "count_variant": "sens50",
+    "details": {
+      "users_with_scored_candidates": 1245
+    },
+    "map_at_5": 0.3740970017636681,
+    "name": "repeat_50"
+  },
+  "rule": "highest validation MAP@5 among all individually evaluated variants; runtime only as tie-breaker",
+  "stage3_ar_runtime_note": "Stage 3 AR runtimes exclude the shared co-occurrence build; the measured shared build is recorded in diagnosis/category_cbf_ties.json."
+}

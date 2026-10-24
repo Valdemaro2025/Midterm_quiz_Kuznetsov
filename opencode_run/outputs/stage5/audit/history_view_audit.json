@@ -1,0 +1,21 @@
+{
+  "channels": 202,
+  "max_allowed_stop": 1595808000,
+  "max_observed_stop": 1595807998,
+  "no_future_observations": true,
+  "nonpositive_view_duration": 0,
+  "npz": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/views/views_history.npz",
+  "parse_failures": 0,
+  "rows_after_window": 0,
+  "rows_before_window": 0,
+  "rows_clipped_at_window_end": 0,
+  "rows_clipped_at_window_start": 0,
+  "segments_written": 5821987,
+  "total_rows": 5821987,
+  "users": 4914,
+  "view_file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/dataset11-30.csv",
+  "window": [
+    "2020-03-09 00:00:00",
+    "2020-07-27 00:00:00"
+  ]
+}

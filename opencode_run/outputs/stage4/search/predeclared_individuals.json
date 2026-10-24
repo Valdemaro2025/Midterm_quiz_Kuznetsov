@@ -1,0 +1,73 @@
+{
+  "declared_before_execution": true,
+  "fixed_inputs": "Stage 3 frozen labels, validation candidate pool, cohorts, repeat policy, and fallback are unchanged.",
+  "individual_configurations": [
+    {
+      "kind": "repeat",
+      "name": "repeat_50",
+      "params": {
+        "count_variant": "sens50",
+        "threshold": ">=50%",
+        "tie_break": "training_popularity_then_id"
+      }
+    },
+    {
+      "kind": "repeat",
+      "name": "repeat_80",
+      "params": {
+        "count_variant": "primary80",
+        "threshold": ">=80%",
+        "tie_break": "training_popularity_then_id"
+      }
+    },
+    {
+      "kind": "cbf",
+      "name": "cbf_category_log_pop",
+      "params": {
+        "actor_limit": 0,
+        "fields": [
+          "category"
+        ],
+        "profile_counts": "positive_airings",
+        "profile_weight": "logcount",
+        "tie_break": "training_popularity_then_id",
+        "use_idf": true
+      }
+    },
+    {
+      "kind": "cbf",
+      "name": "cbf_genre_cast_log_pop",
+      "params": {
+        "actor_limit": 300,
+        "fields": [
+          "category",
+          "genres",
+          "decade",
+          "director",
+          "actors"
+        ],
+        "profile_counts": "positive_airings",
+        "profile_weight": "logcount",
+        "tie_break": "training_popularity_then_id",
+        "use_idf": true
+      }
+    },
+    {
+      "kind": "association_rules",
+      "name": "ar_c5_conf_max_80",
+      "params": {
+        "aggregate": "max",
+        "interaction_counts": "qualifying_airings_primary_>=80%",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "score_scheme": "confidence",
+        "tie_break": "program_id"
+      }
+    }
+  ],
+  "new_configuration_budget": 8,
+  "stage": 4
+}

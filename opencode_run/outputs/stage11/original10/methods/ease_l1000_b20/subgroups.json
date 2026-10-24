@@ -1,0 +1,82 @@
+{
+  "definitions": {
+    "AP_attribution": "each relevant item's contribution to ordinary AP; partition contributions sum to overall MAP delta; not new label definitions",
+    "global_history": ">=80% actual qualifying training coverage, any training user",
+    "personal_history": ">=50% actual qualifying training coverage; distinct eligible programs"
+  },
+  "pair_partitions": {
+    "global_primary80": {
+      "globally_observed": {
+        "AP_contribution_delta_per_all_users": -0.001347883597883996,
+        "baseline_AP_contribution_sum": 488.6455555555417,
+        "baseline_hits": 2777,
+        "candidate_AP_contribution_sum": 486.94722222220787,
+        "candidate_hits": 2761,
+        "distinct_relevant_programs": 364,
+        "hits_gained": 135,
+        "hits_lost": 151,
+        "net_hits": -16,
+        "pairs": 5748
+      },
+      "globally_unobserved": {
+        "AP_contribution_delta_per_all_users": 0.0,
+        "baseline_AP_contribution_sum": 0.0,
+        "baseline_hits": 0,
+        "candidate_AP_contribution_sum": 0.0,
+        "candidate_hits": 0,
+        "distinct_relevant_programs": 129,
+        "hits_gained": 0,
+        "hits_lost": 0,
+        "net_hits": 0,
+        "pairs": 256
+      }
+    },
+    "personal_repeat50": {
+      "with_personal_repeat50": {
+        "AP_contribution_delta_per_all_users": -0.004042328042328336,
+        "baseline_AP_contribution_sum": 484.34222222220853,
+        "baseline_hits": 2745,
+        "candidate_AP_contribution_sum": 479.24888888887483,
+        "candidate_hits": 2698,
+        "distinct_relevant_programs": 142,
+        "hits_gained": 101,
+        "hits_lost": 148,
+        "net_hits": -47,
+        "pairs": 4008
+      },
+      "without_personal_repeat50": {
+        "AP_contribution_delta_per_all_users": 0.002694444444444447,
+        "baseline_AP_contribution_sum": 4.303333333333335,
+        "baseline_hits": 32,
+        "candidate_AP_contribution_sum": 7.698333333333338,
+        "candidate_hits": 63,
+        "distinct_relevant_programs": 473,
+        "hits_gained": 34,
+        "hits_lost": 3,
+        "net_hits": 31,
+        "pairs": 1996
+      }
+    }
+  },
+  "selection_uses_subgroups": false,
+  "user_history_groups": {
+    "at_least20": {
+      "baseline_MAP": 0.42142739536859997,
+      "candidate_MAP": 0.41863288718929254,
+      "delta_MAP": -0.002794508179307415,
+      "users": 1046,
+      "users_better": 216,
+      "users_tied": 600,
+      "users_worse": 230
+    },
+    "fewer_than20": {
+      "baseline_MAP": 0.22351635514018692,
+      "candidate_MAP": 0.22923935617860855,
+      "delta_MAP": 0.005723001038421596,
+      "users": 214,
+      "users_better": 44,
+      "users_tied": 138,
+      "users_worse": 32
+    }
+  }
+}

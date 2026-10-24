@@ -1,0 +1,7 @@
+{
+  "category": "repeated_backtest_fit",
+  "declaration": "declaration.json",
+  "future_viewing_used": false,
+  "source_manifest": "preservation_before.json",
+  "training_cutoff": 1589760000
+}

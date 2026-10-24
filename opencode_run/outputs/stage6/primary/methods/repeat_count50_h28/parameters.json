@@ -1,0 +1,6 @@
+{
+  "half_life_days": 28,
+  "name": "repeat_count50_h28",
+  "threshold": 0.5,
+  "weighting": "count"
+}

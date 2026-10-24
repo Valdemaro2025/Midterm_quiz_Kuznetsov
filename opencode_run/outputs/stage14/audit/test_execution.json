@@ -1,0 +1,21 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py outputs/stage10/code/test_refinement.py outputs/stage11/code/test_ease.py outputs/stage11/code/test_fusion.py outputs/stage12/code/test_counts.py outputs/stage13/code/test_refinements.py outputs/stage14/code/test_preference_ar.py --junitxml=outputs/stage14/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 127,
+  "failed": 0,
+  "new_stage14_cases_including_parameterization": 15,
+  "verification": "automated in this OpenCode session; personal user verification pending",
+  "checks": [
+    "full-catalogue Top-K memberships with no ties, boundary ties, fewer positives and empty history",
+    "membership mass equals min(K,positive history size)",
+    "independent asymmetric fractional C/confidence and consequent-Y-marginal lift",
+    "fractional effective support threshold without rounding",
+    "diagonal exclusion, target filtering, zero denominators and missing histories",
+    "50-rule limit and preserved confidence/item-index tie ordering",
+    "50 personal antecedents in original training-count order and maximum aggregation",
+    "A-only completed-score opportunity adjustment before candidate normalization",
+    "unchanged repeat/EASE components and no combined-score renormalization",
+    "temporal isolation of counts, memberships and statistics",
+    "all relevant earlier implementation tests"
+  ]
+}

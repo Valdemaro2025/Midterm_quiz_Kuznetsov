@@ -1,0 +1,6 @@
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "started", "name": "reproduce_horizon12", "time_epoch": 1792708339.50084}
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "completed", "name": "reproduce_horizon12", "time_epoch": 1792708343.13612}
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "started", "name": "reproduce_original10", "time_epoch": 1792708343.136262}
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "completed", "name": "reproduce_original10", "time_epoch": 1792708347.9677382}
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "started", "name": "full_history_fixed_refit", "time_epoch": 1792708434.467723}
+{"category": "fixed_refit_or_reproduction_not_new_configuration", "event": "completed", "name": "full_history_fixed_refit", "time_epoch": 1792708447.031352}

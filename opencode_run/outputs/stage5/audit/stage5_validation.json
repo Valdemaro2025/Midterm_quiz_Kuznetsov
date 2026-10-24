@@ -1,0 +1,301 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "raw_manifests_before_after_equal",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "raw_manifest_still_current",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "template_unchanged",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "cohort_exact_1260_unique",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "training_window_exact",
+      "detail": [
+        "2020-03-09 00:00:00",
+        "2020-07-27 00:00:00"
+      ],
+      "ok": true
+    },
+    {
+      "check": "may18_boundary_restored",
+      "detail": {
+        "restored": 66,
+        "stage3_train_excluded": 66
+      },
+      "ok": true
+    },
+    {
+      "check": "full_airings_reconstructed_not_concatenated",
+      "detail": {
+        "expected": 236489,
+        "full_selected": 236489
+      },
+      "ok": true
+    },
+    {
+      "check": "history_airings_strictly_before_cutoff",
+      "detail": {
+        "rows": 236489,
+        "train_end": 1595808000
+      },
+      "ok": true
+    },
+    {
+      "check": "no_crossing_final_cutoff_airings",
+      "detail": 58,
+      "ok": true
+    },
+    {
+      "check": "no_future_views",
+      "detail": {
+        "max_allowed": 1595808000,
+        "max_observed_stop": 1595807998,
+        "rows_after": 0
+      },
+      "ok": true
+    },
+    {
+      "check": "full_history_views_loaded",
+      "detail": 5821987,
+      "ok": true
+    },
+    {
+      "check": "test_candidate_count_6632",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "test_candidates_match_frozen_stage3_pool",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "candidate_rule_start_in_test_window",
+      "detail": {
+        "rows": 144517,
+        "window": [
+          1595808000,
+          1603065600
+        ]
+      },
+      "ok": true
+    },
+    {
+      "check": "popularity_refit_full_history",
+      "detail": {
+        "candidate_rows": 6632,
+        "top5": [
+          2400480,
+          240081,
+          2400467,
+          2400508,
+          200344
+        ]
+      },
+      "ok": true
+    },
+    {
+      "check": "cold_start_scopes_distinguished",
+      "detail": {
+        "earlier_matched": 1256,
+        "earlier_primary80_zero": 18,
+        "full_matched": 1260,
+        "full_primary80_zero": 4
+      },
+      "ok": true
+    },
+    {
+      "check": "frozen_parameters_match",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "strategy_frozen",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "full_history_refit_provenance",
+      "detail": {
+        "cohort_users": 1260,
+        "history_airings": 236489,
+        "history_user_airing_rows": 3011224,
+        "history_user_program_rows": 1369604,
+        "history_view_channels": 202,
+        "history_view_users": 4914,
+        "history_views_loaded": 5821987,
+        "restored_may18_crossing_airings": 66,
+        "test_candidate_airings": 144517,
+        "test_candidates": 6632
+      },
+      "ok": true
+    },
+    {
+      "check": "validation_score_labeled_earlier",
+      "detail": {
+        "kaggle_score": "unknown; no Kaggle score has been returned",
+        "selection_score": "earlier local validation MAP@5 = 0.378546 for hybrid_70_30",
+        "statistical_claim": "the small hybrid improvement is not statistically established or independently confirmed"
+      },
+      "ok": true
+    },
+    {
+      "check": "submission_format",
+      "detail": {
+        "all_passed": true,
+        "checks": [
+          {
+            "check": "header_exact",
+            "detail": [
+              "user_id,tv_show_id"
+            ],
+            "ok": true
+          },
+          {
+            "check": "no_bom",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "two_columns",
+            "detail": [],
+            "ok": true
+          },
+          {
+            "check": "exact_header_fields",
+            "detail": [
+              "user_id",
+              "tv_show_id"
+            ],
+            "ok": true
+          },
+          {
+            "check": "row_count_1260",
+            "detail": 1260,
+            "ok": true
+          },
+          {
+            "check": "unique_users",
+            "detail": 0,
+            "ok": true
+          },
+          {
+            "check": "template_order_exact",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "no_missing_user",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "user_ids_string_exact",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "five_tokens_each",
+            "detail": [],
+            "ok": true
+          },
+          {
+            "check": "distinct_ids_each",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "positive_integer_ids",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "candidate_pool_membership",
+            "detail": null,
+            "ok": true
+          },
+          {
+            "check": "no_extra_index_column",
+            "detail": null,
+            "ok": true
+          }
+        ],
+        "checks_passed": 14,
+        "checks_total": 14,
+        "header": [
+          "user_id",
+          "tv_show_id"
+        ],
+        "row_count": 1260
+      },
+      "ok": true
+    },
+    {
+      "check": "submission_sha_matches_provenance",
+      "detail": {
+        "actual": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+        "stored": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb"
+      },
+      "ok": true
+    },
+    {
+      "check": "submission_is_not_template",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "actual_runtime_recorded",
+      "detail": {
+        "model_fit_and_predict_seconds": 0.918,
+        "pipeline_total_seconds": 117.63,
+        "timing_scope": "single final refit and test prediction run on this machine"
+      },
+      "ok": true
+    },
+    {
+      "check": "final_code_reproduces_stage4_hybrid_validation",
+      "detail": {
+        "hash": "b5b5afcf7bca3a2a2445cc743f1b752c403383e29421f720e49be5bd4355a228",
+        "users": 1260
+      },
+      "ok": true
+    }
+  ],
+  "checks_passed": 25,
+  "checks_total": 25,
+  "earlier_local_validation_map_at_5": 0.378546,
+  "environment": {
+    "machine": "arm64",
+    "packages": {
+      "PyMuPDF": "2.0",
+      "matplotlib": "3.11.1",
+      "numpy": "2.4.6",
+      "pypdf": "6.21.2",
+      "pytest": "9.1.1",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.17.1"
+    },
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "python_executable": "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3"
+  },
+  "kaggle_score": null,
+  "strategy": "hybrid_70_30",
+  "submission_path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+  "submission_rows": 1260,
+  "submission_sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+  "test_candidates": 6632
+}

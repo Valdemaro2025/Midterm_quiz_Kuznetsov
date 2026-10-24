@@ -1,0 +1,10 @@
+{
+  "aggregate": "max",
+  "antecedents_with_rules": 3100,
+  "max_antecedents_per_user": 50,
+  "score": "confidence",
+  "total_rules": 123243,
+  "training_items": 3864,
+  "training_users": 4841,
+  "users_with_rules": 1255
+}

@@ -1,0 +1,44 @@
+{
+  "attempted_on": "2026-10-21",
+  "authoritative_definition_found": false,
+  "authoritative_status": "unavailable",
+  "attempts": [
+    {
+      "source": "Kaggle competition overview/description",
+      "url": "https://www.kaggle.com/competitions/sweet-tv-channel/overview/description",
+      "result": "Fetched page returned only the shell title 'sweet.tv - TV program recommender'; the competition description body was not available without JavaScript/authentication."
+    },
+    {
+      "source": "Kaggle competition data page",
+      "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/data",
+      "result": "Fetched page returned only the shell title; no authoritative watched-label definition or data-card body was exposed."
+    },
+    {
+      "source": "Web search for competition wording",
+      "result": "Search results included the Kaggle competition pages and a secondary Towards Data Science article, but no accessible authoritative competition text defining the watched predicate."
+    }
+  ],
+  "secondary_source": {
+    "title": "Two-layered recommender system methodology: a prize-winning solution",
+    "author": "Nikita Melentev",
+    "publisher": "Towards Data Science",
+    "published": "2021-03-20",
+    "url": "https://towardsdatascience.com/two-layered-recommender-system-methodology-a-prize-winning-solution-c4bdb815b156/",
+    "quote": "TV-program was considered watched if the user watched over 80% of it and did not change the channel.",
+    "status": "secondary, not authoritative"
+  },
+  "local_assignment_material": {
+    "files": [
+      "/Users/vladimirkuznecov/Downloads/LLM4Rec. Midterm Quiz.pdf",
+      "/Users/vladimirkuznecov/Downloads/homework_guidelines.pdf",
+      "/Users/vladimirkuznecov/Downloads/sample_homework.pdf",
+      "/Users/vladimirkuznecov/Downloads/exam_quiz_GSB.md"
+    ],
+    "finding": "The quiz PDF pages 4-5 reproduce competition overview/data-description screenshots; they do not expose a verified exact watched predicate."
+  },
+  "implementation_implication": [
+    "Primary label remains the documented local approximation: airing coverage >= 80%, rank programmes by count of qualifying airings, take top 5 or fewer, tie-break ascending programme id.",
+    "Primary evaluation does not apply the secondary article's concurrent-channel/no-channel-change condition.",
+    "Any claim that local labels exactly reproduce Kaggle scoring would be unsupported."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "AR_opportunity_adjustment": false,
+  "K": 5,
+  "name": "B_standalone",
+  "role": "standalone",
+  "target": "fractional_preferred_primary80",
+  "variant": "B"
+}

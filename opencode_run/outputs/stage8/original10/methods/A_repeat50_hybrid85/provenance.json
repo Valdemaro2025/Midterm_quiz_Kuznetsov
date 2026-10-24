@@ -1,0 +1,10 @@
+{
+  "category": "repeated_backtest_fit",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "2d6bf32840b3207d58b1dfa9be604914f2ee982f96edc04fcf23a117f761ffc2",
+  "repeats_allowed": true,
+  "scope": "original10",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "original10/provenance.json",
+  "training_cutoff": 1589760000
+}

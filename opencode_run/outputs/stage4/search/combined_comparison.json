@@ -1,0 +1,287 @@
+{
+  "combined_attempts": 19,
+  "hybrid_runtime_correction": {
+    "applied": true,
+    "components": {
+      "ar_c5_conf_max_80_configuration_seconds_estimate": 0.547,
+      "repeat_50_configuration_seconds_estimate": 0.333,
+      "shared_index_seconds": 0.035
+    },
+    "hybrids": {
+      "hybrid_50_50": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.281,
+        "fusion_only_seconds": 0.366,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      },
+      "hybrid_70_30": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.284,
+        "fusion_only_seconds": 0.369,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      }
+    },
+    "reason": "Hybrid attempts originally reported only fused-score computation."
+  },
+  "labels_sha256": "d2e9740392f813b14d8ec23e6498c4a594efad064dfa3405ed927e8a30026a7e",
+  "note": "Both searches use the same Stage 3 frozen validation labels, candidate pool, cohort, repeat policy, and fallback. Method selection and reported performance therefore use the same holdout.",
+  "rows": [
+    {
+      "component_attributed_runtime_seconds": 1.284,
+      "configuration_runtime_seconds": 0.369,
+      "fusion_only_runtime_seconds": 0.369,
+      "kind": "hybrid",
+      "map_at_5": 0.37854629629629616,
+      "map_at_least_5_positive": 0.3991536231884056,
+      "map_with_positive": 0.38527329025309626,
+      "name": "hybrid_70_30",
+      "runtime_accounting": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.284,
+        "fusion_only_seconds": 0.369,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      },
+      "runtime_note": "Hybrid reporting uses component-attributed total, not fusion-only time.",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 18
+    },
+    {
+      "configuration_runtime_seconds": 0.333,
+      "kind": "repeat",
+      "map_at_5": 0.3740970017636681,
+      "map_at_least_5_positive": 0.3950492753623184,
+      "map_with_positive": 0.3807449290971097,
+      "name": "repeat_50",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 35
+    },
+    {
+      "component_attributed_runtime_seconds": 1.281,
+      "configuration_runtime_seconds": 0.366,
+      "fusion_only_runtime_seconds": 0.366,
+      "kind": "hybrid",
+      "map_at_5": 0.3732347883597882,
+      "map_at_least_5_positive": 0.39285217391304317,
+      "map_with_positive": 0.37986739364566485,
+      "name": "hybrid_50_50",
+      "runtime_accounting": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.281,
+        "fusion_only_seconds": 0.366,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      },
+      "runtime_note": "Hybrid reporting uses component-attributed total, not fusion-only time.",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 18
+    },
+    {
+      "configuration_runtime_seconds": 0.324,
+      "kind": "repeat",
+      "map_at_5": 0.36749382716049367,
+      "map_at_least_5_positive": 0.38839420289855053,
+      "map_with_positive": 0.3740244121342666,
+      "name": "repeat_80",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 68
+    },
+    {
+      "configuration_runtime_seconds": 0.361,
+      "kind": "baseline",
+      "map_at_5": 0.34725198412698377,
+      "map_at_least_5_positive": 0.36734782608695626,
+      "map_with_positive": 0.35342285945072666,
+      "name": "repeat_frequency",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 14
+    },
+    {
+      "configuration_runtime_seconds": 0.547,
+      "kind": "association_rules",
+      "map_at_5": 0.2960723104056437,
+      "map_at_least_5_positive": 0.31073043478260864,
+      "map_with_positive": 0.30133369233530777,
+      "name": "ar_c5_conf_max_80",
+      "shared_cost_note": "shared >=80% co-occurrence build is paid once and reused by the AR and hybrid configurations",
+      "shared_index_cost_seconds": 0.035,
+      "source": "stage4",
+      "users_needing_fallback": 18
+    },
+    {
+      "configuration_runtime_seconds": 0.891,
+      "kind": "association_rules",
+      "map_at_5": 0.27224735449735404,
+      "map_at_least_5_positive": 0.28580289855072416,
+      "map_with_positive": 0.2770853527194395,
+      "name": "ar_c5_conf_max",
+      "shared_cost_note": "one shared any-positive co-occurrence build; not included in the reported per-configuration runtime",
+      "shared_index_cost_seconds": 0.375,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 1.038,
+      "kind": "association_rules",
+      "map_at_5": 0.2667442680776009,
+      "map_at_least_5_positive": 0.28003188405797047,
+      "map_with_positive": 0.2714844731646019,
+      "name": "ar_c3_conf_loglift",
+      "shared_cost_note": "one shared any-positive co-occurrence build; not included in the reported per-configuration runtime",
+      "shared_index_cost_seconds": 0.375,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 0.0,
+      "kind": "baseline",
+      "map_at_5": 0.26501278659611965,
+      "map_at_least_5_positive": 0.2770985507246373,
+      "map_with_positive": 0.2697222222222219,
+      "name": "popularity",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": null
+    },
+    {
+      "configuration_runtime_seconds": 0.719,
+      "kind": "association_rules",
+      "map_at_5": 0.10961904761904746,
+      "map_at_least_5_positive": 0.11664057971014477,
+      "map_with_positive": 0.11156704361873974,
+      "name": "ar_c10_conf_loglift_max",
+      "shared_cost_note": "one shared any-positive co-occurrence build; not included in the reported per-configuration runtime",
+      "shared_index_cost_seconds": 0.375,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 0.725,
+      "kind": "association_rules",
+      "map_at_5": 0.06595061728395073,
+      "map_at_least_5_positive": 0.06781449275362336,
+      "map_with_positive": 0.06712259917429557,
+      "name": "ar_c5_conf_sum",
+      "shared_cost_note": "one shared any-positive co-occurrence build; not included in the reported per-configuration runtime",
+      "shared_index_cost_seconds": 0.375,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.5,
+      "kind": "cbf",
+      "map_at_5": 0.014949735449735426,
+      "map_at_least_5_positive": 0.015350724637681133,
+      "map_with_positive": 0.015215401184706493,
+      "name": "cbf_genre_cast_log_pop",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.227,
+      "kind": "cbf",
+      "map_at_5": 0.014267195767195743,
+      "map_at_least_5_positive": 0.01460289855072461,
+      "map_with_positive": 0.014520732364027976,
+      "name": "cbf_genre_cast_log",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.369,
+      "kind": "cbf",
+      "map_at_5": 0.006847883597883597,
+      "map_at_least_5_positive": 0.007278260869565217,
+      "map_with_positive": 0.006969574582660204,
+      "name": "cbf_category_log_pop",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage4",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 1.261,
+      "kind": "association_rules",
+      "map_at_5": 0.005767195767195767,
+      "map_at_least_5_positive": 0.006057971014492754,
+      "map_with_positive": 0.005869682283252558,
+      "name": "ar_c2_lift_sum",
+      "shared_cost_note": "one shared any-positive co-occurrence build; not included in the reported per-configuration runtime",
+      "shared_index_cost_seconds": 0.375,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 1.567,
+      "kind": "cbf",
+      "map_at_5": 0.004878306878306879,
+      "map_at_least_5_positive": 0.0053449275362318855,
+      "map_with_positive": 0.004964997307485192,
+      "name": "cbf_category_log",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.16,
+      "kind": "cbf",
+      "map_at_5": 0.003912698412698413,
+      "map_at_least_5_positive": 0.004171014492753624,
+      "map_with_positive": 0.003982229402261713,
+      "name": "cbf_genre_log",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.18,
+      "kind": "cbf",
+      "map_at_5": 0.0038432539682539684,
+      "map_at_least_5_positive": 0.004156521739130435,
+      "map_with_positive": 0.0039115508885298874,
+      "name": "cbf_genre_decade_log",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    },
+    {
+      "configuration_runtime_seconds": 2.231,
+      "kind": "cbf",
+      "map_at_5": 0.0035760582010582027,
+      "map_at_least_5_positive": 0.0037188405797101464,
+      "map_with_positive": 0.003639606892837912,
+      "name": "cbf_all_binary",
+      "shared_cost_note": null,
+      "shared_index_cost_seconds": null,
+      "source": "stage3",
+      "users_needing_fallback": 10
+    }
+  ],
+  "stage3_attempts": 12,
+  "stage4_attempts": 7,
+  "stage4_budget": 8
+}

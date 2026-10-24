@@ -1,0 +1,6 @@
+{
+  "direct_prediction_seconds": 0.34146979200158967,
+  "measured_cost_for_selection_seconds": 0.3653867920002085,
+  "scope": "shared AR model reused by standalone and hybrid; component-attributed, not independently timed end-to-end",
+  "shared_AR_model_seconds": 0.02391699999861885
+}

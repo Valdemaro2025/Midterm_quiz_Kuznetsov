@@ -1,0 +1,13 @@
+{
+  "declaration_sha256": "812454506f93b8bdbc836c12748280cfa7f899b1d3da52b1bdc8ed3f4ab60fa3",
+  "input": "global-training-scaled log1p >=80% qualifying-airing counts",
+  "new_configurations_from_refit": 0,
+  "parameters": {
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "logcount_ease_l1000_b10"
+  },
+  "selection_rule": "maximum minimum gain, then lower beta, then lower measured cost",
+  "selection_sha256": "1ec6338d5a417c8172ffaa4ca760c18d35ea552b8d31d21da5dd672e2fc9eb49",
+  "unique_configurations": 53
+}

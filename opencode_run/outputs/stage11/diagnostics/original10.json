@@ -1,0 +1,43 @@
+{
+  "AR_definition": "positive original association80 candidate score, training-only",
+  "distinct_counts_are_not_additive_across_user_pair_groups": true,
+  "distinct_relevant_programs": 493,
+  "global_definition": "at least one >=80% training airing from any training user; all training users included",
+  "globally_primary80_observed_relevant_pairs": 5748,
+  "globally_primary80_unobserved_relevant_pairs": 256,
+  "groups": {
+    "neither_repeat50_nor_AR": {
+      "distinct_programs": 429,
+      "distinct_top5_programs": 4,
+      "pairs": 938,
+      "top5_pairs": 14
+    },
+    "no_repeat50_positive_AR": {
+      "distinct_programs": 109,
+      "distinct_top5_programs": 4,
+      "pairs": 1058,
+      "top5_pairs": 18
+    },
+    "personal_repeat50": {
+      "distinct_programs": 142,
+      "distinct_top5_programs": 86,
+      "pairs": 4008,
+      "top5_pairs": 2745
+    }
+  },
+  "interpretation": "EASE could supply or rerank scores for personally unobserved items learned from other training users, including items missed by pruned AR rules. It cannot learn an item with no >=80% global training evidence, or personalize a user with no usable >=80% history. Diagnostics are not proof of improvement; labels are not training features.",
+  "personal_history_definition": "at least one training airing with >=50% actual observed coverage; eligible program IDs only",
+  "personally_unobserved_with_other_user_primary80_evidence": {
+    "without_any_positive_coverage": {
+      "distinct_programs": 315,
+      "pairs": 1104
+    },
+    "without_repeat50": {
+      "distinct_programs": 344,
+      "pairs": 1740
+    }
+  },
+  "total_relevant_user_program_pairs": 6004,
+  "users_at_least20_personal_repeat50_eligible": 1046,
+  "users_fewer_than20_personal_repeat50_eligible": 214
+}

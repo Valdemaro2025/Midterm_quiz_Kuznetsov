@@ -1,0 +1,6 @@
+{
+  "direct_fusion_seconds": 0.38303979099873686,
+  "reused_repeat_aggregate_predict_seconds": 0.5046744999999646,
+  "scope": "fusion directly timed; components reused, not standalone end-to-end timing",
+  "shared_controls_and_association_seconds": 0.6209359999993467
+}

@@ -1,0 +1,5 @@
+{
+  "fallback_slots": 96,
+  "mean_scored_candidates_per_user": 78.58095238095238,
+  "users_needing_fallback": 20
+}

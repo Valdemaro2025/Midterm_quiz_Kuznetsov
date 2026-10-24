@@ -1,0 +1,8 @@
+{
+  "S9_additionally_normalized": false,
+  "category": "new_unique",
+  "declaration": "declaration.json",
+  "labels_training_features": false,
+  "model": "../../models/lambda1000",
+  "training_cutoff": 1588550400
+}

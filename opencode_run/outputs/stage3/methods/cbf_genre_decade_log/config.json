@@ -1,0 +1,10 @@
+{
+  "actor_limit": 0,
+  "fields": [
+    "category",
+    "genres",
+    "decade"
+  ],
+  "profile_weight": "logcount",
+  "use_idf": true
+}

@@ -1,0 +1,137 @@
+{
+  "A": {
+    "change": "multiply original completed max-confidence candidate AR scores by established factor, then candidate-only per-user maximum normalization",
+    "factor": "sqrt(clip((target_count/target_weeks)/(historical_count/training_weeks),.25,4))",
+    "rule_learning_unchanged": true
+  },
+  "B_C": {
+    "AR_opportunity_adjustment": false,
+    "A_ui": "1 if any >=80% qualifying training airing, zero otherwise",
+    "C_ij": "sum_u A_ui*Y_uj = A.T@Y; asymmetric fractional float64 mass",
+    "K_values": [
+      5,
+      10
+    ],
+    "Y": "Top-K membership: all 1 when positives<=K; above Kth count 1, below 0; boundary tie (K-a)/b",
+    "Y_row_sum": "min(K, number of positive training programmes)",
+    "catalogue": "all training programmes, before target filtering",
+    "confidence": "C_ij/support_A_i",
+    "lift": "confidence/(support_Y_j/number_of_usable_primary80_training_users)",
+    "n_ui": "deduplicated qualifying training-airing count",
+    "support_A_i": "sum_u A_ui",
+    "support_Y_j": "sum_u Y_uj",
+    "user_population": "exact original AR usable-primary80 population, all training users",
+    "zero_denominators": "no rule"
+  },
+  "bootstrap": {
+    "interval": "paired-user descriptive percentile 95%, all three cohorts",
+    "resamples": 10000,
+    "seed": 137,
+    "user_order": "template order"
+  },
+  "conditional_refit": "one frozen qualifying hybrid only; no CSV if none",
+  "conditional_refit_candidates": "hybrids A/B/C only; standalone results are diagnostic",
+  "control": {
+    "EASE": "training-only globally normalized log1p primary80, lambda1000, opportunity adjustment before candidate-only max",
+    "algebraic_weights": {
+      "adjusted_EASE": 0.1,
+      "original_AR": 0.27,
+      "repeat": 0.63
+    },
+    "arithmetic": "preserve evaluated nested order .90*(.70*R_norm + .30*AR_norm) + .10*E_norm rather than rounding/reassociating scores",
+    "combined_score_renormalized": false,
+    "repeat": "unchanged adjusted repeat50 counts, no decay",
+    "source": "exact Stage 13 score"
+  },
+  "declared_before_evaluation": true,
+  "diagnostics": "familiar vs no personal >=50% repeat evidence, plus existing global/history-size partitions; never extra models or selection targets",
+  "fallback_ranking": {
+    "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "normalization": "per-user max normalization over eligible candidate scores",
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "zero_score_handling": "scores <= 0 are not ranked"
+  },
+  "interpretation": "retrospective preference associations, not calibrated future Top-5 probabilities",
+  "kaggle_scores_not_optimization_targets": true,
+  "maximum_new_unique": 6,
+  "maximum_total_unique": 64,
+  "new_recommendation_configurations": [
+    {
+      "AR_opportunity_adjustment": true,
+      "K": null,
+      "name": "A_standalone",
+      "role": "standalone",
+      "target": "original_any_primary80",
+      "variant": "A"
+    },
+    {
+      "AR_opportunity_adjustment": true,
+      "K": null,
+      "name": "A_hybrid",
+      "role": "hybrid",
+      "target": "original_any_primary80",
+      "variant": "A"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 5,
+      "name": "B_standalone",
+      "role": "standalone",
+      "target": "fractional_preferred_primary80",
+      "variant": "B"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 5,
+      "name": "B_hybrid",
+      "role": "hybrid",
+      "target": "fractional_preferred_primary80",
+      "variant": "B"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 10,
+      "name": "C_standalone",
+      "role": "standalone",
+      "target": "fractional_preferred_primary80",
+      "variant": "C"
+    },
+    {
+      "AR_opportunity_adjustment": false,
+      "K": 10,
+      "name": "C_hybrid",
+      "role": "hybrid",
+      "target": "fractional_preferred_primary80",
+      "variant": "C"
+    }
+  ],
+  "normalization": "independent positive component maxima over eligible candidates; standalone uses the same normalized AR component",
+  "output": "outputs/stage14/kuznetsov_vladimir_midterm_submission_preference_ar.csv",
+  "previous_unique": 58,
+  "reuse": "verified repeat and adjusted weighted-EASE components; each of A/B/C AR signals reused for standalone and hybrid",
+  "rule_settings": {
+    "aggregation": "max confidence",
+    "antecedent_order": "original training count descending then sorted catalogue column index",
+    "candidate_filter": "rules after full-catalogue statistics, before top-50 pruning",
+    "confidence_min": 0.005,
+    "effective_mass_min": 5,
+    "exclude_diagonal": true,
+    "lift_min": 1.0,
+    "max_personal_antecedents": 50,
+    "max_rules_per_antecedent": 50,
+    "rule_order": "confidence descending then sorted catalogue column index"
+  },
+  "seen_items_excluded": false,
+  "selection": {
+    "gain_each_split_at_least": 0.002,
+    "horizon12_interval_lower_strictly_above": 0.0,
+    "hybrids_only": true,
+    "objective": "maximize minimum gain across splits",
+    "tie_break": "lower measured component cost summed across both splits; retain Stage 13 on exact cost tie"
+  },
+  "splits": "unchanged Stage 8 horizon12 and original10 labels, users, pools, cutoffs, cohorts and boundaries",
+  "standalone_counts_toward_budget": true,
+  "suggestion_source": "external AI assistant Codex",
+  "uncertainty": "overlapping repeatedly used historical periods; selection-unadjusted evidence, not independent confirmation"
+}

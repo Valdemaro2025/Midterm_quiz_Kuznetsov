@@ -1,0 +1,8 @@
+{
+  "AR_needed_for_strategy": true,
+  "direct_adjust_normalize_fuse_rank_seconds": 0.36885370800155215,
+  "exact_duplicate_reused": null,
+  "factor_calculation_seconds": 0.001216833999933442,
+  "scope": "shared components reused; these are not standalone end-to-end measurements",
+  "shared_input_and_AR_seconds": 3.2693890420014213
+}

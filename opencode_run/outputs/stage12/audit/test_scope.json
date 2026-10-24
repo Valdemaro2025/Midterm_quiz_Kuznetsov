@@ -1,0 +1,6 @@
+{
+  "purpose": "Automated Stage 12 and relevant existing implementation tests",
+  "personal_user_verification": "pending; not claimed",
+  "test_outputs": "audit/tests.xml",
+  "budget_note": "Small synthetic tests are implementation checks, not additional experimental configurations"
+}

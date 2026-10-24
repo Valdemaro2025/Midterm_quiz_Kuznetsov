@@ -1,0 +1,21 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py outputs/stage10/code/test_refinement.py outputs/stage11/code/test_ease.py outputs/stage11/code/test_fusion.py outputs/stage12/code/test_counts.py --junitxml=outputs/stage12/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 100,
+  "failed": 0,
+  "new_stage12_cases_including_parameterization": 12,
+  "verification": "automated in this OpenCode session; not personal user verification",
+  "checks": [
+    "distinct repeated airings count while duplicate representations do not",
+    "conflicting duplicate representations rejected",
+    "pre-cutoff counts and scalar invariant to future observations",
+    "log transform and global scalar match separate small example",
+    "weighted squared Frobenius norm equals nnz within tolerance",
+    "all positive counts one yields binary-equivalent input",
+    "all qualifying training axes and noncandidate features retained",
+    "explicit degenerate empty input without division by zero",
+    "integer-count validation",
+    "weighted solver matches separate constrained-ridge reference at both declared lambdas",
+    "existing float64, negative coefficient, zero diagonal, candidate/missing-history and fusion checks remain passing"
+  ]
+}

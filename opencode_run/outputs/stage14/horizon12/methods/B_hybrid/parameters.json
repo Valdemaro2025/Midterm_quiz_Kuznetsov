@@ -1,0 +1,8 @@
+{
+  "AR_opportunity_adjustment": false,
+  "K": 5,
+  "name": "B_hybrid",
+  "role": "hybrid",
+  "target": "fractional_preferred_primary80",
+  "variant": "B"
+}

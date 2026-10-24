@@ -1,0 +1,98 @@
+[
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.3740970017636681,
+    "map_with_at_least_k_positive": 0.3950492753623184,
+    "map_with_positive": 0.3807449290971097,
+    "name": "repeat_50",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.37854629629629616,
+    "map_with_at_least_k_positive": 0.3991536231884056,
+    "map_with_positive": 0.38527329025309626,
+    "name": "stage5_hybrid_70_30",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.38171428571428534,
+    "map_with_at_least_k_positive": 0.40290724637681136,
+    "map_with_positive": 0.3884975767366717,
+    "name": "submitted_stage6",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "fixed_control_refit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.3791569664902998,
+    "map_with_at_least_k_positive": 0.4007333333333334,
+    "map_with_positive": 0.3858948124214683,
+    "name": "submitted_stage7",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.3789854497354497,
+    "map_with_at_least_k_positive": 0.40004057971014473,
+    "map_with_positive": 0.3857202477113624,
+    "name": "A_repeat50_hybrid85",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.3878139329805997,
+    "map_with_at_least_k_positive": 0.40926666666666667,
+    "map_with_positive": 0.3947056183809011,
+    "name": "B_schedule_adjusted_hybrid70",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.3626351410934742,
+    "map_with_at_least_k_positive": 0.3843594202898547,
+    "map_with_positive": 0.3690793843116135,
+    "name": "C_channel_time",
+    "users_with_no_positive": 22
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.38462323633156953,
+    "map_with_at_least_k_positive": 0.4059507246376811,
+    "map_with_positive": 0.39145822114521617,
+    "name": "D_hybrid90_schedule10",
+    "users_with_no_positive": 22
+  }
+]

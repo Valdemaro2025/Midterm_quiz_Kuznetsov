@@ -1,0 +1,20 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py outputs/stage10/code/test_refinement.py outputs/stage11/code/test_ease.py outputs/stage11/code/test_fusion.py outputs/stage12/code/test_counts.py outputs/stage13/code/test_refinements.py --junitxml=outputs/stage13/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 112,
+  "failed": 0,
+  "new_stage13_cases_including_parameterization": 12,
+  "verification": "automated in this OpenCode session; personal verification pending",
+  "checks": [
+    "Variant E clips completed negative scores before adjustment and normalizes after adjustment",
+    "A-D ignore EASE opportunity factors",
+    "zero or missing EASE evidence stays zero without invented denominators",
+    "positive learned score without historical opportunity raises an inconsistency",
+    "fixed fusion weights and no additional S9 normalization",
+    "all four beta-only variants agree with explicit weighted score calculation",
+    "missing both signals uses established fallback",
+    "timestamp-derived opportunity-rate normalization and clipping",
+    "only E is adjusted and it keeps beta .10 and lambda1000",
+    "relevant existing count, float64 solver, coefficient, mapping and evaluation tests"
+  ]
+}

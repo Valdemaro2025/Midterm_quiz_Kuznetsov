@@ -1,0 +1,13 @@
+{
+  "candidate_meriting_possible_later_refit": "B_schedule_adjusted_hybrid70",
+  "designated_best": "Stage 5, unchanged",
+  "external_attribution": "External Codex computations are separately attributed; this session freshly verified relevant diagnostics",
+  "horizon_matching_does_not_explain_all_generalization_error": "Stage 6 and Stage 7 still beat Stage 5 in this 12-week backtest despite worse reported Kaggle columns; matching the forecast horizon does not fix the ranking mismatch. Training length is also still 8 weeks here versus 20 weeks for the final historical refit.",
+  "official_label_uncertainty": "Frequency ties and fragmentation aggregation remain incompletely specified; local assumptions retained unchanged",
+  "other_candidates": "A is a small point improvement; C alone underperforms; D is compared in the saved tables but is weaker than B",
+  "reason": "B has a roughly one-percentage-point gain on both splits with positive descriptive interval lower bounds; it is the strongest candidate for a separately authorized refit, not proven Kaggle improvement",
+  "refit_performed": false,
+  "submission_generated": false,
+  "uncertainty": "Intervals are conditional descriptive, not selection-adjusted. Four comparisons, feedback-informed designs, overlapping splits and known local/Kaggle disagreement prevent an independent generalization claim.",
+  "uploaded": false
+}

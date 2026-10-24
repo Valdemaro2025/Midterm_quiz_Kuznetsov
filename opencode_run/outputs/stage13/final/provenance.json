@@ -1,0 +1,19 @@
+{
+  "assistance": "Codex suggested the follow-up; calculations and automated checks performed in this OpenCode session; personal verification pending",
+  "best_scored_submission": "outputs/stage12/kuznetsov_vladimir_midterm_submission_frequency_ease.csv",
+  "candidates": 6632,
+  "code_provenance": "code_provenance.json",
+  "future_viewing_used": false,
+  "opportunity_adjustment_interpretation": "forecasting heuristic, not calibrated probability",
+  "returned_score": null,
+  "selected": {
+    "EASE_opportunity_adjustment": true,
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "E_EASE_opportunity"
+  },
+  "sha256": "628edd64a9c4ecc26df1f0c2174d7378db4c15ebc4f01615a51f841ff44779d4",
+  "source_manifest": "preservation_before.json",
+  "submission": "outputs/stage13/kuznetsov_vladimir_midterm_submission_refined_ease.csv",
+  "users": 1260
+}

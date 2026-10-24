@@ -1,0 +1,21 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py outputs/stage10/code/test_refinement.py outputs/stage11/code/test_ease.py outputs/stage11/code/test_fusion.py --junitxml=outputs/stage11/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 88,
+  "failed": 0,
+  "new_stage11_cases_including_parameterization": 13,
+  "verification_type": "automated checks performed in this OpenCode session",
+  "personal_user_verification": "pending; not claimed",
+  "certificate_or_TLS_changes": false,
+  "checks": [
+    "binary duplicate collapse and inclusion of all training users/items",
+    "float64 Gram arithmetic above 255 users without integer overflow",
+    "column-wise division, exact zero diagonal and independent constrained-ridge reference at both declared lambdas",
+    "preservation of negative learned coefficients and clipping only completed scores",
+    "user/item mapping, candidate-only normalization and noncandidate input features",
+    "missing-history zero scores and standalone popularity fallback",
+    "temporal isolation",
+    "no extra S9 normalization and exact beta-zero ranking",
+    "additive relevant-pair AP contribution diagnostics"
+  ]
+}

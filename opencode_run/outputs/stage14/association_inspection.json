@@ -1,0 +1,12 @@
+{
+  "current_aggregation": "maximum confidence; target candidates filtered before top-50 rule truncation",
+  "current_antecedents": "qualifying training count descending then sorted training-item column, maximum 50",
+  "current_model": "binary any >=80% training history; float32 binary Gram converted to float64 rule arithmetic",
+  "current_rule_ties": "confidence descending then sorted training-item column index",
+  "new_C": "asymmetric float64 A.T @ Y; no symmetry assumption or rounding",
+  "new_membership_ties": "fractional full-catalogue boundary memberships, not ID-based preference",
+  "source_sha256": {
+    "src/stage3/association.py": "850d068493b8393f7c8e372567a804332c45e1aa45a0294534bb3e4c474ba503",
+    "src/stage4/association.py": "afd11de19a26cbeae51b782d48a11152996a568b90e44d2d53e43268b96065fa"
+  }
+}

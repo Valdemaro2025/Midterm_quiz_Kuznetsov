@@ -1,0 +1,117 @@
+{
+  "controls": [
+    "repeat_50",
+    "hybrid_70_30"
+  ],
+  "coverage": "actual unioned covered_sec / original airing_duration; bridged_covered_sec never used",
+  "expected_combined_unique_configurations": 30,
+  "hybrids": {
+    "association": {
+      "aggregate": "max",
+      "interaction_counts": "qualifying_airings_primary_>=80%",
+      "max_antecedents_per_user": 50,
+      "max_rules_per_antecedent": 50,
+      "min_confidence": 0.005,
+      "min_count": 5,
+      "min_lift": 1.0,
+      "name": "ar_c5_conf_max_80",
+      "score_scheme": "confidence",
+      "tie_break": "training_popularity_then_id"
+    },
+    "normalization_and_ranking": {
+      "association_source": "ar_c5_conf_max_80",
+      "association_weight": 0.3,
+      "fallback": "full-history training popularity restricted to test candidates",
+      "fusion": "weighted sum of normalized scores; no score rounding",
+      "name": "hybrid_70_30",
+      "normalization": "per-user max normalization over eligible candidate scores",
+      "repeat_source": "repeat_50",
+      "repeat_weight": 0.7,
+      "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+      "zero_score_handling": "scores <= 0 are not ranked"
+    },
+    "repeat_source": "argmax primary MAP@5 of the eight declared repeat variants; declaration order resolves ties",
+    "repeat_weights": [
+      0.7,
+      0.85,
+      0.95
+    ]
+  },
+  "individual_repeat_variants": [
+    {
+      "half_life_days": null,
+      "name": "repeat_count20",
+      "threshold": 0.2,
+      "weighting": "count"
+    },
+    {
+      "half_life_days": null,
+      "name": "repeat_count35",
+      "threshold": 0.35,
+      "weighting": "count"
+    },
+    {
+      "half_life_days": null,
+      "name": "repeat_fraction20",
+      "threshold": 0.2,
+      "weighting": "fraction"
+    },
+    {
+      "half_life_days": null,
+      "name": "repeat_fraction50",
+      "threshold": 0.5,
+      "weighting": "fraction"
+    },
+    {
+      "half_life_days": 14,
+      "name": "repeat_count50_h14",
+      "threshold": 0.5,
+      "weighting": "count"
+    },
+    {
+      "half_life_days": 28,
+      "name": "repeat_count50_h28",
+      "threshold": 0.5,
+      "weighting": "count"
+    },
+    {
+      "half_life_days": 56,
+      "name": "repeat_count50_h56",
+      "threshold": 0.5,
+      "weighting": "count"
+    },
+    {
+      "half_life_days": 28,
+      "name": "repeat_fraction20_h28",
+      "threshold": 0.2,
+      "weighting": "fraction"
+    }
+  ],
+  "later_split": {
+    "description": "temporal robustness check, overlaps original holdout; not an independent untouched test",
+    "selection": "freeze challenger before robustness; never select or tune using robustness",
+    "strategies": [
+      "repeat_50",
+      "hybrid_70_30",
+      "argmax primary MAP@5 of the eleven challengers"
+    ],
+    "train": [
+      "2020-03-09",
+      "2020-06-15"
+    ],
+    "validation": [
+      "2020-06-15",
+      "2020-07-27"
+    ]
+  },
+  "max_budget": 12,
+  "no_external_implementations_or_results": true,
+  "planned_new_unique_configurations": 11,
+  "predeclared_before_evaluation": true,
+  "previous_unique_configurations": 19,
+  "primary_protocol": "frozen Stage 3 labels, candidate pool, cohorts, fallback and repeats allowed",
+  "recency": "2 ** (-(training_cutoff - airing_end_epoch) / (86400 * half_life_days)); reject future airing ends",
+  "refit_rule": "refit only the strongest challenger if its primary MAP@5 exceeds unchanged hybrid_70_30 control",
+  "remaining_slot": "unused; no adaptive search",
+  "selection_ties": "declaration order"
+}

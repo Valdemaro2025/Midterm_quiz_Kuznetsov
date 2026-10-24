@@ -1,0 +1,101 @@
+{
+  "test": {
+    "airing_table_distinct_ids": 6632,
+    "contained_in_window_distinct_ids": 6627,
+    "crossing_window_end_only_ids": [
+      "90055587",
+      "90066197",
+      "90073877",
+      "90077840",
+      "90078863"
+    ],
+    "expected_vs_airing_table": {
+      "extra_in_airing_table": [],
+      "missing_from_airing_table": []
+    },
+    "explanation": "Raw-file distinct ids exceed the candidate/airing-table count when ids occur only outside the nominal window or only in airings that cross and are excluded from train/val.",
+    "in_window_distinct_labelled_ids": 6632,
+    "raw_distinct_labelled_ids": 6636,
+    "raw_ids_only_in_spillover": {
+      "after_window": [
+        "90040970",
+        "90041043",
+        "90066394",
+        "90075056"
+      ],
+      "before_window": []
+    },
+    "scope_rule": "test includes rows crossing the end; train/val include only airings fully contained in the window",
+    "window": [
+      "2020-07-27 00:00:00",
+      "2020-10-19 00:00:00"
+    ]
+  },
+  "train": {
+    "airing_table_distinct_ids": 5834,
+    "contained_in_window_distinct_ids": 5834,
+    "crossing_window_end_only_ids": [
+      "90048357",
+      "90073049",
+      "90074448",
+      "90075686",
+      "90078618",
+      "90079142",
+      "90081833",
+      "90082248"
+    ],
+    "expected_vs_airing_table": {
+      "extra_in_airing_table": [],
+      "missing_from_airing_table": []
+    },
+    "explanation": "Raw-file distinct ids exceed the candidate/airing-table count when ids occur only outside the nominal window or only in airings that cross and are excluded from train/val.",
+    "in_window_distinct_labelled_ids": 5842,
+    "raw_distinct_labelled_ids": 5847,
+    "raw_ids_only_in_spillover": {
+      "after_window": [
+        "10001051",
+        "90061089",
+        "90071535",
+        "90080096",
+        "90081280"
+      ],
+      "before_window": []
+    },
+    "scope_rule": "test includes rows crossing the end; train/val include only airings fully contained in the window",
+    "window": [
+      "2020-03-09 00:00:00",
+      "2020-05-18 00:00:00"
+    ]
+  },
+  "val": {
+    "airing_table_distinct_ids": 6355,
+    "contained_in_window_distinct_ids": 6355,
+    "crossing_window_end_only_ids": [
+      "90058363",
+      "90069772",
+      "90072264",
+      "90072815",
+      "90075287",
+      "90079060"
+    ],
+    "expected_vs_airing_table": {
+      "extra_in_airing_table": [],
+      "missing_from_airing_table": []
+    },
+    "explanation": "Raw-file distinct ids exceed the candidate/airing-table count when ids occur only outside the nominal window or only in airings that cross and are excluded from train/val.",
+    "in_window_distinct_labelled_ids": 6361,
+    "raw_distinct_labelled_ids": 6363,
+    "raw_ids_only_in_spillover": {
+      "after_window": [
+        "90015141",
+        "90079885"
+      ],
+      "before_window": []
+    },
+    "scope_rule": "test includes rows crossing the end; train/val include only airings fully contained in the window",
+    "window": [
+      "2020-05-18 00:00:00",
+      "2020-07-27 00:00:00"
+    ]
+  }
+}

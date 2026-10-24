@@ -1,0 +1,13 @@
+{
+  "first_users": [
+    "8377619604347126107",
+    "8381667675275833309",
+    "8387147770138767246",
+    "8397181578236218580",
+    "8404698046253197367"
+  ],
+  "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/submission.csv",
+  "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02",
+  "unique_users": 1260,
+  "users": 1260
+}

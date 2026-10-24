@@ -1,0 +1,96 @@
+{
+  "exact_scored_csv_reproduced": true,
+  "sha256": "628edd64a9c4ecc26df1f0c2174d7378db4c15ebc4f01615a51f841ff44779d4",
+  "submission_checks": {
+    "all_passed": true,
+    "checks_passed": 14,
+    "checks_total": 14,
+    "checks": [
+      {
+        "check": "header_exact",
+        "ok": true,
+        "detail": [
+          "user_id,tv_show_id"
+        ]
+      },
+      {
+        "check": "no_bom",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "two_columns",
+        "ok": true,
+        "detail": []
+      },
+      {
+        "check": "exact_header_fields",
+        "ok": true,
+        "detail": [
+          "user_id",
+          "tv_show_id"
+        ]
+      },
+      {
+        "check": "row_count_1260",
+        "ok": true,
+        "detail": 1260
+      },
+      {
+        "check": "unique_users",
+        "ok": true,
+        "detail": 0
+      },
+      {
+        "check": "template_order_exact",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "no_missing_user",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "user_ids_string_exact",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "five_tokens_each",
+        "ok": true,
+        "detail": []
+      },
+      {
+        "check": "distinct_ids_each",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "positive_integer_ids",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "candidate_pool_membership",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "check": "no_extra_index_column",
+        "ok": true,
+        "detail": null
+      }
+    ],
+    "row_count": 1260,
+    "header": [
+      "user_id",
+      "tv_show_id"
+    ]
+  },
+  "normalization_scalar": 0.8906002416547741,
+  "seconds": 137.1557491670028,
+  "preprocessing_reused": false,
+  "scope": "raw preprocessing, schedules, full model refit and CSV",
+  "implementation": "original OpenCode modules; report-audit packaging wrapper, not a new experiment"
+}

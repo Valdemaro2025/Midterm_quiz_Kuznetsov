@@ -1,0 +1,37 @@
+{
+  "association": {
+    "aggregate": "max",
+    "interaction_counts": "qualifying_airings_primary_>=80%",
+    "max_antecedents_per_user": 50,
+    "max_rules_per_antecedent": 50,
+    "min_confidence": 0.005,
+    "min_count": 5,
+    "min_lift": 1.0,
+    "name": "ar_c5_conf_max_80",
+    "score_scheme": "confidence",
+    "tie_break": "training_popularity_then_id"
+  },
+  "association_weight": 0.3,
+  "frozen": true,
+  "fusion": {
+    "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "normalization": "per-user max normalization over eligible candidate scores",
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "zero_score_handling": "scores <= 0 are not ranked"
+  },
+  "name": "hybrid_70_30",
+  "ranking_and_fallback": {
+    "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "normalization": "per-user max normalization over eligible candidate scores",
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "zero_score_handling": "scores <= 0 are not ranked"
+  },
+  "repeat": {
+    "half_life_days": null,
+    "threshold": 0.5,
+    "weighting": "count"
+  },
+  "repeat_weight": 0.7
+}

@@ -1,0 +1,76 @@
+{
+  "horizon12": [
+    {
+      "category": "control_reproduction",
+      "map_at_5": 0.40615806878306876,
+      "name": "stage9_control"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.4032678571428571,
+      "name": "alpha025_w70"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.4092103174603175,
+      "name": "alpha075_w70"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.4064034391534392,
+      "name": "alpha100_w70"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.3994874338624339,
+      "name": "alpha050_w50"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.4059100529100529,
+      "name": "alpha050_w85"
+    },
+    {
+      "category": "new_unique",
+      "map_at_5": 0.3927689594356261,
+      "name": "alpha050_w100"
+    }
+  ],
+  "original10": [
+    {
+      "category": "control_reproduction",
+      "map_at_5": 0.3878139329805997,
+      "name": "stage9_control"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.38426763668430336,
+      "name": "alpha025_w70"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.3888670634920635,
+      "name": "alpha075_w70"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.3862367724867725,
+      "name": "alpha100_w70"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.38159149029982364,
+      "name": "alpha050_w50"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.3874217372134039,
+      "name": "alpha050_w85"
+    },
+    {
+      "category": "repeated_backtest_fit",
+      "map_at_5": 0.3774704585537919,
+      "name": "alpha050_w100"
+    }
+  ]
+}

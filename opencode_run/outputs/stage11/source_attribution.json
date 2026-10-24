@@ -1,0 +1,16 @@
+{
+  "external_Codex_diagnostic_files_read_or_used": false,
+  "external_assistance": "Codex, an external AI assistant, suggested EASE after discussing existing results with the user",
+  "implementation_and_diagnostic_execution": "performed in this OpenCode session using project data and primary paper",
+  "outside_project_implementations_read_or_used": false,
+  "paper": {
+    "author": "Harald Steck",
+    "full_text_consulted": "https://arxiv.org/html/1905.03375v1",
+    "relevant_sections": "3.1 Eq.4 and Eq.8; 3.3 Algorithm 1; 4.2/5.2 negative weights",
+    "title": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "url": "https://arxiv.org/abs/1905.03375",
+    "venue": "WWW 2019"
+  },
+  "personal_analysis_or_verification_claimed": false,
+  "personal_verification_status": "pending; no personal verification claimed"
+}

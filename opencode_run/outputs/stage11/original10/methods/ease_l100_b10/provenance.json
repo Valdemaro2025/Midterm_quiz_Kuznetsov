@@ -1,0 +1,8 @@
+{
+  "S9_additionally_normalized": false,
+  "category": "repeated_backtest_fit",
+  "declaration": "declaration.json",
+  "labels_training_features": false,
+  "model": "../../models/lambda100",
+  "training_cutoff": 1589760000
+}

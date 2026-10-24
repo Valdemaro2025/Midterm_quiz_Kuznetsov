@@ -1,0 +1,12 @@
+{
+  "checkpoint_on_disk": "eight_configurations_declared",
+  "attempt_events_on_disk": 4,
+  "completed_diagnostics": ["horizon12", "original10"],
+  "EASE_fit_attempts_on_disk": 0,
+  "configuration_evaluations_on_disk": 0,
+  "code_files_confirmed_present": ["study.py", "ease_model.py", "run.py", "test_ease.py", "test_fusion.py"],
+  "last_test_fusion_patch_confirmed_present": true,
+  "resume_action": "test existing implementation and finish orchestration; preserve completed diagnostics and declaration",
+  "certificate_or_TLS_changes": false,
+  "record_type": "local disk inspection, not an AI-session export"
+}

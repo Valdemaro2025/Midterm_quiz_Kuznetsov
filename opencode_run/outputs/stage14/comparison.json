@@ -1,0 +1,140 @@
+[
+  {
+    "AR_opportunity_adjustment": true,
+    "K": null,
+    "eligible": false,
+    "horizon12_MAP": 0.33738403880070544,
+    "horizon12_gain": -0.07467857142857144,
+    "horizon12_interval": [
+      -0.08428365299823637,
+      -0.06484699074074093
+    ],
+    "measured_cost_sum_seconds": 0.7442945010043331,
+    "minimum_gain": -0.12336970899470899,
+    "name": "A_standalone",
+    "original10_MAP": 0.26929519400352736,
+    "original10_gain": -0.12336970899470899,
+    "original10_interval": [
+      -0.13369707892416233,
+      -0.11299861111111123
+    ],
+    "role": "standalone",
+    "target": "original_any_primary80",
+    "variant": "A"
+  },
+  {
+    "AR_opportunity_adjustment": true,
+    "K": null,
+    "eligible": false,
+    "horizon12_MAP": 0.41531459435626106,
+    "horizon12_gain": 0.003251984126984127,
+    "horizon12_interval": [
+      0.0008867724867724859,
+      0.005624355158730159
+    ],
+    "measured_cost_sum_seconds": 2.3884162500035018,
+    "minimum_gain": -0.0004852292768959436,
+    "name": "A_hybrid",
+    "original10_MAP": 0.3921796737213404,
+    "original10_gain": -0.0004852292768959436,
+    "original10_interval": [
+      -0.002360692239858906,
+      0.0014154155643738965
+    ],
+    "role": "hybrid",
+    "target": "original_any_primary80",
+    "variant": "A"
+  },
+  {
+    "AR_opportunity_adjustment": false,
+    "K": 5,
+    "eligible": false,
+    "horizon12_MAP": 0.3459005731922399,
+    "horizon12_gain": -0.06616203703703703,
+    "horizon12_interval": [
+      -0.07565394069664916,
+      -0.056511342592592634
+    ],
+    "measured_cost_sum_seconds": 1.224612542995601,
+    "minimum_gain": -0.07422442680776015,
+    "name": "B_standalone",
+    "original10_MAP": 0.3184404761904762,
+    "original10_gain": -0.07422442680776015,
+    "original10_interval": [
+      -0.08361162918871261,
+      -0.06465783179012352
+    ],
+    "role": "standalone",
+    "target": "fractional_preferred_primary80",
+    "variant": "B"
+  },
+  {
+    "AR_opportunity_adjustment": false,
+    "K": 5,
+    "eligible": false,
+    "horizon12_MAP": 0.41279960317460324,
+    "horizon12_gain": 0.0007369929453262779,
+    "horizon12_interval": [
+      -0.0024708884479717843,
+      0.004003935185185181
+    ],
+    "measured_cost_sum_seconds": 2.8711849579995032,
+    "minimum_gain": -0.0008908730158730152,
+    "name": "B_hybrid",
+    "original10_MAP": 0.3917740299823633,
+    "original10_gain": -0.0008908730158730152,
+    "original10_interval": [
+      -0.004289732142857146,
+      0.0025278108465608498
+    ],
+    "role": "hybrid",
+    "target": "fractional_preferred_primary80",
+    "variant": "B"
+  },
+  {
+    "AR_opportunity_adjustment": false,
+    "K": 10,
+    "eligible": false,
+    "horizon12_MAP": 0.3426093474426808,
+    "horizon12_gain": -0.06945326278659612,
+    "horizon12_interval": [
+      -0.07906860670194016,
+      -0.05974114858906535
+    ],
+    "measured_cost_sum_seconds": 1.5080854160041781,
+    "minimum_gain": -0.07346009700176367,
+    "name": "C_standalone",
+    "original10_MAP": 0.31920480599647266,
+    "original10_gain": -0.07346009700176367,
+    "original10_interval": [
+      -0.08286501873897718,
+      -0.0641366236772488
+    ],
+    "role": "standalone",
+    "target": "fractional_preferred_primary80",
+    "variant": "C"
+  },
+  {
+    "AR_opportunity_adjustment": false,
+    "K": 10,
+    "eligible": false,
+    "horizon12_MAP": 0.4124609788359788,
+    "horizon12_gain": 0.0003983686067019399,
+    "horizon12_interval": [
+      -0.0022500165343915333,
+      0.0030558145943562613
+    ],
+    "measured_cost_sum_seconds": 3.1560137910055346,
+    "minimum_gain": -0.0006177248677248675,
+    "name": "C_hybrid",
+    "original10_MAP": 0.39204717813051143,
+    "original10_gain": -0.0006177248677248675,
+    "original10_interval": [
+      -0.003490773809523811,
+      0.0022308366402116414
+    ],
+    "role": "hybrid",
+    "target": "fractional_preferred_primary80",
+    "variant": "C"
+  }
+]

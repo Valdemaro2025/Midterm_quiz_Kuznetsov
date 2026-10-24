@@ -1,0 +1,94 @@
+{
+  "bootstrap": {
+    "interval": "paired-user percentile descriptive 95%, all three cohorts",
+    "order": "template users",
+    "resamples": 10000,
+    "seed": 137
+  },
+  "conditional_refit": "one frozen winner only; no CSV if none qualifies",
+  "control": {
+    "EASE_opportunity_adjustment": false,
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "stage12_control"
+  },
+  "controls": "reproduce exact Stage 12 lists and independently recompute saved metric values, not rounded inputs",
+  "data": "unchanged two Stage 8 splits, labels, 1260 users, cohorts, pools and temporal boundaries",
+  "declared_before_evaluation": true,
+  "diagnostics": "existing repeat50 relevant-pair and eligible-history <20/>=20 partitions, not model or selection variants",
+  "feedback_informed_followup": true,
+  "five_variants": [
+    {
+      "EASE_opportunity_adjustment": false,
+      "beta": 0.05,
+      "lambda": 1000,
+      "name": "A_beta005"
+    },
+    {
+      "EASE_opportunity_adjustment": false,
+      "beta": 0.15,
+      "lambda": 1000,
+      "name": "B_beta015"
+    },
+    {
+      "EASE_opportunity_adjustment": false,
+      "beta": 0.2,
+      "lambda": 1000,
+      "name": "C_beta020"
+    },
+    {
+      "EASE_opportunity_adjustment": false,
+      "beta": 0.3,
+      "lambda": 1000,
+      "name": "D_beta030"
+    },
+    {
+      "EASE_opportunity_adjustment": true,
+      "beta": 0.1,
+      "lambda": 1000,
+      "name": "E_EASE_opportunity"
+    }
+  ],
+  "fixed": {
+    "EASE_input": "training-only globally scaled log1p >=80% qualifying-airing counts, exact Stage 12 scalar",
+    "S9": "exact .70 normalized adjusted repeat50 + .30 normalized AR80; no additional S9 normalization",
+    "fallback_ranking": {
+      "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+      "fusion": "weighted sum of normalized scores; no score rounding",
+      "normalization": "per-user max normalization over eligible candidate scores",
+      "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+      "zero_score_handling": "scores <= 0 are not ranked"
+    },
+    "fusion": "(1-beta)*S9 + beta*normalized_positive_EASE",
+    "lambda": 1000,
+    "negative_coefficients": "retained through complete X_user@B",
+    "seen_items_excluded": false
+  },
+  "kaggle_scores_are_not_targets": true,
+  "maximum_total_unique": 58,
+  "new_unique_budget": 5,
+  "not_independent_confirmation": true,
+  "output": "outputs/stage13/kuznetsov_vladimir_midterm_submission_refined_ease.csv",
+  "previous_unique": 53,
+  "reuse": "Stage 12 lambda1000 raw completed EASE score caches and verified S9 scores; no historical EASE refits needed",
+  "selection": {
+    "cost_scope": "direct EASE component adjustment/normalization and fusion/ranking plus reused measured EASE fit/query cost; shared component-attributed, not standalone end-to-end measurement",
+    "gain_each_split_at_least": 0.002,
+    "horizon12_interval_lower_strictly_above": 0.0,
+    "objective": "maximize minimum gain across two splits",
+    "remaining_exact_tie": "retain Stage 12",
+    "tie_break": "lower measured computational cost summed across splits"
+  },
+  "suggestion_source": "external AI assistant Codex",
+  "uncertainty": "overlapping and repeatedly used historical periods; selection-unadjusted intervals; no independent statistical confirmation",
+  "variant_E": {
+    "combined_with_other_betas": false,
+    "counts": "Stage 8 ownership, identity dedupe, labelled positive training airings fully before cutoff; target starts inside window including end crossings",
+    "factor": "sqrt(clip((target_count/target_weeks)/(historical_count/training_weeks),.25,4))",
+    "interpretation": "forecasting heuristic, not calibrated probability",
+    "only_change": "EASE opportunity adjustment; beta .10 and S9 unchanged",
+    "order": "complete weighted-EASE prediction, clip scores to zero, multiply eligible positive scores by factor, then per-user candidate-only max normalization",
+    "positive_score_missing_historical_opportunity": "raise inconsistency, do not invent a denominator",
+    "zero_evidence": "remains zero"
+  }
+}

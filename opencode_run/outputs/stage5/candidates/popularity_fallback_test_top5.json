@@ -1,0 +1,12 @@
+{
+  "ids": [
+    2400480,
+    240081,
+    2400467,
+    2400508,
+    200344
+  ],
+  "rule": "distinct_full_history_training_users_primary_desc, qualifying_airings_primary_desc, program_id_asc",
+  "scope": "full historical period",
+  "source_counts": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/interactions/history_user_program_counts.csv"
+}

@@ -1,0 +1,10 @@
+{
+  "category": "fixed_control_refit",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "8a05ba74d7c5fa9d497d833e26e48a25ed3e4959c7b3d84ea51da4b995b83cf1",
+  "repeats_allowed": true,
+  "scope": "original10",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "original10/provenance.json",
+  "training_cutoff": 1589760000
+}

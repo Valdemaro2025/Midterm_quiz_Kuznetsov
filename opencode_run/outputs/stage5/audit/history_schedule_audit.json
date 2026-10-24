@@ -1,0 +1,181 @@
+{
+  "airings": {
+    "channels": 191,
+    "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/airings/airings_history.csv",
+    "distinct_show_ids": 8227,
+    "excluded": {
+      "crossing_window_end": 58,
+      "non_labelled": 0,
+      "nonpositive_duration": 0,
+      "zero_show_id": 1907135
+    },
+    "include_crossing_end": false,
+    "selected_airings": 236489,
+    "window": [
+      "2020-03-09 00:00:00",
+      "2020-07-27 00:00:00"
+    ]
+  },
+  "combined_rows_before_dedupe": 2143682,
+  "dedupe": {
+    "conflicting_identity_duplicates": [],
+    "exact_duplicates_dropped": 0,
+    "identity": "(channel_id, start_epoch, end_epoch, tv_show_id)",
+    "identity_duplicates_dropped": 0,
+    "kept_rows": 2143682,
+    "priority": "history_11_20 before history_21_30; then source row order"
+  },
+  "excluded_full_history_crossing_end": 58,
+  "files": {
+    "history_11_20": {
+      "boundary_rows": 27562,
+      "crossing_window_end": 248,
+      "crossing_window_start": 27,
+      "file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_11-20-final.csv",
+      "invalid_duration": 1,
+      "owned_labelled_fraction": 0.10759276935982166,
+      "owned_labelled_positive_duration": 115309,
+      "owned_rows": 1071717,
+      "parse_start_failures": 0,
+      "spillover_after": 2431,
+      "spillover_before": 86,
+      "total_rows": 1074235,
+      "window": [
+        "2020-03-09 00:00:00",
+        "2020-05-18 00:00:00"
+      ],
+      "zero_show_id": 958621
+    },
+    "history_21_30": {
+      "boundary_rows": 27561,
+      "crossing_window_end": 260,
+      "crossing_window_start": 0,
+      "file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_21-30-final.csv",
+      "invalid_duration": 0,
+      "owned_labelled_fraction": 0.11309884184651552,
+      "owned_labelled_positive_duration": 121238,
+      "owned_rows": 1071965,
+      "parse_start_failures": 0,
+      "spillover_after": 2429,
+      "spillover_before": 0,
+      "total_rows": 1074394,
+      "window": [
+        "2020-05-18 00:00:00",
+        "2020-07-27 00:00:00"
+      ],
+      "zero_show_id": 952889
+    }
+  },
+  "metadata": {
+    "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/metadata/metadata_history.csv",
+    "distinct_show_ids": 8227,
+    "show_ids_with_multiple_categories": 0,
+    "show_ids_with_multiple_titles": 3493
+  },
+  "restored_may18_crossing_airings": 66,
+  "restored_may18_examples": [
+    {
+      "actors": "Кирилл Козаков, Олег Семисынов, Майя Вознесенская",
+      "channel_id": "1002",
+      "channel_title": "Индиго",
+      "director": "Василий Пичул",
+      "duration": 15300,
+      "end_epoch": 1589768100,
+      "source_file": "history_11_20",
+      "source_row": 784823,
+      "start_epoch": 1589752800,
+      "start_time": "2020-05-17 22:00:00",
+      "tv_show_category": "Сериалы",
+      "tv_show_genre_1": "детектив",
+      "tv_show_genre_2": "мистика",
+      "tv_show_genre_3": "",
+      "tv_show_id": "10002693",
+      "tv_show_title": "Т/с 'Пятая стража'.",
+      "year_of_production": "2013"
+    },
+    {
+      "actors": "Джесутхасан Антонитхасан, Калиеасвари Сринивасан, Клодин Винаситхамби",
+      "channel_id": "1020",
+      "channel_title": "TV1000 World Kino",
+      "director": "Жак Одиар",
+      "duration": 6600,
+      "end_epoch": 1589761500,
+      "source_file": "history_11_20",
+      "source_row": 791985,
+      "start_epoch": 1589754900,
+      "start_time": "2020-05-17 22:35:00",
+      "tv_show_category": "Фильмы",
+      "tv_show_genre_1": "драма",
+      "tv_show_genre_2": "криминал",
+      "tv_show_genre_3": "",
+      "tv_show_id": "90079690",
+      "tv_show_title": "Х/ф 'Дипан'.",
+      "year_of_production": "2015"
+    },
+    {
+      "actors": "Ольга Гришина, Константин Самоуков, Дмитрий Пчела",
+      "channel_id": "108",
+      "channel_title": "Украина",
+      "director": "Роман Бровко",
+      "duration": 9900,
+      "end_epoch": 1589766300,
+      "source_file": "history_11_20",
+      "source_row": 114737,
+      "start_epoch": 1589756400,
+      "start_time": "2020-05-17 23:00:00",
+      "tv_show_category": "Фильмы",
+      "tv_show_genre_1": "мелодрама",
+      "tv_show_genre_2": "",
+      "tv_show_genre_3": "",
+      "tv_show_id": "90079142",
+      "tv_show_title": "Х/ф 'Хирургия. Территория любви', 1-3 с.",
+      "year_of_production": "2016"
+    },
+    {
+      "actors": "Зои Салдана, Жорди Молья, Ленни Джеймс",
+      "channel_id": "1117",
+      "channel_title": "Кино ТВ HD",
+      "director": "Оливье Мегатон",
+      "duration": 6000,
+      "end_epoch": 1589762400,
+      "source_file": "history_11_20",
+      "source_row": 893181,
+      "start_epoch": 1589756400,
+      "start_time": "2020-05-17 23:00:00",
+      "tv_show_category": "Фильмы",
+      "tv_show_genre_1": "боевик",
+      "tv_show_genre_2": "драма",
+      "tv_show_genre_3": "криминал",
+      "tv_show_id": "90073615",
+      "tv_show_title": "Х/ф 'Коломбиана'.",
+      "year_of_production": "2011"
+    },
+    {
+      "actors": "Майкл Шин, Тимоти Сполл, Колм Мини",
+      "channel_id": "1162",
+      "channel_title": "TV5 (Запорожье)",
+      "director": "Том Хупер",
+      "duration": 5700,
+      "end_epoch": 1589763300,
+      "source_file": "history_11_20",
+      "source_row": 912148,
+      "start_epoch": 1589757600,
+      "start_time": "2020-05-17 23:20:00",
+      "tv_show_category": "Фильмы",
+      "tv_show_genre_1": "драма",
+      "tv_show_genre_2": "спортивный",
+      "tv_show_genre_3": "биографический",
+      "tv_show_id": "90072231",
+      "tv_show_title": "Х/ф 'Проклятый Юнайтед'.",
+      "year_of_production": "2009"
+    }
+  ],
+  "source_rows": {
+    "history_11_20": 1071717,
+    "history_21_30": 1071965
+  },
+  "window": [
+    "2020-03-09 00:00:00",
+    "2020-07-27 00:00:00"
+  ]
+}

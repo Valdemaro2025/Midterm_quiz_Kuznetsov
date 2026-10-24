@@ -1,0 +1,58 @@
+{
+  "frozen_parameters": {
+    "association": {
+      "aggregate": "max",
+      "interaction_counts": "qualifying_airings_primary_>=80%",
+      "max_antecedents_per_user": 50,
+      "max_rules_per_antecedent": 50,
+      "min_confidence": 0.005,
+      "min_count": 5,
+      "min_lift": 1.0,
+      "name": "ar_c5_conf_max_80",
+      "score_scheme": "confidence",
+      "tie_break": "training_popularity_then_id"
+    },
+    "hybrid": {
+      "association_source": "ar_c5_conf_max_80",
+      "association_weight": 0.3,
+      "fallback": "full-history training popularity restricted to test candidates",
+      "fusion": "weighted sum of normalized scores; no score rounding",
+      "name": "hybrid_70_30",
+      "normalization": "per-user max normalization over eligible candidate scores",
+      "repeat_source": "repeat_50",
+      "repeat_weight": 0.7,
+      "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+      "zero_score_handling": "scores <= 0 are not ranked"
+    },
+    "popularity": {
+      "count_variant": "primary80",
+      "name": "popularity_fallback",
+      "ranking": "distinct_full_history_training_users_primary_desc, qualifying_airings_primary_desc, program_id_asc"
+    },
+    "repeat": {
+      "count_variant": "sens50",
+      "name": "repeat_50",
+      "ranking": "training_qualifying_airings_sensitivity",
+      "threshold": ">=50%",
+      "tie_break": "training_popularity_then_id"
+    }
+  },
+  "notes": {
+    "kaggle_score": "unknown; no Kaggle score has been returned",
+    "selection_score": "earlier local validation MAP@5 = 0.378546 for hybrid_70_30",
+    "statistical_claim": "the small hybrid improvement is not statistically established or independently confirmed"
+  },
+  "production_alternative": "repeat_50",
+  "protocol_version": "stage5_v1",
+  "selected_strategy": "hybrid_70_30",
+  "stage": 5,
+  "strictly_before": "2020-07-27 00:00:00",
+  "test_candidate_window": [
+    "2020-07-27 00:00:00",
+    "2020-10-19 00:00:00"
+  ],
+  "training_window": [
+    "2020-03-09 00:00:00",
+    "2020-07-27 00:00:00"
+  ]
+}

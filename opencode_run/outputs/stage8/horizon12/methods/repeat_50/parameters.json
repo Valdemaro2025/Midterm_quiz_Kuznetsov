@@ -1,0 +1,5 @@
+{
+  "half_life_days": null,
+  "repeat_threshold": 0.5,
+  "weighting": "count"
+}

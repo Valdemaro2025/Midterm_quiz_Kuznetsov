@@ -1,0 +1,66 @@
+{
+  "horizon12": [
+    {
+      "MAP": 0.33738403880070544,
+      "name": "A_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.41531459435626106,
+      "name": "A_hybrid",
+      "role": "hybrid"
+    },
+    {
+      "MAP": 0.3459005731922399,
+      "name": "B_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.41279960317460324,
+      "name": "B_hybrid",
+      "role": "hybrid"
+    },
+    {
+      "MAP": 0.3426093474426808,
+      "name": "C_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.4124609788359788,
+      "name": "C_hybrid",
+      "role": "hybrid"
+    }
+  ],
+  "original10": [
+    {
+      "MAP": 0.26929519400352736,
+      "name": "A_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.3921796737213404,
+      "name": "A_hybrid",
+      "role": "hybrid"
+    },
+    {
+      "MAP": 0.3184404761904762,
+      "name": "B_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.3917740299823633,
+      "name": "B_hybrid",
+      "role": "hybrid"
+    },
+    {
+      "MAP": 0.31920480599647266,
+      "name": "C_standalone",
+      "role": "standalone"
+    },
+    {
+      "MAP": 0.39204717813051143,
+      "name": "C_hybrid",
+      "role": "hybrid"
+    }
+  ]
+}

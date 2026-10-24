@@ -1,0 +1,8 @@
+{
+  "direct_fit_predict_loaded_training_counts_seconds": 2.4904912089987192,
+  "direct_fusion_rank_seconds": 1.6114419160003308,
+  "fit_audit_seconds": 0.5374453750046086,
+  "matrix_transform_and_Gram_seconds": 0.17820675000257324,
+  "scope": "weighted input, Gram, EASE fit/query and fusion with already provided Stage 9 scores; cache/schedule I/O excluded",
+  "weighted_XB_filter_normalize_seconds": 0.13554354200459784
+}

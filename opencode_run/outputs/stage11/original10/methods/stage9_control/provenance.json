@@ -1,0 +1,8 @@
+{
+  "S9_additionally_normalized": false,
+  "category": "fixed_control_reproduction",
+  "declaration": "declaration.json",
+  "labels_training_features": false,
+  "model": "../../models/lambdacontrol",
+  "training_cutoff": 1589760000
+}

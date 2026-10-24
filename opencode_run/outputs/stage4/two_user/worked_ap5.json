@@ -1,0 +1,25 @@
+{
+  "ap_at_5": 0.1,
+  "calculation": "AP@5 = (1/2) / min(5, 5) = 0.100000000000",
+  "hit_rank_positions": [
+    2
+  ],
+  "labels": [
+    240081,
+    12001734,
+    200352,
+    700369,
+    2500413
+  ],
+  "method": "repeat_50",
+  "note": "Arithmetic shown for independent checking; not claimed to be user-verified.",
+  "predictions": [
+    12001682,
+    240081,
+    2400480,
+    2400508,
+    20088
+  ],
+  "relevant_count_m": 5,
+  "user_id": "13571199046623737884"
+}

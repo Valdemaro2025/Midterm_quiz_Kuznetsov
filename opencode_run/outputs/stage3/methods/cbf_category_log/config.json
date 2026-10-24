@@ -1,0 +1,8 @@
+{
+  "actor_limit": 0,
+  "fields": [
+    "category"
+  ],
+  "profile_weight": "logcount",
+  "use_idf": true
+}

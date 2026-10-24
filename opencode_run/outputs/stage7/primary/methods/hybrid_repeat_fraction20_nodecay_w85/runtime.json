@@ -1,0 +1,5 @@
+{
+  "direct_fit_and_predict_seconds": 0.7833461670015822,
+  "repeat_aggregate_and_fusion_seconds": 0.541628375001892,
+  "total_with_cache_load_seconds": 2.7727616249976563
+}

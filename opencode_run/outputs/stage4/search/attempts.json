@@ -1,0 +1,281 @@
+{
+  "attempts": [
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_50/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_50/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_50/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_50/top5.json"
+      },
+      "configuration_runtime_seconds": 0.333,
+      "fallback": {
+        "mean_scored_candidates_per_user": 42.10476190476191,
+        "users_needing_fallback": 35
+      },
+      "kind": "repeat",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.3740970017636681,
+        "mean_ap_at_5_at_least_5_positive": 0.3950492753623184,
+        "mean_ap_at_5_with_positive": 0.3807449290971097,
+        "users_with_no_positive": 22
+      },
+      "name": "repeat_50",
+      "params": {
+        "count_variant": "sens50",
+        "threshold": ">=50%",
+        "tie_break": "training_popularity_then_id"
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 0.333
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_80/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_80/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_80/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/repeat_80/top5.json"
+      },
+      "configuration_runtime_seconds": 0.324,
+      "fallback": {
+        "mean_scored_candidates_per_user": 24.65793650793651,
+        "users_needing_fallback": 68
+      },
+      "kind": "repeat",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.36749382716049367,
+        "mean_ap_at_5_at_least_5_positive": 0.38839420289855053,
+        "mean_ap_at_5_with_positive": 0.3740244121342666,
+        "users_with_no_positive": 22
+      },
+      "name": "repeat_80",
+      "params": {
+        "count_variant": "primary80",
+        "threshold": ">=80%",
+        "tie_break": "training_popularity_then_id"
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 0.324
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_category_log_pop/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_category_log_pop/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_category_log_pop/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_category_log_pop/top5.json"
+      },
+      "configuration_runtime_seconds": 2.369,
+      "fallback": {
+        "mean_scored_candidates_per_user": 3901.770634920635,
+        "users_needing_fallback": 10
+      },
+      "kind": "cbf",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.006847883597883597,
+        "mean_ap_at_5_at_least_5_positive": 0.007278260869565217,
+        "mean_ap_at_5_with_positive": 0.006969574582660204,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_category_log_pop",
+      "params": {
+        "actor_limit": 0,
+        "fields": [
+          "category"
+        ],
+        "profile_counts": "positive_airings",
+        "profile_weight": "logcount",
+        "tie_break": "training_popularity_then_id",
+        "use_idf": true
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 2.369
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_genre_cast_log_pop/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_genre_cast_log_pop/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_genre_cast_log_pop/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/cbf_genre_cast_log_pop/top5.json"
+      },
+      "configuration_runtime_seconds": 2.5,
+      "fallback": {
+        "mean_scored_candidates_per_user": 3931.6309523809523,
+        "users_needing_fallback": 10
+      },
+      "kind": "cbf",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.014949735449735426,
+        "mean_ap_at_5_at_least_5_positive": 0.015350724637681133,
+        "mean_ap_at_5_with_positive": 0.015215401184706493,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_genre_cast_log_pop",
+      "params": {
+        "actor_limit": 300,
+        "fields": [
+          "category",
+          "genres",
+          "decade",
+          "director",
+          "actors"
+        ],
+        "profile_counts": "positive_airings",
+        "profile_weight": "logcount",
+        "tie_break": "training_popularity_then_id",
+        "use_idf": true
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 2.5
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/ar_c5_conf_max_80/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/ar_c5_conf_max_80/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/ar_c5_conf_max_80/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/ar_c5_conf_max_80/top5.json"
+      },
+      "configuration_runtime_seconds": 0.547,
+      "fallback": {
+        "mean_scored_candidates_per_user": 99.0031746031746,
+        "users_needing_fallback": 18
+      },
+      "kind": "association_rules",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.2960723104056437,
+        "mean_ap_at_5_at_least_5_positive": 0.31073043478260864,
+        "mean_ap_at_5_with_positive": 0.30133369233530777,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c5_conf_max_80",
+      "params": {
+        "aggregate": "max",
+        "interaction_counts": "qualifying_airings_primary_>=80%",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "score_scheme": "confidence",
+        "tie_break": "program_id"
+      },
+      "shared_index_runtime_seconds": 0.035,
+      "status": "ok",
+      "total_runtime_seconds": 0.582
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_50_50/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_50_50/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_50_50/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_50_50/top5.json"
+      },
+      "configuration_runtime_seconds": 0.366,
+      "fallback": {
+        "mean_scored_candidates_per_user": 117.58412698412698,
+        "users_needing_fallback": 18
+      },
+      "fusion_only_runtime_seconds": 0.366,
+      "kind": "hybrid",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.3732347883597882,
+        "mean_ap_at_5_at_least_5_positive": 0.39285217391304317,
+        "mean_ap_at_5_with_positive": 0.37986739364566485,
+        "users_with_no_positive": 22
+      },
+      "name": "hybrid_50_50",
+      "params": {
+        "association_source": "ar_c5_conf_max_80",
+        "association_weight": 0.5,
+        "normalization": "per-user max normalization",
+        "repeat_source": "repeat_50",
+        "repeat_weight": 0.5,
+        "tie_break": "training_popularity_then_id"
+      },
+      "runtime_accounting": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.281,
+        "fusion_only_seconds": 0.366,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 1.281
+    },
+    {
+      "artifacts": {
+        "details": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_70_30/details.json",
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_70_30/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_70_30/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_70_30/top5.json"
+      },
+      "configuration_runtime_seconds": 0.369,
+      "fallback": {
+        "mean_scored_candidates_per_user": 117.58412698412698,
+        "users_needing_fallback": 18
+      },
+      "fusion_only_runtime_seconds": 0.369,
+      "kind": "hybrid",
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_k_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.37854629629629616,
+        "mean_ap_at_5_at_least_5_positive": 0.3991536231884056,
+        "mean_ap_at_5_with_positive": 0.38527329025309626,
+        "users_with_no_positive": 22
+      },
+      "name": "hybrid_70_30",
+      "params": {
+        "association_source": "ar_c5_conf_max_80",
+        "association_weight": 0.3,
+        "normalization": "per-user max normalization",
+        "repeat_source": "repeat_50",
+        "repeat_weight": 0.7,
+        "tie_break": "training_popularity_then_id"
+      },
+      "runtime_accounting": {
+        "association_component_seconds_estimate": 0.547,
+        "component_attributed_total_seconds": 1.284,
+        "fusion_only_seconds": 0.369,
+        "repeat_component_seconds_estimate": 0.333,
+        "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+        "shared_index_seconds": 0.035
+      },
+      "shared_index_runtime_seconds": null,
+      "status": "ok",
+      "total_runtime_seconds": 1.284
+    }
+  ],
+  "budget": 8,
+  "stage": 4
+}

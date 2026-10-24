@@ -1,0 +1,29 @@
+{
+  "components": {
+    "ar_c5_conf_max_80_configuration_seconds_estimate": 0.547,
+    "repeat_50_configuration_seconds_estimate": 0.333,
+    "shared_index_seconds": 0.035
+  },
+  "correction": "hybrid runtime now includes component computations and fusion",
+  "experiments_rerun": false,
+  "hybrids": {
+    "hybrid_50_50": {
+      "association_component_seconds_estimate": 0.547,
+      "component_attributed_total_seconds": 1.281,
+      "fusion_only_seconds": 0.366,
+      "repeat_component_seconds_estimate": 0.333,
+      "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+      "shared_index_seconds": 0.035
+    },
+    "hybrid_70_30": {
+      "association_component_seconds_estimate": 0.547,
+      "component_attributed_total_seconds": 1.284,
+      "fusion_only_seconds": 0.369,
+      "repeat_component_seconds_estimate": 0.333,
+      "reuse_note": "Repeat scores, association rules/scores, and the shared co-occurrence index were computed once before hybrid scoring and reused. The component-attributed total is an estimate, not a proven upper bound and not a directly measured end-to-end run; it is not the incremental cost of fused scoring alone. Do not add the shared index twice if both hybrids are built in one run.",
+      "shared_index_seconds": 0.035
+    }
+  },
+  "interpretation": "Component-attributed estimate: the selected repeat and AR configurations also ranked Top-5 predictions, while hybrids reused raw scores. It is not a proven upper bound or a directly measured end-to-end run. Fused scoring alone was 0.366 s and 0.369 s.",
+  "stage": 4
+}

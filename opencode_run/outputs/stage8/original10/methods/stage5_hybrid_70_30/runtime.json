@@ -1,0 +1,5 @@
+{
+  "direct_score_and_rank_seconds": 0.3454999589957879,
+  "reused_component_fit_seconds": 0.2467442499983008,
+  "timing_scope": "component reuse explicitly reported, no standalone end-to-end claim"
+}

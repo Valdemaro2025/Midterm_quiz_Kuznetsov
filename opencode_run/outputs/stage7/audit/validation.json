@@ -1,0 +1,46 @@
+{
+  "all_passed": true,
+  "checks": {
+    "every_prior_artifact_unchanged": true,
+    "exactly_one_new_fixed_configuration_or_prior_reuse": true,
+    "no_failed_attempts": true,
+    "only_decay_changed": true,
+    "primary_independent_three_cohort_metrics": true,
+    "primary_independent_user_aps": true,
+    "primary_no_future_airings": true,
+    "primary_predictions_valid": true,
+    "primary_unchanged_candidates": true,
+    "primary_unchanged_cohort": true,
+    "primary_unchanged_labels": true,
+    "robustness_independent_three_cohort_metrics": true,
+    "robustness_independent_user_aps": true,
+    "robustness_no_future_airings": true,
+    "robustness_predictions_valid": true,
+    "robustness_unchanged_candidates": true,
+    "robustness_unchanged_cohort": true,
+    "robustness_unchanged_labels": true,
+    "stage5_remains_designated_best": true,
+    "stage5_submission_sha256": true,
+    "stage6_submission_sha256": true,
+    "submission_all_established_checks": true,
+    "submission_matches_saved_predictions": true,
+    "submission_sha256": true
+  },
+  "checks_passed": 24,
+  "checks_total": 24,
+  "combined_unique_configurations": 31,
+  "independently_recomputed_metrics": {
+    "primary": {
+      "map_at_k": 0.37915696649029984,
+      "map_with_at_least_k_positive": 0.4007333333333334,
+      "map_with_positive": 0.38589481242146834
+    },
+    "robustness": {
+      "map_at_k": 0.35223633156966494,
+      "map_with_at_least_k_positive": 0.3788062858869749,
+      "map_with_positive": 0.35994953591060647
+    }
+  },
+  "new_unique_configurations": 1,
+  "preserved_files": 428
+}

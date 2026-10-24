@@ -1,0 +1,10 @@
+{
+  "cohort_sizes": {
+    "map_at_k": 1260,
+    "map_with_at_least_k_positive": 1150,
+    "map_with_positive": 1238
+  },
+  "map_at_k": 0.26929519400352736,
+  "map_with_at_least_k_positive": 0.27977971014492753,
+  "map_with_positive": 0.27408073056901816
+}

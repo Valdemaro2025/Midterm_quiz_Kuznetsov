@@ -1,0 +1,12 @@
+{
+  "historical_artifacts_modified": false,
+  "observations_only": true,
+  "optimization_targets": false,
+  "source": "user confirms returned Stage 13 scores",
+  "stage13": {
+    "path": "outputs/stage13/kuznetsov_vladimir_midterm_submission_refined_ease.csv",
+    "private": 0.42315,
+    "public": 0.44099,
+    "sha256": "628edd64a9c4ecc26df1f0c2174d7378db4c15ebc4f01615a51f841ff44779d4"
+  }
+}

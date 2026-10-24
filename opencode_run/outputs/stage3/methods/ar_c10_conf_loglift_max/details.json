@@ -1,0 +1,17 @@
+{
+  "aggregate": "max",
+  "antecedents_with_rules": 2713,
+  "max_antecedents_per_user": 30,
+  "max_rules_per_antecedent": 30,
+  "mean_scored_candidates_per_user": 163.06825396825397,
+  "method": "association_rules",
+  "min_confidence": 0.02,
+  "min_count": 10,
+  "min_lift": 1.2,
+  "score": "conf_x_loglift",
+  "total_rules": 79674,
+  "training_items": 2963,
+  "training_users": 4841,
+  "users_needing_fallback": 10,
+  "users_with_rules": 1250
+}

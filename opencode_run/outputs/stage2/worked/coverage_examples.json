@@ -1,0 +1,105 @@
+{
+  "cutoff_clipping": {
+    "cached_train_view": {
+      "cached_duration_seconds": 69063,
+      "cached_start": "2020-05-17 04:48:57",
+      "cached_stop": "2020-05-18 00:00:00"
+    },
+    "channel_id": "6",
+    "cutoff": "2020-05-18 00:00:00",
+    "explanation": "The view starts in train but is clipped at the train cutoff; the post-cutoff part is not written to the train cache.",
+    "raw_duration_seconds": 72315,
+    "raw_start": "2020-05-17 04:48:57",
+    "raw_stop": "2020-05-18 00:54:12",
+    "user_id": "1568767380147341172"
+  },
+  "fragmented_coverage": {
+    "airing": {
+      "airing_idx": 1070,
+      "duration_seconds": 6300,
+      "start_time": "2020-05-08 15:20:00",
+      "tv_show_id": 90080135,
+      "tv_show_title": "Х/ф 'Скрижали судьбы'."
+    },
+    "bridged_coverage_fraction": 0.04428571428571428,
+    "bridged_gap_seconds": 5,
+    "bridged_sensitivity_covered_seconds": 279,
+    "channel_id": "1020",
+    "explanation": "The two observations have a 5-second unobserved gap. Primary coverage does not count the gap; the bridged sensitivity merges it.",
+    "primary_coverage_fraction": 0.04349206349206349,
+    "primary_covered_seconds": 274,
+    "raw_views": [
+      {
+        "duraton": "185",
+        "start_time": "2020-05-08 15:46:28",
+        "stop_time": "2020-05-08 15:49:33",
+        "user_id": "3398461054087191302",
+        "vsetv_id": "1020"
+      },
+      {
+        "duraton": "89",
+        "start_time": "2020-05-08 15:49:38",
+        "stop_time": "2020-05-08 15:51:07",
+        "user_id": "3398461054087191302",
+        "vsetv_id": "1020"
+      }
+    ],
+    "user_id": "3398461054087191302"
+  },
+  "source": {
+    "airings": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/airings/airings_train.csv",
+    "interactions": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/interactions/train_user_airing.npz",
+    "view_file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/dataset11-30.csv"
+  },
+  "spanning_multiple_airings": {
+    "airings_covered_by_the_view": [
+      {
+        "airing_idx": 45345,
+        "channel_id": "3",
+        "coverage_fraction": 0.7573333333333333,
+        "covered_seconds": 2272,
+        "duration_seconds": 3000,
+        "start_time": "2020-03-11 07:10:00",
+        "tv_show_id": 20088,
+        "tv_show_title": "'Завтрак с 1+1'. Информационно-развлекательная программа."
+      },
+      {
+        "airing_idx": 45346,
+        "channel_id": "3",
+        "coverage_fraction": 1.0,
+        "covered_seconds": 600,
+        "duration_seconds": 600,
+        "start_time": "2020-03-11 08:00:00",
+        "tv_show_id": 2400480,
+        "tv_show_title": "ТСН."
+      },
+      {
+        "airing_idx": 45347,
+        "channel_id": "3",
+        "coverage_fraction": 0.7173333333333334,
+        "covered_seconds": 2152,
+        "duration_seconds": 3000,
+        "start_time": "2020-03-11 08:10:00",
+        "tv_show_id": 20088,
+        "tv_show_title": "'Завтрак с 1+1'. Информационно-развлекательная программа."
+      }
+    ],
+    "explanation": "A single 5,024-second view is matched to every overlapping airing on the same channel, not only to the largest-overlap airing.",
+    "one_raw_view": {
+      "start": "2020-03-11 07:22:08",
+      "stop": "2020-03-11 08:45:52"
+    },
+    "raw_views_matching_window": [
+      {
+        "duraton": "5024",
+        "start_time": "2020-03-11 07:22:08",
+        "stop_time": "2020-03-11 08:45:52",
+        "user_id": "3398461054087191302",
+        "vsetv_id": "3"
+      }
+    ],
+    "sum_covered_seconds": 5024,
+    "user_id": "3398461054087191302",
+    "view_duration_seconds": 5024
+  }
+}

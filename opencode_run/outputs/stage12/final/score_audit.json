@@ -1,0 +1,12 @@
+{
+  "candidate_filter_precedes_max_normalization": true,
+  "completed_negative_scores_clipped_for_fusion": true,
+  "completed_score_negative_count": 943008,
+  "completed_score_positive_count": 2636586,
+  "direct_XB_filter_clip_normalize_seconds": 0.13554354200459784,
+  "missing_learned_target_items": 3782,
+  "negative_coefficients_clipped": false,
+  "previously_watched_items_excluded": false,
+  "users_with_positive_EASE_candidates": 1256,
+  "users_without_usable_primary80_history": 4
+}

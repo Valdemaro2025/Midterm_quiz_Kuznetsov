@@ -1,0 +1,5 @@
+{
+  "count_variant": "primary80",
+  "threshold": ">=80%",
+  "tie_break": "training_popularity_then_id"
+}

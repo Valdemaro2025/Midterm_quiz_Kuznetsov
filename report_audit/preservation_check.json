@@ -1,0 +1,20 @@
+{
+  "checked_files": 1677,
+  "mismatches": [
+    [
+      ".DS_Store",
+      "hash mismatch"
+    ],
+    [
+      "outputs/.DS_Store",
+      "hash mismatch"
+    ],
+    [
+      "src/.DS_Store",
+      "hash mismatch"
+    ]
+  ],
+  "all_unchanged": false,
+  "seconds": 1.011178958004166,
+  "scope": "independent report audit against Stage14 preservation_before manifest"
+}

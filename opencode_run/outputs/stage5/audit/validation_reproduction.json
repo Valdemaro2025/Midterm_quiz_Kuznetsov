@@ -1,0 +1,23 @@
+{
+  "frozen_strategy": {
+    "association_source": "ar_c5_conf_max_80",
+    "association_weight": 0.3,
+    "fallback": "full-history training popularity restricted to test candidates",
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "name": "hybrid_70_30",
+    "normalization": "per-user max normalization over eligible candidate scores",
+    "repeat_source": "repeat_50",
+    "repeat_weight": 0.7,
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "zero_score_handling": "scores <= 0 are not ranked"
+  },
+  "ok": true,
+  "prediction_hash": "b5b5afcf7bca3a2a2445cc743f1b752c403383e29421f720e49be5bd4355a228",
+  "stage4_predictions": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage4/methods/hybrid_70_30/top5.json",
+  "stored_prediction_hash": "b5b5afcf7bca3a2a2445cc743f1b752c403383e29421f720e49be5bd4355a228",
+  "training_window": [
+    "2020-03-09 00:00:00",
+    "2020-05-18 00:00:00"
+  ],
+  "users_compared": 1260
+}

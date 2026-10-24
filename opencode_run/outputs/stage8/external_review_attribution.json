@@ -1,0 +1,7 @@
+{
+  "external_computations_are_not_this_session_executions": true,
+  "official_page_access_in_this_session": "direct fetch returned title/shell only; rendered facts attributed to user and external review",
+  "path": "/Users/vladimirkuznecov/Documents/Codex/2026-10-21/new-chat-5/outputs/sweettv_independent_review_20261023.json",
+  "sha256": "8b882bcfe14f5abc19224e34f36d14b2815c0e56eb0de7fa8710260103b7d778",
+  "source": "external Codex diagnostic review"
+}

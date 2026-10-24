@@ -1,0 +1,11 @@
+{
+  "column_labels": null,
+  "public_private_assignment": "unconfirmed",
+  "source": "user reports successfully scored Stage 5 submission screenshot with absent column headers",
+  "submission_sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+  "used_for_tuning": false,
+  "values": [
+    0.40974,
+    0.42586
+  ]
+}

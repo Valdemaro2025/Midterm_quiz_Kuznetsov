@@ -1,0 +1,109 @@
+{
+  "cohorts": {
+    "all_users": {
+      "logcount_ease_l1000_b10": {
+        "count_minus_binary_MAP": 0.001314814814814815,
+        "paired_95_interval": [
+          -0.0005634920634920618,
+          0.003134920634920636
+        ],
+        "users": 1260
+      },
+      "logcount_ease_l1000_b100": {
+        "count_minus_binary_MAP": 0.037625,
+        "paired_95_interval": [
+          0.03047086640211639,
+          0.04472820767195766
+        ],
+        "users": 1260
+      },
+      "logcount_ease_l100_b10": {
+        "count_minus_binary_MAP": 0.0016238977072310407,
+        "paired_95_interval": [
+          -0.00021739417989417983,
+          0.003507506613756613
+        ],
+        "users": 1260
+      },
+      "logcount_ease_l100_b100": {
+        "count_minus_binary_MAP": 0.029185185185185186,
+        "paired_95_interval": [
+          0.022503819444444448,
+          0.03616288029100529
+        ],
+        "users": 1260
+      }
+    },
+    "at_least_5": {
+      "logcount_ease_l1000_b10": {
+        "count_minus_binary_MAP": 0.001590214067278288,
+        "paired_95_interval": [
+          -0.00030587989991659714,
+          0.003508479288295803
+        ],
+        "users": 1199
+      },
+      "logcount_ease_l1000_b100": {
+        "count_minus_binary_MAP": 0.039577425632471505,
+        "paired_95_interval": [
+          0.032490756185710276,
+          0.04693939393939389
+        ],
+        "users": 1199
+      },
+      "logcount_ease_l100_b10": {
+        "count_minus_binary_MAP": 0.0018571031415068116,
+        "paired_95_interval": [
+          -8.618293021962794e-05,
+          0.0038421601334445404
+        ],
+        "users": 1199
+      },
+      "logcount_ease_l100_b100": {
+        "count_minus_binary_MAP": 0.030753405615790937,
+        "paired_95_interval": [
+          0.023672157353350022,
+          0.037887267167083676
+        ],
+        "users": 1199
+      }
+    },
+    "positive": {
+      "logcount_ease_l1000_b10": {
+        "count_minus_binary_MAP": 0.0013360215053763442,
+        "paired_95_interval": [
+          -0.000513440860215053,
+          0.00327426075268817
+        ],
+        "users": 1240
+      },
+      "logcount_ease_l1000_b100": {
+        "count_minus_binary_MAP": 0.038231854838709674,
+        "paired_95_interval": [
+          0.03112521841397847,
+          0.04543785282258062
+        ],
+        "users": 1240
+      },
+      "logcount_ease_l100_b10": {
+        "count_minus_binary_MAP": 0.001650089605734767,
+        "paired_95_interval": [
+          -0.00026932123655913984,
+          0.0035745519713261654
+        ],
+        "users": 1240
+      },
+      "logcount_ease_l100_b100": {
+        "count_minus_binary_MAP": 0.029655913978494625,
+        "paired_95_interval": [
+          0.022755813172042973,
+          0.036670211693548414
+        ],
+        "users": 1240
+      }
+    }
+  },
+  "diagnostic_only": true,
+  "resamples": 10000,
+  "seed": 137
+}

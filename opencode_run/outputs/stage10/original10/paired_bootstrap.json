@@ -1,0 +1,244 @@
+{
+  "caveat": "descriptive paired-user, selection-unadjusted; overlapping periods and repeated model selection",
+  "cohorts": {
+    "all_users": {
+      "alpha025_w70": {
+        "delta_map": -0.0035462962962962965,
+        "paired_95_interval": [
+          -0.005279133597883598,
+          -0.0018134920634920646
+        ],
+        "users": 1260,
+        "users_better": 60,
+        "users_tied": 1088,
+        "users_worse": 112
+      },
+      "alpha050_w100": {
+        "delta_map": -0.01034347442680776,
+        "paired_95_interval": [
+          -0.015310576499118133,
+          -0.005659374999999997
+        ],
+        "users": 1260,
+        "users_better": 238,
+        "users_tied": 658,
+        "users_worse": 364
+      },
+      "alpha050_w50": {
+        "delta_map": -0.006222442680776015,
+        "paired_95_interval": [
+          -0.010457473544973549,
+          -0.001957947530864211
+        ],
+        "users": 1260,
+        "users_better": 268,
+        "users_tied": 710,
+        "users_worse": 282
+      },
+      "alpha050_w85": {
+        "delta_map": -0.00039219576719576836,
+        "paired_95_interval": [
+          -0.003754067460317462,
+          0.002929265873015871
+        ],
+        "users": 1260,
+        "users_better": 176,
+        "users_tied": 868,
+        "users_worse": 216
+      },
+      "alpha075_w70": {
+        "delta_map": 0.0010531305114638441,
+        "paired_95_interval": [
+          -0.0006649581128747802,
+          0.0027222552910052896
+        ],
+        "users": 1260,
+        "users_better": 88,
+        "users_tied": 1095,
+        "users_worse": 77
+      },
+      "alpha100_w70": {
+        "delta_map": -0.001577160493827161,
+        "paired_95_interval": [
+          -0.0043273974867724845,
+          0.0011461970899470876
+        ],
+        "users": 1260,
+        "users_better": 131,
+        "users_tied": 984,
+        "users_worse": 145
+      },
+      "stage9_control": {
+        "delta_map": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ],
+        "users": 1260,
+        "users_better": 0,
+        "users_tied": 1260,
+        "users_worse": 0
+      }
+    },
+    "at_least_5": {
+      "alpha025_w70": {
+        "delta_map": -0.0037623188405797106,
+        "paired_95_interval": [
+          -0.005637681159420288,
+          -0.0019477536231884062
+        ],
+        "users": 1150,
+        "users_better": 59,
+        "users_tied": 980,
+        "users_worse": 111
+      },
+      "alpha050_w100": {
+        "delta_map": -0.009895652173913045,
+        "paired_95_interval": [
+          -0.015040724637681161,
+          -0.0049159420289855114
+        ],
+        "users": 1150,
+        "users_better": 233,
+        "users_tied": 568,
+        "users_worse": 349
+      },
+      "alpha050_w50": {
+        "delta_map": -0.007449275362318842,
+        "paired_95_interval": [
+          -0.011985507246376802,
+          -0.002912681159420296
+        ],
+        "users": 1150,
+        "users_better": 253,
+        "users_tied": 620,
+        "users_worse": 277
+      },
+      "alpha050_w85": {
+        "delta_map": -0.0003391304347826097,
+        "paired_95_interval": [
+          -0.003965217391304346,
+          0.003208768115942032
+        ],
+        "users": 1150,
+        "users_better": 170,
+        "users_tied": 770,
+        "users_worse": 210
+      },
+      "alpha075_w70": {
+        "delta_map": 0.001118840579710144,
+        "paired_95_interval": [
+          -0.0007189130434782628,
+          0.0029623913043478264
+        ],
+        "users": 1150,
+        "users_better": 85,
+        "users_tied": 990,
+        "users_worse": 75
+      },
+      "alpha100_w70": {
+        "delta_map": -0.001657971014492754,
+        "paired_95_interval": [
+          -0.004553695652173911,
+          0.0011855797101449263
+        ],
+        "users": 1150,
+        "users_better": 128,
+        "users_tied": 882,
+        "users_worse": 140
+      },
+      "stage9_control": {
+        "delta_map": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ],
+        "users": 1150,
+        "users_better": 0,
+        "users_tied": 1150,
+        "users_worse": 0
+      }
+    },
+    "positive": {
+      "alpha025_w70": {
+        "delta_map": -0.003609316101238557,
+        "paired_95_interval": [
+          -0.005360931610123858,
+          -0.0018887318255250418
+        ],
+        "users": 1238,
+        "users_better": 60,
+        "users_tied": 1066,
+        "users_worse": 112
+      },
+      "alpha050_w100": {
+        "delta_map": -0.010527284150062823,
+        "paired_95_interval": [
+          -0.015453885074492912,
+          -0.005669005788906836
+        ],
+        "users": 1238,
+        "users_better": 238,
+        "users_tied": 636,
+        "users_worse": 364
+      },
+      "alpha050_w50": {
+        "delta_map": -0.006333019206605638,
+        "paired_95_interval": [
+          -0.010744929097110034,
+          -0.0020094462394543186
+        ],
+        "users": 1238,
+        "users_better": 268,
+        "users_tied": 688,
+        "users_worse": 282
+      },
+      "alpha050_w85": {
+        "delta_map": -0.00039916532040926324,
+        "paired_95_interval": [
+          -0.00385773424878837,
+          0.0030331852450188445
+        ],
+        "users": 1238,
+        "users_better": 176,
+        "users_tied": 846,
+        "users_worse": 216
+      },
+      "alpha075_w70": {
+        "delta_map": 0.001071845270148985,
+        "paired_95_interval": [
+          -0.0006711541913480526,
+          0.002817340917250044
+        ],
+        "users": 1238,
+        "users_better": 88,
+        "users_tied": 1073,
+        "users_worse": 77
+      },
+      "alpha100_w70": {
+        "delta_map": -0.0016051875785316823,
+        "paired_95_interval": [
+          -0.004410406569736133,
+          0.0011782444803446416
+        ],
+        "users": 1238,
+        "users_better": 131,
+        "users_tied": 962,
+        "users_worse": 145
+      },
+      "stage9_control": {
+        "delta_map": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ],
+        "users": 1238,
+        "users_better": 0,
+        "users_tied": 1238,
+        "users_worse": 0
+      }
+    }
+  },
+  "resamples": 10000,
+  "seed": 137
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "EASE_opportunity_adjustment": false,
+    "beta": 0.05,
+    "eligible": false,
+    "horizon12_MAP": 0.4088260582010583,
+    "horizon12_gain": -0.0011049382716049384,
+    "horizon12_interval": [
+      -0.002833443562610228,
+      0.0006208994708994699
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.719399040011922,
+    "minimum_gain": -0.0011049382716049384,
+    "name": "A_beta005",
+    "original10_MAP": 0.38933752204585537,
+    "original10_gain": -0.0007638888888888885,
+    "original10_interval": [
+      -0.002586689814814813,
+      0.0010780423280423277
+    ]
+  },
+  {
+    "EASE_opportunity_adjustment": false,
+    "beta": 0.15,
+    "eligible": false,
+    "horizon12_MAP": 0.4085440917107584,
+    "horizon12_gain": -0.0013869047619047615,
+    "horizon12_interval": [
+      -0.003302314814814814,
+      0.0004656746031746021
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.724653000004764,
+    "minimum_gain": -0.0013869047619047615,
+    "name": "B_beta015",
+    "original10_MAP": 0.3900372574955908,
+    "original10_gain": -6.415343915343896e-05,
+    "original10_interval": [
+      -0.0021104662698412714,
+      0.0020317791005291007
+    ]
+  },
+  {
+    "EASE_opportunity_adjustment": false,
+    "beta": 0.2,
+    "eligible": false,
+    "horizon12_MAP": 0.40857186948853613,
+    "horizon12_gain": -0.0013591269841269843,
+    "horizon12_interval": [
+      -0.004111871693121695,
+      0.0013499007936507927
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.7150832490078756,
+    "minimum_gain": -0.0013591269841269843,
+    "name": "C_beta020",
+    "original10_MAP": 0.3895249118165785,
+    "original10_gain": -0.0005764991181657851,
+    "original10_interval": [
+      -0.0032434523809523803,
+      0.002154778439153441
+    ]
+  },
+  {
+    "EASE_opportunity_adjustment": false,
+    "beta": 0.3,
+    "eligible": false,
+    "horizon12_MAP": 0.407402557319224,
+    "horizon12_gain": -0.002528439153439155,
+    "horizon12_interval": [
+      -0.006500843253968252,
+      0.001403505291005286
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.720595625003625,
+    "minimum_gain": -0.002528439153439155,
+    "name": "D_beta030",
+    "original10_MAP": 0.3885132275132275,
+    "original10_gain": -0.0015881834215167542,
+    "original10_interval": [
+      -0.005273186728395066,
+      0.00207827380952381
+    ]
+  },
+  {
+    "EASE_opportunity_adjustment": true,
+    "beta": 0.1,
+    "eligible": true,
+    "horizon12_MAP": 0.41206261022927687,
+    "horizon12_gain": 0.002131613756613756,
+    "horizon12_interval": [
+      0.0010310350529100522,
+      0.003284408068783068
+    ],
+    "lambda": 1000,
+    "measured_cost_sum_seconds": 2.7709009579994017,
+    "minimum_gain": 0.002131613756613756,
+    "name": "E_EASE_opportunity",
+    "original10_MAP": 0.39266490299823636,
+    "original10_gain": 0.0025634920634920633,
+    "original10_interval": [
+      0.0012804232804232805,
+      0.003899537037037036
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "fallback_slots": 112,
+  "mean_scored_candidates_per_user": 42.10476190476191,
+  "users_needing_fallback": 35,
+  "users_without_personal_repeat_candidates": 15,
+  "zero_weight_association_contributes_no_items": true
+}

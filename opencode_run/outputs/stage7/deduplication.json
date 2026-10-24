@@ -1,0 +1,135 @@
+{
+  "exact_matches": [],
+  "inspected": [
+    {
+      "path": "outputs/stage3/methods/ar_c10_conf_loglift_max/config.json",
+      "sha256": "262145f14e7cc81b73179cb3fa9e31c76862ee248e2e6dec0b5b17acd4d98a7a"
+    },
+    {
+      "path": "outputs/stage3/methods/ar_c2_lift_sum/config.json",
+      "sha256": "27da8813b996481305fd84469a90a0daf416b4b98cb8197d2110f24650467d16"
+    },
+    {
+      "path": "outputs/stage3/methods/ar_c3_conf_loglift/config.json",
+      "sha256": "6f10d4197afd95835017e3da93ef194a736d1cbd30832508b160bb5124603227"
+    },
+    {
+      "path": "outputs/stage3/methods/ar_c5_conf_max/config.json",
+      "sha256": "fe7ec5961006e8e721d08e2af80ab59ec403fecb4a44f1299a434176d2c29520"
+    },
+    {
+      "path": "outputs/stage3/methods/ar_c5_conf_sum/config.json",
+      "sha256": "0d9574f229594ddb2d1aee370cf08bcc0d3107f1dd3a6fb0d28e7c7edf637d1b"
+    },
+    {
+      "path": "outputs/stage3/methods/cbf_all_binary/config.json",
+      "sha256": "04c1d67f84689c877fd960f403ae9060678ab51dd166fccecbdbf11cb0ed636f"
+    },
+    {
+      "path": "outputs/stage3/methods/cbf_category_log/config.json",
+      "sha256": "68a925ae5ad0fb554969c07d8aa106168edc9203217c0eed1c3b95f04fcf9bb5"
+    },
+    {
+      "path": "outputs/stage3/methods/cbf_genre_cast_log/config.json",
+      "sha256": "dd8bdeff1dcf40e55959139d43ad6e44baab69c669707a9eea112fa8e3caf72a"
+    },
+    {
+      "path": "outputs/stage3/methods/cbf_genre_decade_log/config.json",
+      "sha256": "d2cf7f81744dc8ed2d0e29c186715ab134a7fa498afa568393253d211313af43"
+    },
+    {
+      "path": "outputs/stage3/methods/cbf_genre_log/config.json",
+      "sha256": "b93d0d8a213650e8887e5025e27a7ec06dceae5463f0c1907816c80fdd4dd38f"
+    },
+    {
+      "path": "outputs/stage3/methods/popularity/config.json",
+      "sha256": "71f9c05d52c382f7894e38e387225cd6efa162d8b23d40a18188da9fce3e31a3"
+    },
+    {
+      "path": "outputs/stage3/methods/repeat_frequency/config.json",
+      "sha256": "5a2d479c5d231d8713af7989834499635218bec9cdb761b60cb4b748cf298396"
+    },
+    {
+      "path": "outputs/stage4/methods/ar_c5_conf_max_80/config.json",
+      "sha256": "368718d81f4fa048c3d5d2d9be64911c83733b68ea2d0aefd0e4da22b4f0ca27"
+    },
+    {
+      "path": "outputs/stage4/methods/cbf_category_log_pop/config.json",
+      "sha256": "f1cbe4d31f910d962520f5b0246d6748bdcdece094abc12b9ab9b72e7ab69b8b"
+    },
+    {
+      "path": "outputs/stage4/methods/cbf_genre_cast_log_pop/config.json",
+      "sha256": "43547d3593db4d41bd0768f73c57b4c93fb315ea2734674286330e3ba6000b12"
+    },
+    {
+      "path": "outputs/stage4/methods/hybrid_50_50/config.json",
+      "sha256": "11d27554de1c04e58ba7614fb30fff8fb2a69d1bee4e71a692e17714ee7b7667"
+    },
+    {
+      "path": "outputs/stage4/methods/hybrid_70_30/config.json",
+      "sha256": "c0ee077006bea22fd71c454a9d09c243feb555ae26daf49f345b20cf408967d4"
+    },
+    {
+      "path": "outputs/stage4/methods/repeat_50/config.json",
+      "sha256": "c257dfa54d70893ecf8b51c6528baaf8c41440bae2d92e550a8bcf8ac80e9e62"
+    },
+    {
+      "path": "outputs/stage4/methods/repeat_80/config.json",
+      "sha256": "e879861d57b300b1636ecdf7f99fadfcfc3f4f307ace777756b5b00cb0734ccd"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/hybrid_70_30/parameters.json",
+      "sha256": "a6cbb053c36cf2cecba085c41edc381abe0d70f00a07635b2dbaba0393933665"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w70/parameters.json",
+      "sha256": "0441fe6f7c4fd74d9f14c9f261d525fc9279d14dc64014d249fb88f36371fcb7"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w85/parameters.json",
+      "sha256": "fdff58164de16584493029cfc97a552c00939cee00509b7d835ba9c52e00dfc0"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w95/parameters.json",
+      "sha256": "329e1e7c04fd89bde9e6f88d44626813c44b9f2a9ec59e8bdb7a9aac022e6b00"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_50/parameters.json",
+      "sha256": "e5ae56f307103c0cc4ebf1e15dcb10f04e6b7f6596e551f58ba850efe6dfc013"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_count20/parameters.json",
+      "sha256": "1e739c806e428b3a2cbc7d58c9eaef43b02bf2b322f4b07c77d78e096a367acd"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_count35/parameters.json",
+      "sha256": "a8b09f78a30ff02edc1edc19ae766a37c03cad133ede1f8da6c3583e118079d3"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_count50_h14/parameters.json",
+      "sha256": "0075c7d74fd03a01f33fbd75b29097c96a80bb868cdbfee47c9dd0aea20dec90"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_count50_h28/parameters.json",
+      "sha256": "3d75f9cd9ddc01d45b499d8b0611ea18dab4a523034928e79c15022b1adbe29e"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_count50_h56/parameters.json",
+      "sha256": "68af9a2f58d18ea783b423280ccafe0adf91f6995f5a1e1e4947bed085839664"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_fraction20/parameters.json",
+      "sha256": "86163753fe7e57d3374dc560c081e1ed6b3618e28efa327f6bcfd88e9e7ac388"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_fraction20_h28/parameters.json",
+      "sha256": "9367189ebd228fa597b559f210537073be61cc42f9f76015f0b3b635feddb69a"
+    },
+    {
+      "path": "outputs/stage6/primary/methods/repeat_fraction50/parameters.json",
+      "sha256": "4dc4b8659ee5f69859186f96ce9d3e162071e0bb3a5a6b589840b853b6d7da81"
+    }
+  ],
+  "note": "Stage 6 already evaluated the no-decay individual repeat signal, but not its 85/15 hybrid. Earlier Stage 3/4 hybrids have different weights.",
+  "reuse_if_exact_match": true
+}

@@ -1,0 +1,338 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "labels_frozen",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "labels_protocol",
+      "detail": "stage3_v2",
+      "ok": true
+    },
+    {
+      "check": "labels_sha256",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "cohort_size",
+      "detail": 1260,
+      "ok": true
+    },
+    {
+      "check": "view_segment_conservation",
+      "detail": {
+        "segments": {
+          "train": 3945173,
+          "val": 1877821
+        },
+        "split": 1007,
+        "total": 5821987
+      },
+      "ok": true
+    },
+    {
+      "check": "cross_cutoff_rows_split",
+      "detail": 1007,
+      "ok": true
+    },
+    {
+      "check": "val_candidates",
+      "detail": 6361,
+      "ok": true
+    },
+    {
+      "check": "test_candidates",
+      "detail": 6632,
+      "ok": true
+    },
+    {
+      "check": "val_crossing_end_candidates",
+      "detail": [
+        90058363,
+        90069772,
+        90072264,
+        90072815,
+        90075287,
+        90079060
+      ],
+      "ok": true
+    },
+    {
+      "check": "search_attempted_at_most_12",
+      "detail": 12,
+      "ok": true
+    },
+    {
+      "check": "search_no_failures",
+      "detail": null,
+      "ok": true
+    },
+    {
+      "check": "two_baselines",
+      "detail": {
+        "association_rules": 5,
+        "baseline": 2,
+        "cbf": 5
+      },
+      "ok": true
+    },
+    {
+      "check": "five_cbf",
+      "detail": {
+        "association_rules": 5,
+        "baseline": 2,
+        "cbf": 5
+      },
+      "ok": true
+    },
+    {
+      "check": "five_association",
+      "detail": {
+        "association_rules": 5,
+        "baseline": 2,
+        "cbf": 5
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:popularity",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.26501278659611965,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:repeat_frequency",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.34725198412698377,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:cbf_category_log",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.004878306878306879,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:cbf_genre_log",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.003912698412698413,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:cbf_genre_decade_log",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.0038432539682539684,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:cbf_genre_cast_log",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.014267195767195743,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:cbf_all_binary",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.0035760582010582027,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:ar_c3_conf_loglift",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.2667442680776009,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:ar_c5_conf_sum",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.06595061728395073,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:ar_c2_lift_sum",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.005767195767195767,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:ar_c5_conf_max",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.27224735449735404,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "predictions_and_metrics:ar_c10_conf_loglift_max",
+      "detail": {
+        "aps_ok": true,
+        "coverage_ok": true,
+        "map_at_5": 0.10961904761904746,
+        "metric_ok": true
+      },
+      "ok": true
+    },
+    {
+      "check": "all_methods_recomputed",
+      "detail": 12,
+      "ok": true
+    }
+  ],
+  "checks_passed": 27,
+  "checks_total": 27,
+  "recomputed_ranking": [
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "baseline",
+      "map_at_5": 0.34725198412698377,
+      "map_at_least_5_positive": 0.36734782608695626,
+      "map_with_positive": 0.35342285945072666,
+      "name": "repeat_frequency",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.27224735449735404,
+      "map_at_least_5_positive": 0.28580289855072416,
+      "map_with_positive": 0.2770853527194395,
+      "name": "ar_c5_conf_max",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.2667442680776009,
+      "map_at_least_5_positive": 0.28003188405797047,
+      "map_with_positive": 0.2714844731646019,
+      "name": "ar_c3_conf_loglift",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "baseline",
+      "map_at_5": 0.26501278659611965,
+      "map_at_least_5_positive": 0.2770985507246373,
+      "map_with_positive": 0.2697222222222219,
+      "name": "popularity",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.10961904761904746,
+      "map_at_least_5_positive": 0.11664057971014477,
+      "map_with_positive": 0.11156704361873974,
+      "name": "ar_c10_conf_loglift_max",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.06595061728395073,
+      "map_at_least_5_positive": 0.06781449275362336,
+      "map_with_positive": 0.06712259917429557,
+      "name": "ar_c5_conf_sum",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.014267195767195743,
+      "map_at_least_5_positive": 0.01460289855072461,
+      "map_with_positive": 0.014520732364027976,
+      "name": "cbf_genre_cast_log",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.005767195767195767,
+      "map_at_least_5_positive": 0.006057971014492754,
+      "map_with_positive": 0.005869682283252558,
+      "name": "ar_c2_lift_sum",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.004878306878306879,
+      "map_at_least_5_positive": 0.0053449275362318855,
+      "map_with_positive": 0.004964997307485192,
+      "name": "cbf_category_log",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.003912698412698413,
+      "map_at_least_5_positive": 0.004171014492753624,
+      "map_with_positive": 0.003982229402261713,
+      "name": "cbf_genre_log",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.0038432539682539684,
+      "map_at_least_5_positive": 0.004156521739130435,
+      "map_with_positive": 0.0039115508885298874,
+      "name": "cbf_genre_decade_log",
+      "positive_size": 1238
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.0035760582010582027,
+      "map_at_least_5_positive": 0.0037188405797101464,
+      "map_with_positive": 0.003639606892837912,
+      "name": "cbf_all_binary",
+      "positive_size": 1238
+    }
+  ]
+}

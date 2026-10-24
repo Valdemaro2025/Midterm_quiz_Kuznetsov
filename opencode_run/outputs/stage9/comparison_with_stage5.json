@@ -1,0 +1,9 @@
+{
+  "distinct_recommended_programs_stage5": 184,
+  "distinct_recommended_programs_stage9": 205,
+  "mean_common_top5_ids": 4.726190476190476,
+  "stage5_sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+  "stage9_sha256": "f88ac045cd9c4347e72fd7a3a90f4c97748d44a055af8faf5c93a684fa0f9ea9",
+  "users_changed_list": 588,
+  "users_changed_top1": 74
+}

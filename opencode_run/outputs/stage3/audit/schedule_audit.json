@@ -1,0 +1,235 @@
+{
+  "airings": {
+    "train": {
+      "channels": 177,
+      "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/airings/airings_train.csv",
+      "distinct_show_ids": 5834,
+      "excluded": {
+        "crossing_window_end": 66,
+        "non_labelled": 0,
+        "nonpositive_duration": 0,
+        "zero_show_id": 956408
+      },
+      "include_crossing_end": false,
+      "selected_airings": 115243,
+      "window": [
+        "2020-03-09 00:00:00",
+        "2020-05-18 00:00:00"
+      ]
+    },
+    "val": {
+      "channels": 188,
+      "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/airings/airings_val.csv",
+      "distinct_show_ids": 6355,
+      "excluded": {
+        "crossing_window_end": 58,
+        "non_labelled": 0,
+        "nonpositive_duration": 0,
+        "zero_show_id": 950727
+      },
+      "include_crossing_end": false,
+      "selected_airings": 121180,
+      "window": [
+        "2020-05-18 00:00:00",
+        "2020-07-27 00:00:00"
+      ]
+    }
+  },
+  "boundaries": {
+    "adjacent_boundaries": [
+      {
+        "boundary": "2020-05-18 00:00:00",
+        "conflicting_show_id_pairs": 0,
+        "exact_key_duplicates": 0,
+        "examples": [],
+        "left_file": "train",
+        "left_rows_within_24h": 16956,
+        "overlapping_pairs": 1,
+        "right_file": "val",
+        "right_rows_within_24h": 12743
+      },
+      {
+        "boundary": "2020-07-27 00:00:00",
+        "conflicting_show_id_pairs": 0,
+        "exact_key_duplicates": 0,
+        "examples": [],
+        "left_file": "val",
+        "left_rows_within_24h": 17247,
+        "overlapping_pairs": 0,
+        "right_file": "test",
+        "right_rows_within_24h": 13008
+      }
+    ],
+    "ownership_rule": "A row is owned by the nominal half-open window containing its start time. Rows starting outside that window are spillover and are dropped. Within a window all overlapping airings are retained for matching; cross-file boundary conflicts are reported above."
+  },
+  "candidate_airings": {
+    "test": {
+      "channels": 191,
+      "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/airings/candidate_airings_test.csv",
+      "distinct_show_ids": 6632,
+      "excluded": {
+        "crossing_window_end": 0,
+        "non_labelled": 0,
+        "nonpositive_duration": 0,
+        "zero_show_id": 1148462
+      },
+      "include_crossing_end": true,
+      "selected_airings": 144517,
+      "window": [
+        "2020-07-27 00:00:00",
+        "2020-10-19 00:00:00"
+      ]
+    },
+    "val": {
+      "channels": 188,
+      "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/airings/candidate_airings_val.csv",
+      "distinct_show_ids": 6361,
+      "excluded": {
+        "crossing_window_end": 0,
+        "non_labelled": 0,
+        "nonpositive_duration": 0,
+        "zero_show_id": 950727
+      },
+      "include_crossing_end": true,
+      "selected_airings": 121238,
+      "window": [
+        "2020-05-18 00:00:00",
+        "2020-07-27 00:00:00"
+      ]
+    }
+  },
+  "files": {
+    "test": {
+      "boundary_rows": 27968,
+      "crossing_window_end": 250,
+      "crossing_window_start": 0,
+      "file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_31-42-final.csv",
+      "invalid_duration": 0,
+      "owned_labelled_fraction": 0.11177057013300293,
+      "owned_labelled_positive_duration": 144517,
+      "owned_rows": 1292979,
+      "parse_start_failures": 0,
+      "spillover_after": 2399,
+      "spillover_before": 0,
+      "total_rows": 1295378,
+      "window": [
+        "2020-07-27 00:00:00",
+        "2020-10-19 00:00:00"
+      ],
+      "zero_show_id": 1150604
+    },
+    "train": {
+      "boundary_rows": 27562,
+      "crossing_window_end": 248,
+      "crossing_window_start": 27,
+      "file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_11-20-final.csv",
+      "invalid_duration": 1,
+      "owned_labelled_fraction": 0.10759276935982166,
+      "owned_labelled_positive_duration": 115309,
+      "owned_rows": 1071717,
+      "parse_start_failures": 0,
+      "spillover_after": 2431,
+      "spillover_before": 86,
+      "total_rows": 1074235,
+      "window": [
+        "2020-03-09 00:00:00",
+        "2020-05-18 00:00:00"
+      ],
+      "zero_show_id": 958621
+    },
+    "val": {
+      "boundary_rows": 27561,
+      "crossing_window_end": 260,
+      "crossing_window_start": 0,
+      "file": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_21-30-final.csv",
+      "invalid_duration": 0,
+      "owned_labelled_fraction": 0.11309884184651552,
+      "owned_labelled_positive_duration": 121238,
+      "owned_rows": 1071965,
+      "parse_start_failures": 0,
+      "spillover_after": 2429,
+      "spillover_before": 0,
+      "total_rows": 1074394,
+      "window": [
+        "2020-05-18 00:00:00",
+        "2020-07-27 00:00:00"
+      ],
+      "zero_show_id": 952889
+    }
+  },
+  "metadata": {
+    "train": {
+      "csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/metadata/metadata_train.csv",
+      "distinct_show_ids": 5834,
+      "show_ids_with_multiple_categories": 0,
+      "show_ids_with_multiple_titles": 1681
+    }
+  },
+  "rules": {
+    "candidate": "labelled, positive-duration airing with start in target window, including crossing end",
+    "interaction": "labelled, positive-duration airing with start in window and end <= window end",
+    "training_id_scope": "training segments only"
+  },
+  "within_window_overlaps": {
+    "candidate_test": {
+      "conflicting_show_id_pairs": 4,
+      "example": {
+        "a": {
+          "actors": "Джоди Фостер, Стерлинг К. Браун, София Бутелла",
+          "channel_id": "1060",
+          "channel_title": "Мужское кино",
+          "director": "Дрю Пирс",
+          "duration": 6300,
+          "end_epoch": 1601856300,
+          "source_file": "test",
+          "source_row": 985926,
+          "start_epoch": 1601850000,
+          "start_time": "2020-10-04 22:20:00",
+          "tv_show_category": "Фильмы",
+          "tv_show_genre_1": "боевик",
+          "tv_show_genre_2": "криминал",
+          "tv_show_genre_3": "драма",
+          "tv_show_id": "90081561",
+          "tv_show_title": "Х/ф 'Отель 'Артемида'.",
+          "year_of_production": "2018"
+        },
+        "b": {
+          "actors": "Тони Джа, Тайгер Чен, Ико Увайс",
+          "channel_id": "1060",
+          "channel_title": "Мужское кино",
+          "director": "Джесси В. Джонсон",
+          "duration": 6600,
+          "end_epoch": 1601862600,
+          "source_file": "test",
+          "source_row": 985927,
+          "start_epoch": 1601856000,
+          "start_time": "2020-10-05 00:00:00",
+          "tv_show_category": "Фильмы",
+          "tv_show_genre_1": "боевик",
+          "tv_show_genre_2": "триллер",
+          "tv_show_genre_3": "",
+          "tv_show_id": "90081851",
+          "tv_show_title": "Х/ф 'Тройная угроза'.",
+          "year_of_production": "2019"
+        },
+        "channel_id": "1060"
+      },
+      "overlapping_pairs": 4
+    },
+    "candidate_val": {
+      "conflicting_show_id_pairs": 0,
+      "example": null,
+      "overlapping_pairs": 0
+    },
+    "train": {
+      "conflicting_show_id_pairs": 0,
+      "example": null,
+      "overlapping_pairs": 0
+    },
+    "val": {
+      "conflicting_show_id_pairs": 0,
+      "example": null,
+      "overlapping_pairs": 0
+    }
+  }
+}

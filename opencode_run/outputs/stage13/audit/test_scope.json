@@ -1,0 +1,5 @@
+{
+  "purpose": "Meaningful Stage 13 ordering, evidence, weights and fallback checks plus relevant previous tests",
+  "personal_verification": "pending; automated checks are not personal user verification",
+  "synthetic_test_cases_are_not_new_experiment_configurations": true
+}

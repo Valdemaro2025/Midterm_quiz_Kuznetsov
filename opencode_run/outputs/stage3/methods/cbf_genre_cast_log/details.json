@@ -1,0 +1,19 @@
+{
+  "actor_limit": 300,
+  "candidates_with_training_metadata": 3967,
+  "feature_count": 3686,
+  "features": [
+    "category",
+    "genres",
+    "decade",
+    "director",
+    "actors"
+  ],
+  "mean_scored_candidates_per_user": 3931.6309523809523,
+  "metadata_show_count": 5834,
+  "method": "cbf",
+  "profile_weight": "logcount",
+  "use_idf": true,
+  "users_needing_fallback": 10,
+  "users_with_training_metadata": 1250
+}

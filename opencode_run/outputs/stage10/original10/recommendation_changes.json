@@ -1,0 +1,37 @@
+{
+  "alpha025_w70": {
+    "mean_common_top5_ids": 4.816666666666666,
+    "users_changed_list": 465,
+    "users_changed_top1": 43
+  },
+  "alpha050_w100": {
+    "mean_common_top5_ids": 4.015079365079365,
+    "users_changed_list": 1117,
+    "users_changed_top1": 80
+  },
+  "alpha050_w50": {
+    "mean_common_top5_ids": 4.367460317460317,
+    "users_changed_list": 1000,
+    "users_changed_top1": 104
+  },
+  "alpha050_w85": {
+    "mean_common_top5_ids": 4.511904761904762,
+    "users_changed_list": 860,
+    "users_changed_top1": 44
+  },
+  "alpha075_w70": {
+    "mean_common_top5_ids": 4.819047619047619,
+    "users_changed_list": 438,
+    "users_changed_top1": 34
+  },
+  "alpha100_w70": {
+    "mean_common_top5_ids": 4.638888888888889,
+    "users_changed_list": 657,
+    "users_changed_top1": 70
+  },
+  "stage9_control": {
+    "mean_common_top5_ids": 5.0,
+    "users_changed_list": 0,
+    "users_changed_top1": 0
+  }
+}

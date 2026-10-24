@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "command": "python3 -B -m pytest -q -p no:cacheprovider tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py --junitxml=outputs/stage8/audit/tests.xml",
+      "exit_code": 2,
+      "result": "Collection name collision between two test_study modules; no model failure or experiment rerun. Original files were preserved."
+    },
+    {
+      "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py --junitxml=outputs/stage8/audit/tests_passed.xml",
+      "exit_code": 0,
+      "passed": 50,
+      "failed": 0,
+      "stage8_focused_tests": 7
+    }
+  ]
+}

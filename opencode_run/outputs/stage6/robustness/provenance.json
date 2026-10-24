@@ -1,0 +1,23 @@
+{
+  "cache_validity": "For a fully contained airing, unioned observations intersecting that airing are identical with or without clipping views to the split. No crossing-cutoff airing is used.",
+  "candidate_count": 5013,
+  "candidate_rule": "positive labelled airing starts in validation, including crossing end",
+  "description": "temporal robustness check; overlaps original holdout; not an independent untouched test",
+  "excluded_cross_cutoff_interaction_rows": 1971,
+  "label_rule": "count >=80% actual coverage, top5 by descending qualifying count then ascending ID",
+  "max_training_airing_end": 1592179200,
+  "min_validation_airing_start": 1592179200,
+  "selected_before_this_split": "hybrid_repeat_fraction20_h28_w85",
+  "source": "Stage 5 full-history unioned coverage cache; filter fully contained airings before aggregating",
+  "train_rows": 2282141,
+  "train_window": [
+    1583712000,
+    1592179200
+  ],
+  "training_users_with_views": 4886,
+  "val_rows": 727112,
+  "validation_window": [
+    1592179200,
+    1595808000
+  ]
+}

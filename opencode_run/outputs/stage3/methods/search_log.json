@@ -1,0 +1,616 @@
+{
+  "attempted": 12,
+  "entries": [
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/popularity/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/popularity/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/popularity/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "baseline",
+      "mean_scored_candidates_per_user": null,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.26501278659611965,
+        "mean_ap_at_5_at_least_5_positive": 0.2770985507246373,
+        "mean_ap_at_5_with_positive": 0.2697222222222219,
+        "users_with_no_positive": 22
+      },
+      "name": "popularity",
+      "params": {
+        "fallback": "global_train_qualifying_user_count"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.0,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": null
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/repeat_frequency/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/repeat_frequency/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/repeat_frequency/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "baseline",
+      "mean_scored_candidates_per_user": null,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.34725198412698377,
+        "mean_ap_at_5_at_least_5_positive": 0.36734782608695626,
+        "mean_ap_at_5_with_positive": 0.35342285945072666,
+        "users_with_no_positive": 22
+      },
+      "name": "repeat_frequency",
+      "params": {
+        "ranking": "training_positive_airings_then_popularity"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.361,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 14
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_category_log/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_category_log/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_category_log/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "cbf",
+      "mean_scored_candidates_per_user": 3901.770634920635,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.004878306878306879,
+        "mean_ap_at_5_at_least_5_positive": 0.0053449275362318855,
+        "mean_ap_at_5_with_positive": 0.004964997307485192,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_category_log",
+      "params": {
+        "actor_limit": 0,
+        "fields": [
+          "category"
+        ],
+        "profile_weight": "logcount",
+        "use_idf": true
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.567,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_log/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_log/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_log/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "cbf",
+      "mean_scored_candidates_per_user": 3921.236507936508,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.003912698412698413,
+        "mean_ap_at_5_at_least_5_positive": 0.004171014492753624,
+        "mean_ap_at_5_with_positive": 0.003982229402261713,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_genre_log",
+      "params": {
+        "actor_limit": 0,
+        "fields": [
+          "category",
+          "genres"
+        ],
+        "profile_weight": "logcount",
+        "use_idf": true
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.16,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_decade_log/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_decade_log/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_decade_log/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "cbf",
+      "mean_scored_candidates_per_user": 3931.6309523809523,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.0038432539682539684,
+        "mean_ap_at_5_at_least_5_positive": 0.004156521739130435,
+        "mean_ap_at_5_with_positive": 0.0039115508885298874,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_genre_decade_log",
+      "params": {
+        "actor_limit": 0,
+        "fields": [
+          "category",
+          "genres",
+          "decade"
+        ],
+        "profile_weight": "logcount",
+        "use_idf": true
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.18,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_cast_log/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_cast_log/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_genre_cast_log/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "cbf",
+      "mean_scored_candidates_per_user": 3931.6309523809523,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.014267195767195743,
+        "mean_ap_at_5_at_least_5_positive": 0.01460289855072461,
+        "mean_ap_at_5_with_positive": 0.014520732364027976,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_genre_cast_log",
+      "params": {
+        "actor_limit": 300,
+        "fields": [
+          "category",
+          "genres",
+          "decade",
+          "director",
+          "actors"
+        ],
+        "profile_weight": "logcount",
+        "use_idf": true
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.227,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_all_binary/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_all_binary/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/cbf_all_binary/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "cbf",
+      "mean_scored_candidates_per_user": 3931.6309523809523,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.0035760582010582027,
+        "mean_ap_at_5_at_least_5_positive": 0.0037188405797101464,
+        "mean_ap_at_5_with_positive": 0.003639606892837912,
+        "users_with_no_positive": 22
+      },
+      "name": "cbf_all_binary",
+      "params": {
+        "actor_limit": 300,
+        "fields": [
+          "category",
+          "genres",
+          "decade",
+          "director",
+          "actors"
+        ],
+        "profile_weight": "binary",
+        "use_idf": true
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.231,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c3_conf_loglift/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c3_conf_loglift/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c3_conf_loglift/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "association_rules",
+      "mean_scored_candidates_per_user": 117.37460317460318,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.2667442680776009,
+        "mean_ap_at_5_at_least_5_positive": 0.28003188405797047,
+        "mean_ap_at_5_with_positive": 0.2714844731646019,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c3_conf_loglift",
+      "params": {
+        "aggregate": "sum",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.01,
+        "min_count": 3,
+        "min_lift": 1.0,
+        "score_scheme": "conf_x_loglift"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.038,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_sum/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_sum/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_sum/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "association_rules",
+      "mean_scored_candidates_per_user": 83.54761904761905,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.06595061728395073,
+        "mean_ap_at_5_at_least_5_positive": 0.06781449275362336,
+        "mean_ap_at_5_with_positive": 0.06712259917429557,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c5_conf_sum",
+      "params": {
+        "aggregate": "sum",
+        "max_antecedents_per_user": 30,
+        "max_rules_per_antecedent": 30,
+        "min_confidence": 0.02,
+        "min_count": 5,
+        "min_lift": 1.1,
+        "score_scheme": "confidence"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.725,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c2_lift_sum/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c2_lift_sum/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c2_lift_sum/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "association_rules",
+      "mean_scored_candidates_per_user": 752.5238095238095,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.005767195767195767,
+        "mean_ap_at_5_at_least_5_positive": 0.006057971014492754,
+        "mean_ap_at_5_with_positive": 0.005869682283252558,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c2_lift_sum",
+      "params": {
+        "aggregate": "sum",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.01,
+        "min_count": 2,
+        "min_lift": 1.2,
+        "score_scheme": "lift"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.261,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_max/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_max/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c5_conf_max/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "association_rules",
+      "mean_scored_candidates_per_user": 75.88174603174603,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.27224735449735404,
+        "mean_ap_at_5_at_least_5_positive": 0.28580289855072416,
+        "mean_ap_at_5_with_positive": 0.2770853527194395,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c5_conf_max",
+      "params": {
+        "aggregate": "max",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "score_scheme": "confidence"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.891,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    },
+    {
+      "artifacts": {
+        "metrics": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c10_conf_loglift_max/metrics.json",
+        "per_user_ap5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c10_conf_loglift_max/per_user_ap5.json",
+        "top5": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage3/methods/ar_c10_conf_loglift_max/top5.json"
+      },
+      "cohort_sizes": {
+        "all": 1260,
+        "at_least_5_positive": 1150,
+        "positive": 1238
+      },
+      "kind": "association_rules",
+      "mean_scored_candidates_per_user": 163.06825396825397,
+      "metrics": {
+        "cohort_size": 1260,
+        "cohort_with_at_least_5_positive_size": 1150,
+        "cohort_with_positive_size": 1238,
+        "k": 5,
+        "mean_ap_at_5": 0.10961904761904746,
+        "mean_ap_at_5_at_least_5_positive": 0.11664057971014477,
+        "mean_ap_at_5_with_positive": 0.11156704361873974,
+        "users_with_no_positive": 22
+      },
+      "name": "ar_c10_conf_loglift_max",
+      "params": {
+        "aggregate": "max",
+        "max_antecedents_per_user": 30,
+        "max_rules_per_antecedent": 30,
+        "min_confidence": 0.02,
+        "min_count": 10,
+        "min_lift": 1.2,
+        "score_scheme": "conf_x_loglift"
+      },
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.719,
+      "seed": 0,
+      "status": "ok",
+      "users_needing_fallback": 10
+    }
+  ],
+  "labels_sha256": "d2e9740392f813b14d8ec23e6498c4a594efad064dfa3405ed927e8a30026a7e",
+  "protocol_version": "stage3_v2",
+  "ranking": [
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "baseline",
+      "map_at_5": 0.34725198412698377,
+      "map_at_least_5_positive": 0.36734782608695626,
+      "map_with_positive": 0.35342285945072666,
+      "name": "repeat_frequency",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.361,
+      "users_needing_fallback": 14
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.27224735449735404,
+      "map_at_least_5_positive": 0.28580289855072416,
+      "map_with_positive": 0.2770853527194395,
+      "name": "ar_c5_conf_max",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.891,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.2667442680776009,
+      "map_at_least_5_positive": 0.28003188405797047,
+      "map_with_positive": 0.2714844731646019,
+      "name": "ar_c3_conf_loglift",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.038,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "baseline",
+      "map_at_5": 0.26501278659611965,
+      "map_at_least_5_positive": 0.2770985507246373,
+      "map_with_positive": 0.2697222222222219,
+      "name": "popularity",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.0,
+      "users_needing_fallback": null
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.10961904761904746,
+      "map_at_least_5_positive": 0.11664057971014477,
+      "map_with_positive": 0.11156704361873974,
+      "name": "ar_c10_conf_loglift_max",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.719,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.06595061728395073,
+      "map_at_least_5_positive": 0.06781449275362336,
+      "map_with_positive": 0.06712259917429557,
+      "name": "ar_c5_conf_sum",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 0.725,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.014267195767195743,
+      "map_at_least_5_positive": 0.01460289855072461,
+      "map_with_positive": 0.014520732364027976,
+      "name": "cbf_genre_cast_log",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.227,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "association_rules",
+      "map_at_5": 0.005767195767195767,
+      "map_at_least_5_positive": 0.006057971014492754,
+      "map_with_positive": 0.005869682283252558,
+      "name": "ar_c2_lift_sum",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.261,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.004878306878306879,
+      "map_at_least_5_positive": 0.0053449275362318855,
+      "map_with_positive": 0.004964997307485192,
+      "name": "cbf_category_log",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 1.567,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.003912698412698413,
+      "map_at_least_5_positive": 0.004171014492753624,
+      "map_with_positive": 0.003982229402261713,
+      "name": "cbf_genre_log",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.16,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.0038432539682539684,
+      "map_at_least_5_positive": 0.004156521739130435,
+      "map_with_positive": 0.0039115508885298874,
+      "name": "cbf_genre_decade_log",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.18,
+      "users_needing_fallback": 10
+    },
+    {
+      "at_least_5_positive_size": 1150,
+      "kind": "cbf",
+      "map_at_5": 0.0035760582010582027,
+      "map_at_least_5_positive": 0.0037188405797101464,
+      "map_with_positive": 0.003639606892837912,
+      "name": "cbf_all_binary",
+      "positive_size": 1238,
+      "prediction_coverage": 1.0,
+      "runtime_seconds": 2.231,
+      "users_needing_fallback": 10
+    }
+  ],
+  "search_budget": 12
+}

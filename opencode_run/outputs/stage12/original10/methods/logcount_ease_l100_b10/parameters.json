@@ -1,0 +1,6 @@
+{
+  "beta": 0.1,
+  "input": "training-scaled log1p primary80 qualifying-airing counts",
+  "lambda": 100,
+  "name": "logcount_ease_l100_b10"
+}

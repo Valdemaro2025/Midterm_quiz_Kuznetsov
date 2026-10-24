@@ -1,0 +1,18 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py outputs/stage10/code/test_refinement.py --junitxml=outputs/stage10/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 75,
+  "failed": 0,
+  "stage10_focused_cases_including_parameterization": 16,
+  "checks": [
+    "ratio clipping before alpha exponentiation with no old factor re-clipping",
+    "Stage 9 square-root control equivalence and timestamp rate normalization",
+    "zero historical opportunities, zero personal evidence and candidate filtering",
+    "pure repeat ignores zero-weight association and uses popularity fallback",
+    "inclusive 0.002 gains on both splits and strict positive interval lower bound",
+    "maximin gain selection rather than single-split or average gain",
+    "exact gain tie resolved by actual reproduction cost",
+    "one independent parameter change per authorized candidate",
+    "no qualifying candidate results in no refit and no CSV"
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "external_author": "external Codex review",
+  "external_path": "/Users/vladimirkuznecov/Documents/Codex/2026-10-21/new-chat-5/outputs/sweettv_independent_review_20261023.json",
+  "external_sha256": "8b882bcfe14f5abc19224e34f36d14b2815c0e56eb0de7fa8710260103b7d778",
+  "findings": {
+    "external_reported_kaggle_values": {
+      "attribution": "external Codex review; not local executions or new uploads",
+      "column_labels": null,
+      "conditional_interpretation": "Reported Stage 7 exceeds Stage 6 but remains below Stage 5 on both unlabeled columns; opposite to the local no-decay effect.",
+      "stage7_values_independently_verified": false,
+      "values": {
+        "stage5": [
+          0.40974,
+          0.42586
+        ],
+        "stage6": [
+          0.39348,
+          0.40839
+        ],
+        "stage7": [
+          0.40501,
+          0.4212
+        ]
+      }
+    },
+    "label_tie_sensitivity": {
+      "ambiguous_fifth_item_users": 751,
+      "four_control_diagnostics": {
+        "hybrid_70_30": {
+          "descending_id_diagnostic_map": 0.34359391534391537,
+          "matches_external": true,
+          "uniform_boundary_expected_map": 0.357557582217646
+        },
+        "hybrid_repeat_fraction20_h28_w85": {
+          "descending_id_diagnostic_map": 0.3492804232804233,
+          "matches_external": true,
+          "uniform_boundary_expected_map": 0.3621037295349667
+        },
+        "hybrid_repeat_fraction20_nodecay_w85": {
+          "descending_id_diagnostic_map": 0.34513315696649033,
+          "matches_external": true,
+          "uniform_boundary_expected_map": 0.3587695049328442
+        },
+        "repeat_50": {
+          "descending_id_diagnostic_map": 0.3403430335097002,
+          "matches_external": true,
+          "uniform_boundary_expected_map": 0.3540186417984935
+        }
+      },
+      "matches_external_count": true,
+      "note": "Diagnostic only; no frozen label replacement or model selection on alternate labels."
+    },
+    "local_metrics_and_paired_uncertainty": {
+      "primary": {
+        "comparisons": {
+          "challenger_minus_control": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.0031679894179894178,
+            "paired_95_interval": [
+              -0.0017570932539682541,
+              0.008087334656084655
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              -0.0017284171075837738,
+              0.008194830246913578
+            ],
+            "users_better": 329,
+            "users_tied": 616,
+            "users_worse": 315
+          },
+          "control_minus_repeat50": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.004449294532627867,
+            "paired_95_interval": [
+              0.0001514384920634932,
+              0.008796378968253967
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              8.678902116402017e-05,
+              0.008825000000000001
+            ],
+            "users_better": 293,
+            "users_tied": 747,
+            "users_worse": 220
+          },
+          "no_decay_minus_control": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.0006106701940035271,
+            "paired_95_interval": [
+              -0.003327965167548502,
+              0.004412560626102291
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              -0.003178356481481482,
+              0.004491358024691356
+            ],
+            "users_better": 244,
+            "users_tied": 772,
+            "users_worse": 244
+          }
+        },
+        "maps": {
+          "challenger": 0.3817142857142857,
+          "control": 0.3785462962962963,
+          "no_decay": 0.37915696649029984,
+          "repeat50": 0.37409700176366845
+        },
+        "matches_external_maps": true
+      },
+      "robustness": {
+        "comparisons": {
+          "challenger_minus_control": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.002897486772486773,
+            "paired_95_interval": [
+              -0.0027064539241622577,
+              0.008424277998236331
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              -0.0026366953262786596,
+              0.008668893298059964
+            ],
+            "users_better": 324,
+            "users_tied": 599,
+            "users_worse": 337
+          },
+          "control_minus_repeat50": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.002249118165784832,
+            "paired_95_interval": [
+              -0.0017216104497354506,
+              0.006087973985890651
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              -0.0017118055555555552,
+              0.006190162037037036
+            ],
+            "users_better": 270,
+            "users_tied": 787,
+            "users_worse": 203
+          },
+          "no_decay_minus_control": {
+            "matches_external_interval_same_seed": true,
+            "matches_external_point_and_counts": true,
+            "mean": 0.00042614638447971783,
+            "paired_95_interval": [
+              -0.0030937279541446215,
+              0.003968733465608463
+            ],
+            "resampling_user_order": "lexicographic user-ID order, reproduces external endpoints",
+            "template_order_interval": [
+              -0.0030677028218694864,
+              0.003975330687830689
+            ],
+            "users_better": 209,
+            "users_tied": 828,
+            "users_worse": 223
+          }
+        },
+        "maps": {
+          "challenger": 0.35470767195767194,
+          "control": 0.3518101851851852,
+          "no_decay": 0.35223633156966494,
+          "repeat50": 0.3495610670194004
+        },
+        "matches_external_maps": true
+      }
+    },
+    "prediction_diversity_changes": {
+      "stage6_vs_stage5": {
+        "matches_external": true,
+        "mean_common_top5_ids": 3.5944444444444446,
+        "users_changed_list": 1219,
+        "users_changed_top1": 382
+      },
+      "stage7_vs_stage5": {
+        "matches_external": true,
+        "mean_common_top5_ids": 4.470634920634921,
+        "users_changed_list": 947,
+        "users_changed_top1": 110
+      },
+      "stage7_vs_stage6": {
+        "matches_external": true,
+        "mean_common_top5_ids": 3.6992063492063494,
+        "users_changed_list": 1209,
+        "users_changed_top1": 378
+      }
+    },
+    "protocol_lengths_match": true,
+    "protocol_lengths_weeks": {
+      "final": {
+        "prediction": 12,
+        "training": 20
+      },
+      "later": {
+        "prediction": 6,
+        "training": 14
+      },
+      "primary": {
+        "prediction": 10,
+        "training": 10
+      }
+    },
+    "schedule_drift": {
+      "history_to_test": {
+        "counts_match_external": true,
+        "future_ids": 6632,
+        "future_ids_unseen_in_past_schedule": 1437,
+        "independent_rate_quantiles_10_25_50_75_90": [
+          0.4166666666666667,
+          0.7843137254901961,
+          1.1773700305810397,
+          1.666666666666667,
+          3.333333333333333
+        ],
+        "past_ids": 8227,
+        "quantile_note": "External review does not state quantile probabilities; this session explicitly uses 10/25/50/75/90 percentiles. Quantile equivalence is not assumed.",
+        "shared_ids": 5195,
+        "shared_ids_rate_less_than_half": 628,
+        "shared_ids_rate_more_than_double": 1109
+      },
+      "train_to_val": {
+        "counts_match_external": true,
+        "future_ids": 6361,
+        "future_ids_unseen_in_past_schedule": 2394,
+        "independent_rate_quantiles_10_25_50_75_90": [
+          0.37499999999999994,
+          0.6666666666666667,
+          1.0,
+          1.7735042735042734,
+          2.9999999999999996
+        ],
+        "past_ids": 5834,
+        "quantile_note": "External review does not state quantile probabilities; this session explicitly uses 10/25/50/75/90 percentiles. Quantile equivalence is not assumed.",
+        "shared_ids": 3967,
+        "shared_ids_rate_less_than_half": 506,
+        "shared_ids_rate_more_than_double": 683
+      }
+    },
+    "selection_restriction": {
+      "best_new_individual_map": 0.3739642857142852,
+      "control_was_stronger_than_new_individuals": true,
+      "note": "This followed the Stage 6 instruction to choose among the eight new repeats; it left original-repeat 85/15 untested. Stage 8 A addresses that missing comparison.",
+      "repeat50_control_map": 0.3740970017636681,
+      "verified_against_plan_and_code": true
+    },
+    "submissions": {
+      "stage5": {
+        "matches_external": true,
+        "recommended_personal_history": {
+          "fraction_seen_any": 0.9903174603174603,
+          "fraction_seen_at_least_50": 0.9833333333333333,
+          "fraction_seen_at_least_80": 0.9404761904761905,
+          "median_personal_80_count": 7.0,
+          "slots": 6300
+        },
+        "sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+        "unique_recommended_ids": 184
+      },
+      "stage6": {
+        "matches_external": true,
+        "recommended_personal_history": {
+          "fraction_seen_any": 0.9952380952380953,
+          "fraction_seen_at_least_50": 0.9858730158730159,
+          "fraction_seen_at_least_80": 0.9433333333333334,
+          "median_personal_80_count": 7.0,
+          "slots": 6300
+        },
+        "sha256": "7f23a5d3d41cbae99f839cca19c262d5e59a334365b64c538dfec8f9619613fe",
+        "unique_recommended_ids": 387
+      },
+      "stage7": {
+        "matches_external": true,
+        "recommended_personal_history": {
+          "fraction_seen_any": 0.9953968253968254,
+          "fraction_seen_at_least_50": 0.9882539682539683,
+          "fraction_seen_at_least_80": 0.9565079365079365,
+          "median_personal_80_count": 7.0,
+          "slots": 6300
+        },
+        "sha256": "a00dd91266fcaf36b5d49ec5257697af3ca4dc3f45b73682ebbf14682d195fc9",
+        "unique_recommended_ids": 219
+      }
+    }
+  },
+  "schema_version": 2,
+  "this_file": "Fresh OpenCode-session diagnostic computations, separately attributed from the external originals"
+}

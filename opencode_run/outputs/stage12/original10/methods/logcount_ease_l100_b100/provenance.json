@@ -1,0 +1,8 @@
+{
+  "S9_renormalized": false,
+  "declaration": "declaration.json",
+  "labels_used_as_features": false,
+  "scalar_source": "original10/models/input_statistics.json",
+  "source_manifest": "preservation_before.json",
+  "training_cutoff": 1589760000
+}

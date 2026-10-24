@@ -1,0 +1,8 @@
+{
+  "airings": "outputs/stage3/airings/airings_train.csv",
+  "candidate_sha256": "5cbcb117f34c7f43591efb9f78489406898556442d53c84cd93b34542903acf8",
+  "coverage_cache": "outputs/stage3/interactions/train_user_airing.npz",
+  "labels_sha256": "644cf6514d1baada1bec05a1b6ef7041c7e05b7f6e98c68ca58ae74cf3a0ff88",
+  "source": "unchanged frozen Stage 3 holdout",
+  "train_cutoff": 1589760000
+}

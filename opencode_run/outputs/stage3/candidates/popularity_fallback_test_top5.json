@@ -1,0 +1,10 @@
+{
+  "ids": [
+    2400480,
+    240081,
+    2400467,
+    200344,
+    2400508
+  ],
+  "rule": "top 5 test candidate ids by distinct training users with >=1 qualifying (>=80%) airing; ties by qualifying airing count then ascending id"
+}

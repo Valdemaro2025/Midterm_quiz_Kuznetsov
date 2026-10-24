@@ -1,0 +1,15 @@
+{
+  "AR_details": {
+    "aggregate": "max",
+    "antecedents_with_rules": 1770,
+    "max_antecedents_per_user": 50,
+    "score": "confidence",
+    "total_rules": 51600,
+    "training_items": 2489,
+    "training_users": 4737,
+    "users_with_rules": 1242
+  },
+  "max_training_airing_end": 1589760000,
+  "shared_AR_fit_score_seconds": 0.24922779200278455,
+  "training_cache_schedule_statistics_and_AR_seconds": 3.2693890420014213
+}

@@ -1,0 +1,42 @@
+{
+  "A_repeat50_hybrid85": {
+    "mean_common_top5_ids": 4.5817460317460315,
+    "users_changed_list": 743,
+    "users_changed_top1": 30
+  },
+  "B_schedule_adjusted_hybrid70": {
+    "mean_common_top5_ids": 4.62936507936508,
+    "users_changed_list": 718,
+    "users_changed_top1": 96
+  },
+  "C_channel_time": {
+    "mean_common_top5_ids": 3.0555555555555554,
+    "users_changed_list": 1236,
+    "users_changed_top1": 347
+  },
+  "D_hybrid90_schedule10": {
+    "mean_common_top5_ids": 4.798412698412698,
+    "users_changed_list": 561,
+    "users_changed_top1": 51
+  },
+  "repeat_50": {
+    "mean_common_top5_ids": 4.262698412698413,
+    "users_changed_list": 990,
+    "users_changed_top1": 45
+  },
+  "stage5_hybrid_70_30": {
+    "mean_common_top5_ids": 5.0,
+    "users_changed_list": 0,
+    "users_changed_top1": 0
+  },
+  "submitted_stage6": {
+    "mean_common_top5_ids": 4.1531746031746035,
+    "users_changed_list": 1111,
+    "users_changed_top1": 219
+  },
+  "submitted_stage7": {
+    "mean_common_top5_ids": 4.35,
+    "users_changed_list": 1001,
+    "users_changed_top1": 136
+  }
+}

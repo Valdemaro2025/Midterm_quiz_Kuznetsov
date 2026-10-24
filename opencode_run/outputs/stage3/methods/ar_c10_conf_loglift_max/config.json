@@ -1,0 +1,9 @@
+{
+  "aggregate": "max",
+  "max_antecedents_per_user": 30,
+  "max_rules_per_antecedent": 30,
+  "min_confidence": 0.02,
+  "min_count": 10,
+  "min_lift": 1.2,
+  "score_scheme": "conf_x_loglift"
+}

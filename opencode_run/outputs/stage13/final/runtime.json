@@ -1,0 +1,8 @@
+{
+  "S9_fit_and_score_seconds": 0.5118664589972468,
+  "component_clip_adjust_normalize_seconds": 0.032896167002036236,
+  "direct_variant_seconds": 1.6410339170033694,
+  "full_refit_with_schedule_counts_and_IO_seconds": 15.420220084000903,
+  "fusion_rank_seconds": 1.6081287089982652,
+  "weighted_EASE_matrix_fit_query_seconds": 0.9411962090016459
+}

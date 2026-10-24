@@ -1,0 +1,105 @@
+{
+  "control": {
+    "alpha": 0.5,
+    "association_weight": 0.3,
+    "name": "stage9_control",
+    "repeat_weight": 0.7
+  },
+  "declared_before_stage10_evaluation": true,
+  "factor_bounds": "ratio clipped before exponent; no post-exponent clipping to [.5,2]",
+  "feedback_informed_followup": true,
+  "fixed": {
+    "association": {
+      "aggregate": "max",
+      "interaction_counts": "qualifying_airings_primary_>=80%",
+      "max_antecedents_per_user": 50,
+      "max_rules_per_antecedent": 50,
+      "min_confidence": 0.005,
+      "min_count": 5,
+      "min_lift": 1.0,
+      "name": "ar_c5_conf_max_80",
+      "score_scheme": "confidence",
+      "tie_break": "training_popularity_then_id"
+    },
+    "component_normalization": "independent per-user max over eligible candidates after opportunity adjustment",
+    "fallback_ranking": {
+      "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+      "fusion": "weighted sum of normalized scores; no score rounding",
+      "normalization": "per-user max normalization over eligible candidate scores",
+      "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+      "zero_score_handling": "scores <= 0 are not ranked"
+    },
+    "repeat_coverage": 0.5,
+    "repeat_weighting": "qualifying-airing counts",
+    "repeats_allowed": true,
+    "time_decay": null,
+    "zero_history": "zero remains zero; pure repeat uses established popularity fallback"
+  },
+  "formula": "clip((target_count/target_weeks)/(historical_count/training_weeks),.25,4) ** alpha",
+  "kaggle_scores_are_not_optimization_targets": true,
+  "maximum_total_unique": 41,
+  "new_unique": 6,
+  "not_originally_preplanned_or_independently_confirmed": true,
+  "output": "outputs/stage10/kuznetsov_vladimir_midterm_submission_refined.csv",
+  "previous_unique": 35,
+  "refit": "only one eligible winner; no CSV if none qualifies",
+  "reuse": "one shared AR fit and repeat50 map per split; reuse alpha=.5 factors across weight variants; exact prior duplicates reuse predictions when available",
+  "selection_rule": {
+    "horizon12_interval_lower_strictly_above": 0.0,
+    "interpretation": "practical conservative screening rule, not independent statistical confirmation",
+    "minimum_gain_each_split": 0.002,
+    "objective": "largest minimum MAP@5 gain over the two splits",
+    "remaining_exact_cost_tie": "retain Stage 9 rather than invent an additional selection rule",
+    "tie_break_1": "fewer independent parameters changed from Stage 9; fusion weights are one independent parameter",
+    "tie_break_2": "lower summed actual end-to-end computational cost across both splits, measured by fresh exact reproduction fits only for exact-tied finalists"
+  },
+  "six_configurations": [
+    {
+      "alpha": 0.25,
+      "association_weight": 0.3,
+      "name": "alpha025_w70",
+      "repeat_weight": 0.7
+    },
+    {
+      "alpha": 0.75,
+      "association_weight": 0.3,
+      "name": "alpha075_w70",
+      "repeat_weight": 0.7
+    },
+    {
+      "alpha": 1.0,
+      "association_weight": 0.3,
+      "name": "alpha100_w70",
+      "repeat_weight": 0.7
+    },
+    {
+      "alpha": 0.5,
+      "association_weight": 0.5,
+      "name": "alpha050_w50",
+      "repeat_weight": 0.5
+    },
+    {
+      "alpha": 0.5,
+      "association_weight": 0.15,
+      "name": "alpha050_w85",
+      "repeat_weight": 0.85
+    },
+    {
+      "alpha": 0.5,
+      "association_weight": 0.0,
+      "name": "alpha050_w100",
+      "repeat_weight": 1.0
+    }
+  ],
+  "splits": {
+    "horizon12": "unchanged Stage 8 8-week train / 12-week forecast",
+    "original10": "unchanged frozen Stage 8 original 10-week validation"
+  },
+  "uncertainty": {
+    "caveat": "overlapping periods, repeated selection, selection-unadjusted; not independent confirmation",
+    "method": "paired-user percentile descriptive 95% intervals, all three cohorts",
+    "resamples": 10000,
+    "seed": 137,
+    "user_order": "unchanged template order"
+  }
+}

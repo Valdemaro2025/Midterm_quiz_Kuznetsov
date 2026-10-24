@@ -1,0 +1,17 @@
+{
+  "association": {
+    "aggregate": "max",
+    "interaction_counts": "qualifying_airings_primary_>=80%",
+    "max_antecedents_per_user": 50,
+    "max_rules_per_antecedent": 50,
+    "min_confidence": 0.005,
+    "min_count": 5,
+    "min_lift": 1.0,
+    "name": "ar_c5_conf_max_80",
+    "score_scheme": "confidence",
+    "tie_break": "training_popularity_then_id"
+  },
+  "association_weight": 0.15,
+  "repeat": "original repeat_50",
+  "repeat_weight": 0.85
+}

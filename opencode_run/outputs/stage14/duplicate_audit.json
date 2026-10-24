@@ -1,0 +1,1096 @@
+{
+  "duplicate_slots_replaced": false,
+  "exact_duplicates": {
+    "A_hybrid": [],
+    "A_standalone": [],
+    "B_hybrid": [],
+    "B_standalone": [],
+    "C_hybrid": [],
+    "C_standalone": []
+  },
+  "note": "Earlier schedule adjustments changed repeat or EASE scores, not AR. No earlier method learns fractional Top-K consequent memberships. Original standalone AR is not adjusted AR A.",
+  "prior_58_parameter_records": [
+    {
+      "name": "ar_c10_conf_loglift_max",
+      "path": "outputs/stage3/methods/ar_c10_conf_loglift_max/config.json",
+      "sha256": "262145f14e7cc81b73179cb3fa9e31c76862ee248e2e6dec0b5b17acd4d98a7a"
+    },
+    {
+      "name": "ar_c2_lift_sum",
+      "path": "outputs/stage3/methods/ar_c2_lift_sum/config.json",
+      "sha256": "27da8813b996481305fd84469a90a0daf416b4b98cb8197d2110f24650467d16"
+    },
+    {
+      "name": "ar_c3_conf_loglift",
+      "path": "outputs/stage3/methods/ar_c3_conf_loglift/config.json",
+      "sha256": "6f10d4197afd95835017e3da93ef194a736d1cbd30832508b160bb5124603227"
+    },
+    {
+      "name": "ar_c5_conf_max",
+      "path": "outputs/stage3/methods/ar_c5_conf_max/config.json",
+      "sha256": "fe7ec5961006e8e721d08e2af80ab59ec403fecb4a44f1299a434176d2c29520"
+    },
+    {
+      "name": "ar_c5_conf_sum",
+      "path": "outputs/stage3/methods/ar_c5_conf_sum/config.json",
+      "sha256": "0d9574f229594ddb2d1aee370cf08bcc0d3107f1dd3a6fb0d28e7c7edf637d1b"
+    },
+    {
+      "name": "cbf_all_binary",
+      "path": "outputs/stage3/methods/cbf_all_binary/config.json",
+      "sha256": "04c1d67f84689c877fd960f403ae9060678ab51dd166fccecbdbf11cb0ed636f"
+    },
+    {
+      "name": "cbf_category_log",
+      "path": "outputs/stage3/methods/cbf_category_log/config.json",
+      "sha256": "68a925ae5ad0fb554969c07d8aa106168edc9203217c0eed1c3b95f04fcf9bb5"
+    },
+    {
+      "name": "cbf_genre_cast_log",
+      "path": "outputs/stage3/methods/cbf_genre_cast_log/config.json",
+      "sha256": "dd8bdeff1dcf40e55959139d43ad6e44baab69c669707a9eea112fa8e3caf72a"
+    },
+    {
+      "name": "cbf_genre_decade_log",
+      "path": "outputs/stage3/methods/cbf_genre_decade_log/config.json",
+      "sha256": "d2cf7f81744dc8ed2d0e29c186715ab134a7fa498afa568393253d211313af43"
+    },
+    {
+      "name": "cbf_genre_log",
+      "path": "outputs/stage3/methods/cbf_genre_log/config.json",
+      "sha256": "b93d0d8a213650e8887e5025e27a7ec06dceae5463f0c1907816c80fdd4dd38f"
+    },
+    {
+      "name": "popularity",
+      "path": "outputs/stage3/methods/popularity/config.json",
+      "sha256": "71f9c05d52c382f7894e38e387225cd6efa162d8b23d40a18188da9fce3e31a3"
+    },
+    {
+      "name": "repeat_frequency",
+      "path": "outputs/stage3/methods/repeat_frequency/config.json",
+      "sha256": "5a2d479c5d231d8713af7989834499635218bec9cdb761b60cb4b748cf298396"
+    },
+    {
+      "name": "ar_c5_conf_max_80",
+      "path": "outputs/stage4/methods/ar_c5_conf_max_80/config.json",
+      "sha256": "368718d81f4fa048c3d5d2d9be64911c83733b68ea2d0aefd0e4da22b4f0ca27"
+    },
+    {
+      "name": "cbf_category_log_pop",
+      "path": "outputs/stage4/methods/cbf_category_log_pop/config.json",
+      "sha256": "f1cbe4d31f910d962520f5b0246d6748bdcdece094abc12b9ab9b72e7ab69b8b"
+    },
+    {
+      "name": "cbf_genre_cast_log_pop",
+      "path": "outputs/stage4/methods/cbf_genre_cast_log_pop/config.json",
+      "sha256": "43547d3593db4d41bd0768f73c57b4c93fb315ea2734674286330e3ba6000b12"
+    },
+    {
+      "name": "hybrid_50_50",
+      "path": "outputs/stage4/methods/hybrid_50_50/config.json",
+      "sha256": "11d27554de1c04e58ba7614fb30fff8fb2a69d1bee4e71a692e17714ee7b7667"
+    },
+    {
+      "name": "hybrid_70_30",
+      "path": "outputs/stage4/methods/hybrid_70_30/config.json",
+      "sha256": "c0ee077006bea22fd71c454a9d09c243feb555ae26daf49f345b20cf408967d4"
+    },
+    {
+      "name": "repeat_50",
+      "path": "outputs/stage4/methods/repeat_50/config.json",
+      "sha256": "c257dfa54d70893ecf8b51c6528baaf8c41440bae2d92e550a8bcf8ac80e9e62"
+    },
+    {
+      "name": "repeat_80",
+      "path": "outputs/stage4/methods/repeat_80/config.json",
+      "sha256": "e879861d57b300b1636ecdf7f99fadfcfc3f4f307ace777756b5b00cb0734ccd"
+    },
+    {
+      "name": "repeat_count20",
+      "path": "outputs/stage6/primary/methods/repeat_count20/parameters.json",
+      "sha256": "1e739c806e428b3a2cbc7d58c9eaef43b02bf2b322f4b07c77d78e096a367acd"
+    },
+    {
+      "name": "repeat_count35",
+      "path": "outputs/stage6/primary/methods/repeat_count35/parameters.json",
+      "sha256": "a8b09f78a30ff02edc1edc19ae766a37c03cad133ede1f8da6c3583e118079d3"
+    },
+    {
+      "name": "repeat_fraction20",
+      "path": "outputs/stage6/primary/methods/repeat_fraction20/parameters.json",
+      "sha256": "86163753fe7e57d3374dc560c081e1ed6b3618e28efa327f6bcfd88e9e7ac388"
+    },
+    {
+      "name": "repeat_fraction50",
+      "path": "outputs/stage6/primary/methods/repeat_fraction50/parameters.json",
+      "sha256": "4dc4b8659ee5f69859186f96ce9d3e162071e0bb3a5a6b589840b853b6d7da81"
+    },
+    {
+      "name": "repeat_count50_h14",
+      "path": "outputs/stage6/primary/methods/repeat_count50_h14/parameters.json",
+      "sha256": "0075c7d74fd03a01f33fbd75b29097c96a80bb868cdbfee47c9dd0aea20dec90"
+    },
+    {
+      "name": "repeat_count50_h28",
+      "path": "outputs/stage6/primary/methods/repeat_count50_h28/parameters.json",
+      "sha256": "3d75f9cd9ddc01d45b499d8b0611ea18dab4a523034928e79c15022b1adbe29e"
+    },
+    {
+      "name": "repeat_count50_h56",
+      "path": "outputs/stage6/primary/methods/repeat_count50_h56/parameters.json",
+      "sha256": "68af9a2f58d18ea783b423280ccafe0adf91f6995f5a1e1e4947bed085839664"
+    },
+    {
+      "name": "repeat_fraction20_h28",
+      "path": "outputs/stage6/primary/methods/repeat_fraction20_h28/parameters.json",
+      "sha256": "9367189ebd228fa597b559f210537073be61cc42f9f76015f0b3b635feddb69a"
+    },
+    {
+      "name": "hybrid_repeat_fraction20_h28_w70",
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w70/parameters.json",
+      "sha256": "0441fe6f7c4fd74d9f14c9f261d525fc9279d14dc64014d249fb88f36371fcb7"
+    },
+    {
+      "name": "hybrid_repeat_fraction20_h28_w85",
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w85/parameters.json",
+      "sha256": "fdff58164de16584493029cfc97a552c00939cee00509b7d835ba9c52e00dfc0"
+    },
+    {
+      "name": "hybrid_repeat_fraction20_h28_w95",
+      "path": "outputs/stage6/primary/methods/hybrid_repeat_fraction20_h28_w95/parameters.json",
+      "sha256": "329e1e7c04fd89bde9e6f88d44626813c44b9f2a9ec59e8bdb7a9aac022e6b00"
+    },
+    {
+      "name": "hybrid_repeat_fraction20_nodecay_w85",
+      "path": "outputs/stage7/primary/methods/hybrid_repeat_fraction20_nodecay_w85/parameters.json",
+      "sha256": "5ec83ae53da69b6fe7014dffd79f5c8a66eefe62972c61926c5296ab0b382867"
+    },
+    {
+      "name": "A_repeat50_hybrid85",
+      "path": "outputs/stage8/horizon12/methods/A_repeat50_hybrid85/parameters.json",
+      "sha256": "2d6bf32840b3207d58b1dfa9be604914f2ee982f96edc04fcf23a117f761ffc2"
+    },
+    {
+      "name": "B_schedule_adjusted_hybrid70",
+      "path": "outputs/stage8/horizon12/methods/B_schedule_adjusted_hybrid70/parameters.json",
+      "sha256": "c440e95dbf1261daf4a5963830565b6bcf4b516debd4212eb908b2419467da20"
+    },
+    {
+      "name": "C_channel_time",
+      "path": "outputs/stage8/horizon12/methods/C_channel_time/parameters.json",
+      "sha256": "26d794fa9243777efb0f6cdc05a0035229dddd235a89dad9018febbf8f97ff25"
+    },
+    {
+      "name": "D_hybrid90_schedule10",
+      "path": "outputs/stage8/horizon12/methods/D_hybrid90_schedule10/parameters.json",
+      "sha256": "ea55959e120fc9b4be6ee88e702ef034435edd47a2c5c28cd886810cba4eef7e"
+    },
+    {
+      "name": "alpha025_w70",
+      "path": "outputs/stage10/horizon12/methods/alpha025_w70/parameters.json",
+      "sha256": "cdbb6ee61e216f06aab9d5d545df1082c7a3d75ff9ccb93ce5c803886c03a504"
+    },
+    {
+      "name": "alpha075_w70",
+      "path": "outputs/stage10/horizon12/methods/alpha075_w70/parameters.json",
+      "sha256": "cad0f1407be0f81cf827686afb21f3cd421e92554c2e10d54e64d442577c5709"
+    },
+    {
+      "name": "alpha100_w70",
+      "path": "outputs/stage10/horizon12/methods/alpha100_w70/parameters.json",
+      "sha256": "b2d4179972abf48b243a3793de742afa5b3549e630b98529b23ee1f38c95517b"
+    },
+    {
+      "name": "alpha050_w50",
+      "path": "outputs/stage10/horizon12/methods/alpha050_w50/parameters.json",
+      "sha256": "dae5b257c5504c2bfbf3ea5aa69e68e54d5b59d126762acb066c58233c338d0c"
+    },
+    {
+      "name": "alpha050_w85",
+      "path": "outputs/stage10/horizon12/methods/alpha050_w85/parameters.json",
+      "sha256": "6b947b535051e95d1e0c625ff81af68b3f50630a7c23e2b4e4e33e5fc802258a"
+    },
+    {
+      "name": "alpha050_w100",
+      "path": "outputs/stage10/horizon12/methods/alpha050_w100/parameters.json",
+      "sha256": "9154bfb7b4c42044bd31d6431e3026caa0c64e3c17901fbbccae09e4491c37cc"
+    },
+    {
+      "name": "ease_l100_b10",
+      "path": "outputs/stage11/horizon12/methods/ease_l100_b10/parameters.json",
+      "sha256": "32a61576a50c8422d864551d0371e7a92a5f0b10ddd1e55a29017c931e90826d"
+    },
+    {
+      "name": "ease_l100_b20",
+      "path": "outputs/stage11/horizon12/methods/ease_l100_b20/parameters.json",
+      "sha256": "f57bb60d2f0097d5eed237c11e194fdac7747ce1013452da2c6f5a33b64e62a0"
+    },
+    {
+      "name": "ease_l100_b30",
+      "path": "outputs/stage11/horizon12/methods/ease_l100_b30/parameters.json",
+      "sha256": "fcbc757c044d6e48fec6ecb29d6b6ba3811416b67d9f45e2a3dc750c834c2b0c"
+    },
+    {
+      "name": "ease_l100_b100",
+      "path": "outputs/stage11/horizon12/methods/ease_l100_b100/parameters.json",
+      "sha256": "0f3cf70e5800e9e072cd6245904c0b1be06014a1f6d295db8425d13b54e9a105"
+    },
+    {
+      "name": "ease_l1000_b10",
+      "path": "outputs/stage11/horizon12/methods/ease_l1000_b10/parameters.json",
+      "sha256": "accf111f3e101bf6eecde6ab98cbc393db25cd1da452eb3733ad4b640808c5ac"
+    },
+    {
+      "name": "ease_l1000_b20",
+      "path": "outputs/stage11/horizon12/methods/ease_l1000_b20/parameters.json",
+      "sha256": "2bdf854dd9592aaeee32eecc259645acc13af22cb19a6b8cb240b5b49dc135ba"
+    },
+    {
+      "name": "ease_l1000_b30",
+      "path": "outputs/stage11/horizon12/methods/ease_l1000_b30/parameters.json",
+      "sha256": "6c3a6fa245e2a7c06bece99058640dd108b2aef48317154a3674383bf679d4e5"
+    },
+    {
+      "name": "ease_l1000_b100",
+      "path": "outputs/stage11/horizon12/methods/ease_l1000_b100/parameters.json",
+      "sha256": "1585719101078bb934ba875af61b90067c4ad928a069ffbbd5cf91a441d44a3e"
+    },
+    {
+      "name": "logcount_ease_l100_b10",
+      "path": "outputs/stage12/horizon12/methods/logcount_ease_l100_b10/parameters.json",
+      "sha256": "cc9830e164797e0374c4febe9af29ea58d3cd47ac867eb70257c0fe875923727"
+    },
+    {
+      "name": "logcount_ease_l100_b100",
+      "path": "outputs/stage12/horizon12/methods/logcount_ease_l100_b100/parameters.json",
+      "sha256": "35349b761a994f102c89f1a485d64cdb0b8dcb95f357771fe03e7a7f815e03b8"
+    },
+    {
+      "name": "logcount_ease_l1000_b10",
+      "path": "outputs/stage12/horizon12/methods/logcount_ease_l1000_b10/parameters.json",
+      "sha256": "4e6ff8b8a3ad33b3393d836710e3398767d9ebfaa6e4ad12bb1cd246dc98e507"
+    },
+    {
+      "name": "logcount_ease_l1000_b100",
+      "path": "outputs/stage12/horizon12/methods/logcount_ease_l1000_b100/parameters.json",
+      "sha256": "7b5c1bf75ac1bbe2f7c8d6326f340ae8b31fcbf69192e8499a39da1784a8577a"
+    },
+    {
+      "name": "A_beta005",
+      "path": "outputs/stage13/horizon12/methods/A_beta005/parameters.json",
+      "sha256": "f367b9750dbe758475dda363958dddbdda3c364be8d9d30a9aff9d3196169b45"
+    },
+    {
+      "name": "B_beta015",
+      "path": "outputs/stage13/horizon12/methods/B_beta015/parameters.json",
+      "sha256": "93248946ae360bd2e9f2513fb9392b1932c5385d2ffa18a89f3fc833d5c85138"
+    },
+    {
+      "name": "C_beta020",
+      "path": "outputs/stage13/horizon12/methods/C_beta020/parameters.json",
+      "sha256": "dd674363b8384f3c8c04cf45db29761af33975c57b56d965a272f97227e98a6e"
+    },
+    {
+      "name": "D_beta030",
+      "path": "outputs/stage13/horizon12/methods/D_beta030/parameters.json",
+      "sha256": "cae2caaed14dbb7c659906ac730eb7bc0f8ab2a8189c14ad3baf602c4bf5b1e5"
+    },
+    {
+      "name": "E_EASE_opportunity",
+      "path": "outputs/stage13/horizon12/methods/E_EASE_opportunity/parameters.json",
+      "sha256": "1d71cd233c87a1dff90f93346925b9d2b4e514f27c642c08309f451ae28df162"
+    }
+  ],
+  "prior_declarations": {
+    "outputs/stage10/declaration.json": {
+      "declaration": {
+        "control": {
+          "alpha": 0.5,
+          "association_weight": 0.3,
+          "name": "stage9_control",
+          "repeat_weight": 0.7
+        },
+        "declared_before_stage10_evaluation": true,
+        "factor_bounds": "ratio clipped before exponent; no post-exponent clipping to [.5,2]",
+        "feedback_informed_followup": true,
+        "fixed": {
+          "association": {
+            "aggregate": "max",
+            "interaction_counts": "qualifying_airings_primary_>=80%",
+            "max_antecedents_per_user": 50,
+            "max_rules_per_antecedent": 50,
+            "min_confidence": 0.005,
+            "min_count": 5,
+            "min_lift": 1.0,
+            "name": "ar_c5_conf_max_80",
+            "score_scheme": "confidence",
+            "tie_break": "training_popularity_then_id"
+          },
+          "component_normalization": "independent per-user max over eligible candidates after opportunity adjustment",
+          "fallback_ranking": {
+            "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "repeat_coverage": 0.5,
+          "repeat_weighting": "qualifying-airing counts",
+          "repeats_allowed": true,
+          "time_decay": null,
+          "zero_history": "zero remains zero; pure repeat uses established popularity fallback"
+        },
+        "formula": "clip((target_count/target_weeks)/(historical_count/training_weeks),.25,4) ** alpha",
+        "kaggle_scores_are_not_optimization_targets": true,
+        "maximum_total_unique": 41,
+        "new_unique": 6,
+        "not_originally_preplanned_or_independently_confirmed": true,
+        "output": "outputs/stage10/kuznetsov_vladimir_midterm_submission_refined.csv",
+        "previous_unique": 35,
+        "refit": "only one eligible winner; no CSV if none qualifies",
+        "reuse": "one shared AR fit and repeat50 map per split; reuse alpha=.5 factors across weight variants; exact prior duplicates reuse predictions when available",
+        "selection_rule": {
+          "horizon12_interval_lower_strictly_above": 0.0,
+          "interpretation": "practical conservative screening rule, not independent statistical confirmation",
+          "minimum_gain_each_split": 0.002,
+          "objective": "largest minimum MAP@5 gain over the two splits",
+          "remaining_exact_cost_tie": "retain Stage 9 rather than invent an additional selection rule",
+          "tie_break_1": "fewer independent parameters changed from Stage 9; fusion weights are one independent parameter",
+          "tie_break_2": "lower summed actual end-to-end computational cost across both splits, measured by fresh exact reproduction fits only for exact-tied finalists"
+        },
+        "six_configurations": [
+          {
+            "alpha": 0.25,
+            "association_weight": 0.3,
+            "name": "alpha025_w70",
+            "repeat_weight": 0.7
+          },
+          {
+            "alpha": 0.75,
+            "association_weight": 0.3,
+            "name": "alpha075_w70",
+            "repeat_weight": 0.7
+          },
+          {
+            "alpha": 1.0,
+            "association_weight": 0.3,
+            "name": "alpha100_w70",
+            "repeat_weight": 0.7
+          },
+          {
+            "alpha": 0.5,
+            "association_weight": 0.5,
+            "name": "alpha050_w50",
+            "repeat_weight": 0.5
+          },
+          {
+            "alpha": 0.5,
+            "association_weight": 0.15,
+            "name": "alpha050_w85",
+            "repeat_weight": 0.85
+          },
+          {
+            "alpha": 0.5,
+            "association_weight": 0.0,
+            "name": "alpha050_w100",
+            "repeat_weight": 1.0
+          }
+        ],
+        "splits": {
+          "horizon12": "unchanged Stage 8 8-week train / 12-week forecast",
+          "original10": "unchanged frozen Stage 8 original 10-week validation"
+        },
+        "uncertainty": {
+          "caveat": "overlapping periods, repeated selection, selection-unadjusted; not independent confirmation",
+          "method": "paired-user percentile descriptive 95% intervals, all three cohorts",
+          "resamples": 10000,
+          "seed": 137,
+          "user_order": "unchanged template order"
+        }
+      },
+      "sha256": "014fb5d7c9fbcd2d57c04345e820bc27d157915b9aa135035102f8e31d983b73"
+    },
+    "outputs/stage11/declaration.json": {
+      "declaration": {
+        "bootstrap": {
+          "cohorts": "all, positive, >=5 positives",
+          "interval": "paired-user percentile 95%",
+          "resamples": 10000,
+          "seed": 137,
+          "user_order": "template order"
+        },
+        "conditional_refit": "one selected config only; no CSV if none qualifies",
+        "configurations": [
+          {
+            "beta": 0.1,
+            "lambda": 100,
+            "name": "ease_l100_b10"
+          },
+          {
+            "beta": 0.2,
+            "lambda": 100,
+            "name": "ease_l100_b20"
+          },
+          {
+            "beta": 0.3,
+            "lambda": 100,
+            "name": "ease_l100_b30"
+          },
+          {
+            "beta": 1.0,
+            "lambda": 100,
+            "name": "ease_l100_b100"
+          },
+          {
+            "beta": 0.1,
+            "lambda": 1000,
+            "name": "ease_l1000_b10"
+          },
+          {
+            "beta": 0.2,
+            "lambda": 1000,
+            "name": "ease_l1000_b20"
+          },
+          {
+            "beta": 0.3,
+            "lambda": 1000,
+            "name": "ease_l1000_b30"
+          },
+          {
+            "beta": 1.0,
+            "lambda": 1000,
+            "name": "ease_l1000_b100"
+          }
+        ],
+        "control_beta": 0,
+        "declared_before_model_evaluation": true,
+        "diagnostic_groups": {
+          "globally_observed": ">=80% training-airing evidence from any training user",
+          "relevant_pair_personal_history": ">=50% training-airing evidence",
+          "use": "diagnostics only; never model variants or selection objectives",
+          "user_history_size": "number of eligible programs with personal >=50% training evidence; <20 vs >=20"
+        },
+        "fixed_baseline": {
+          "association": {
+            "aggregate": "max",
+            "interaction_counts": "qualifying_airings_primary_>=80%",
+            "max_antecedents_per_user": 50,
+            "max_rules_per_antecedent": 50,
+            "min_confidence": 0.005,
+            "min_count": 5,
+            "min_lift": 1.0,
+            "name": "ar_c5_conf_max_80",
+            "score_scheme": "confidence",
+            "tie_break": "training_popularity_then_id"
+          },
+          "association_weight": 0.3,
+          "count_weighting": true,
+          "normalization_and_ranking": {
+            "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "previously_seen_items_allowed": true,
+          "rate_ratio_clip": [
+            0.25,
+            4.0
+          ],
+          "repeat_coverage": 0.5,
+          "repeat_weight": 0.7,
+          "schedule_alpha": 0.5,
+          "source": "outputs/stage9/configuration.json",
+          "time_decay": null
+        },
+        "implementation": {
+          "B": "-P_ij / P_jj columnwise, zero diagonal; preserve negative coefficients",
+          "G": "X.T @ X in float64, never integer co-occurrence",
+          "P": "float64 inverse of G+lambda I using Cholesky factorization and solve against identity",
+          "S9": "exact .70*normalized adjusted repeat50 + .30*normalized original AR80; do not renormalize S9",
+          "X": "binary float64 CSR from all >=80% actual training interactions, one per user/program; all training users/items, including noncandidate history",
+          "combined": "(1-beta)*S9 + beta*normalized_positive_EASE",
+          "fitting_order": "sequential split, lambda; each fit reused for all four beta values; no replacements for resource failure",
+          "fusion_component": "filter to eligible target candidates, clip completed prediction scores to zero, max-normalize positives separately per user",
+          "mapping": "sorted training user indices and integer program IDs; no validation/test interactions in learned mapping",
+          "memory": "estimate before allocation; conservative 8 dense item-square buffers + CSR Gram worst-case + cohort score arrays; fixed fit cap min(4 GiB, physical_memory/4); resource failures reported, no smaller model substituted",
+          "prediction": "X_user @ B; no seen-item exclusion; missing users/items zero",
+          "schedule_adjustment_of_EASE": false
+        },
+        "independent_diagnosis": "diagnostics/complete.json; produced in this session before EASE implementation",
+        "kaggle_scores_not_optimization_targets": true,
+        "maximum_total_unique": 49,
+        "new_unique_budget": 8,
+        "no_external_diagnostic_dependency": true,
+        "output": "outputs/stage11/kuznetsov_vladimir_midterm_submission_ease.csv",
+        "previous_unique": 41,
+        "selection": {
+          "gain_each_split_at_least": 0.002,
+          "horizon12_interval_lower_strictly_above": 0.0,
+          "objective": "maximize smaller of the two gains",
+          "remaining_exact_tie": "retain Stage 9 rather than invent another rule",
+          "tie_break_1": "lower beta",
+          "tie_break_2": "lower measured computational cost, summed across splits; shared EASE fit and scoring plus direct fusion runtime"
+        },
+        "splits": "unchanged Stage 8 horizon12 and original10 labels/users/candidates/temporal rules",
+        "suggestion_source": "external AI assistant Codex; not personal user analysis",
+        "uncertainty": "overlapping historical periods, repeatedly used users/labels, descriptive selection-unadjusted intervals; not independent confirmation"
+      },
+      "sha256": "a37a5785407542f31520a3cfacf89c0667138161ff9af373a89c6f7737d6020c"
+    },
+    "outputs/stage12/declaration.json": {
+      "declaration": {
+        "bootstrap": {
+          "cohorts": "all, positive, >=5 positives",
+          "interval": "paired-user percentile descriptive 95%",
+          "order": "template order",
+          "resamples": 10000,
+          "seed": 137
+        },
+        "comparison": "three-cohort metrics and per-user AP; paired deltas vs Stage 9; matched log-count minus binary differences; relevant-pair repeat50 partitions are diagnostic only",
+        "conditional_refit": "only one qualifying winner; fresh full-history scalar and S9 factors; no CSV if none",
+        "configurations": [
+          {
+            "beta": 0.1,
+            "lambda": 100,
+            "name": "logcount_ease_l100_b10"
+          },
+          {
+            "beta": 1.0,
+            "lambda": 100,
+            "name": "logcount_ease_l100_b100"
+          },
+          {
+            "beta": 0.1,
+            "lambda": 1000,
+            "name": "logcount_ease_l1000_b10"
+          },
+          {
+            "beta": 1.0,
+            "lambda": 1000,
+            "name": "logcount_ease_l1000_b100"
+          }
+        ],
+        "controls": "reuse Stage 9 and matched Stage 11 binary lambda/beta predictions; independently recompute their metrics, do not refit controls",
+        "declared_before_model_evaluation": true,
+        "fixed": {
+          "B": "column-wise -P_ij/P_jj, exact zero diagonal; negative coefficients retained",
+          "EASE_schedule_adjusted": false,
+          "S9": "exact Stage 9 adjusted repeat50/AR80, 70/30, no decay; no setting changes",
+          "dtype": "float64",
+          "fallback_and_ranking": {
+            "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "feature_coverage": 0.8,
+          "fusion": "(1-beta)*S9 + beta*normalized_positive_EASE; S9 is not additionally normalized",
+          "prediction": "X_user @ B with weighted query rows; filter target candidates then clip completed scores and max-normalize positives",
+          "seen_items_excluded": false,
+          "solver": "Stage 11 Cholesky solve of G+lambda I against identity"
+        },
+        "hypothesis": "preserving >=80% qualifying-airing frequency in EASE input may complement Stage 9 more effectively than binary EASE",
+        "input": {
+          "X": "scale*Z",
+          "axes": "same positive support and learned axes as Stage 11; noncohort users and noncandidate historical programs included",
+          "convention": "global normalization is an explicitly declared experiment convention, not standard paper preprocessing or proven optimal",
+          "count": "number of distinct qualifying training user-airing interactions at >=80% actual observed coverage",
+          "degenerate": "no positive entries => scale=0, empty X, no solve, all EASE scores zero, established fallback; no division by zero",
+          "duplicate_policy": "unioned user-airing cache, deduplicate representations of (user_idx,airing_idx); distinct repeated airings each count once",
+          "scale": "sqrt(nnz(Z)/sum(Z_ui**2))",
+          "scale_fit_scope": "all qualifying training users/programs only, before cutoff; no labels or target data",
+          "transform": "Z_ui=log1p(n_ui)"
+        },
+        "kaggle_scores_not_targets": true,
+        "maximum_total_unique": 53,
+        "new_unique_budget": 4,
+        "only_change": "training input representation relative to matched Stage 11 models",
+        "output": "outputs/stage12/kuznetsov_vladimir_midterm_submission_frequency_ease.csv",
+        "personal_analysis_or_verification_claimed": false,
+        "personal_verification": "pending",
+        "previous_unique": 49,
+        "resources": "same sequential fits, matrix memory estimate and fixed cap min(4 GiB, physical_memory/4) as Stage 11; no replacement on failure",
+        "selection": {
+          "gain_each_split_at_least": 0.002,
+          "horizon12_interval_lower_strictly_above": 0.0,
+          "objective": "maximize smaller gain across the two splits",
+          "remaining_exact_tie": "retain Stage 9 rather than invent another rule",
+          "tie_break_1": "lower beta",
+          "tie_break_2": "lower measured computational cost summed across splits: shared EASE fit/score plus direct fusion"
+        },
+        "splits": "unchanged Stage 8 horizon12 and original10 users, labels, pools, boundaries and evaluation rules",
+        "suggestion_source": "external AI assistant Codex",
+        "uncertainty": "overlapping, repeatedly used historical periods; selection-unadjusted descriptive intervals, not independent confirmation"
+      },
+      "sha256": "812454506f93b8bdbc836c12748280cfa7f899b1d3da52b1bdc8ed3f4ab60fa3"
+    },
+    "outputs/stage13/declaration.json": {
+      "declaration": {
+        "bootstrap": {
+          "interval": "paired-user percentile descriptive 95%, all three cohorts",
+          "order": "template users",
+          "resamples": 10000,
+          "seed": 137
+        },
+        "conditional_refit": "one frozen winner only; no CSV if none qualifies",
+        "control": {
+          "EASE_opportunity_adjustment": false,
+          "beta": 0.1,
+          "lambda": 1000,
+          "name": "stage12_control"
+        },
+        "controls": "reproduce exact Stage 12 lists and independently recompute saved metric values, not rounded inputs",
+        "data": "unchanged two Stage 8 splits, labels, 1260 users, cohorts, pools and temporal boundaries",
+        "declared_before_evaluation": true,
+        "diagnostics": "existing repeat50 relevant-pair and eligible-history <20/>=20 partitions, not model or selection variants",
+        "feedback_informed_followup": true,
+        "five_variants": [
+          {
+            "EASE_opportunity_adjustment": false,
+            "beta": 0.05,
+            "lambda": 1000,
+            "name": "A_beta005"
+          },
+          {
+            "EASE_opportunity_adjustment": false,
+            "beta": 0.15,
+            "lambda": 1000,
+            "name": "B_beta015"
+          },
+          {
+            "EASE_opportunity_adjustment": false,
+            "beta": 0.2,
+            "lambda": 1000,
+            "name": "C_beta020"
+          },
+          {
+            "EASE_opportunity_adjustment": false,
+            "beta": 0.3,
+            "lambda": 1000,
+            "name": "D_beta030"
+          },
+          {
+            "EASE_opportunity_adjustment": true,
+            "beta": 0.1,
+            "lambda": 1000,
+            "name": "E_EASE_opportunity"
+          }
+        ],
+        "fixed": {
+          "EASE_input": "training-only globally scaled log1p >=80% qualifying-airing counts, exact Stage 12 scalar",
+          "S9": "exact .70 normalized adjusted repeat50 + .30 normalized AR80; no additional S9 normalization",
+          "fallback_ranking": {
+            "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "fusion": "(1-beta)*S9 + beta*normalized_positive_EASE",
+          "lambda": 1000,
+          "negative_coefficients": "retained through complete X_user@B",
+          "seen_items_excluded": false
+        },
+        "kaggle_scores_are_not_targets": true,
+        "maximum_total_unique": 58,
+        "new_unique_budget": 5,
+        "not_independent_confirmation": true,
+        "output": "outputs/stage13/kuznetsov_vladimir_midterm_submission_refined_ease.csv",
+        "previous_unique": 53,
+        "reuse": "Stage 12 lambda1000 raw completed EASE score caches and verified S9 scores; no historical EASE refits needed",
+        "selection": {
+          "cost_scope": "direct EASE component adjustment/normalization and fusion/ranking plus reused measured EASE fit/query cost; shared component-attributed, not standalone end-to-end measurement",
+          "gain_each_split_at_least": 0.002,
+          "horizon12_interval_lower_strictly_above": 0.0,
+          "objective": "maximize minimum gain across two splits",
+          "remaining_exact_tie": "retain Stage 12",
+          "tie_break": "lower measured computational cost summed across splits"
+        },
+        "suggestion_source": "external AI assistant Codex",
+        "uncertainty": "overlapping and repeatedly used historical periods; selection-unadjusted intervals; no independent statistical confirmation",
+        "variant_E": {
+          "combined_with_other_betas": false,
+          "counts": "Stage 8 ownership, identity dedupe, labelled positive training airings fully before cutoff; target starts inside window including end crossings",
+          "factor": "sqrt(clip((target_count/target_weeks)/(historical_count/training_weeks),.25,4))",
+          "interpretation": "forecasting heuristic, not calibrated probability",
+          "only_change": "EASE opportunity adjustment; beta .10 and S9 unchanged",
+          "order": "complete weighted-EASE prediction, clip scores to zero, multiply eligible positive scores by factor, then per-user candidate-only max normalization",
+          "positive_score_missing_historical_opportunity": "raise inconsistency, do not invent a denominator",
+          "zero_evidence": "remains zero"
+        }
+      },
+      "sha256": "a76f9819ad3d98a8708544581530b7991fca8fae766a2b90f597e084e7e4eb37"
+    },
+    "outputs/stage6/plan.json": {
+      "declaration": {
+        "controls": [
+          "repeat_50",
+          "hybrid_70_30"
+        ],
+        "coverage": "actual unioned covered_sec / original airing_duration; bridged_covered_sec never used",
+        "expected_combined_unique_configurations": 30,
+        "hybrids": {
+          "association": {
+            "aggregate": "max",
+            "interaction_counts": "qualifying_airings_primary_>=80%",
+            "max_antecedents_per_user": 50,
+            "max_rules_per_antecedent": 50,
+            "min_confidence": 0.005,
+            "min_count": 5,
+            "min_lift": 1.0,
+            "name": "ar_c5_conf_max_80",
+            "score_scheme": "confidence",
+            "tie_break": "training_popularity_then_id"
+          },
+          "normalization_and_ranking": {
+            "association_source": "ar_c5_conf_max_80",
+            "association_weight": 0.3,
+            "fallback": "full-history training popularity restricted to test candidates",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "name": "hybrid_70_30",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "repeat_source": "repeat_50",
+            "repeat_weight": 0.7,
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "repeat_source": "argmax primary MAP@5 of the eight declared repeat variants; declaration order resolves ties",
+          "repeat_weights": [
+            0.7,
+            0.85,
+            0.95
+          ]
+        },
+        "individual_repeat_variants": [
+          {
+            "half_life_days": null,
+            "name": "repeat_count20",
+            "threshold": 0.2,
+            "weighting": "count"
+          },
+          {
+            "half_life_days": null,
+            "name": "repeat_count35",
+            "threshold": 0.35,
+            "weighting": "count"
+          },
+          {
+            "half_life_days": null,
+            "name": "repeat_fraction20",
+            "threshold": 0.2,
+            "weighting": "fraction"
+          },
+          {
+            "half_life_days": null,
+            "name": "repeat_fraction50",
+            "threshold": 0.5,
+            "weighting": "fraction"
+          },
+          {
+            "half_life_days": 14,
+            "name": "repeat_count50_h14",
+            "threshold": 0.5,
+            "weighting": "count"
+          },
+          {
+            "half_life_days": 28,
+            "name": "repeat_count50_h28",
+            "threshold": 0.5,
+            "weighting": "count"
+          },
+          {
+            "half_life_days": 56,
+            "name": "repeat_count50_h56",
+            "threshold": 0.5,
+            "weighting": "count"
+          },
+          {
+            "half_life_days": 28,
+            "name": "repeat_fraction20_h28",
+            "threshold": 0.2,
+            "weighting": "fraction"
+          }
+        ],
+        "later_split": {
+          "description": "temporal robustness check, overlaps original holdout; not an independent untouched test",
+          "selection": "freeze challenger before robustness; never select or tune using robustness",
+          "strategies": [
+            "repeat_50",
+            "hybrid_70_30",
+            "argmax primary MAP@5 of the eleven challengers"
+          ],
+          "train": [
+            "2020-03-09",
+            "2020-06-15"
+          ],
+          "validation": [
+            "2020-06-15",
+            "2020-07-27"
+          ]
+        },
+        "max_budget": 12,
+        "no_external_implementations_or_results": true,
+        "planned_new_unique_configurations": 11,
+        "predeclared_before_evaluation": true,
+        "previous_unique_configurations": 19,
+        "primary_protocol": "frozen Stage 3 labels, candidate pool, cohorts, fallback and repeats allowed",
+        "recency": "2 ** (-(training_cutoff - airing_end_epoch) / (86400 * half_life_days)); reject future airing ends",
+        "refit_rule": "refit only the strongest challenger if its primary MAP@5 exceeds unchanged hybrid_70_30 control",
+        "remaining_slot": "unused; no adaptive search",
+        "selection_ties": "declaration order"
+      },
+      "sha256": "ef31f68f0c6680c5b11ae1c51dcd0c9a8d82111b4e4b82db99cd93ba0eb7e548"
+    },
+    "outputs/stage7/plan.json": {
+      "declaration": {
+        "changed_experimental_factor": {
+          "repeat.half_life_days": {
+            "from": 28,
+            "to": null
+          }
+        },
+        "designated_best": "Stage 5 remains best; this study cannot change that designation",
+        "earlier_unique_configurations": 30,
+        "max_new_unique_configurations": 1,
+        "motivation": "Follow-up hypothesis motivated by the returned Stage 6 Kaggle regression; not a preplanned experiment",
+        "name": "hybrid_repeat_fraction20_nodecay_w85",
+        "new_unique_configurations": 1,
+        "parameters": {
+          "association": {
+            "aggregate": "max",
+            "interaction_counts": "qualifying_airings_primary_>=80%",
+            "max_antecedents_per_user": 50,
+            "max_rules_per_antecedent": 50,
+            "min_confidence": 0.005,
+            "min_count": 5,
+            "min_lift": 1.0,
+            "name": "ar_c5_conf_max_80",
+            "score_scheme": "confidence",
+            "tie_break": "training_popularity_then_id"
+          },
+          "association_weight": 0.15000000000000002,
+          "fusion": {
+            "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+            "fusion": "weighted sum of normalized scores; no score rounding",
+            "normalization": "per-user max normalization over eligible candidate scores",
+            "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+            "zero_score_handling": "scores <= 0 are not ranked"
+          },
+          "name": "hybrid_repeat_fraction20_nodecay_w85",
+          "repeat": {
+            "half_life_days": null,
+            "name": "repeat_fraction20",
+            "threshold": 0.2,
+            "weighting": "fraction"
+          },
+          "repeat_weight": 0.85
+        },
+        "refit": "fixed variant on full history regardless of local outcome",
+        "search": "No additional thresholds, weights, or strategies",
+        "splits": "reuse the two existing Stage 6 splits, labels, candidates, cohorts and fallback rules"
+      },
+      "sha256": "cfd49d18c57996a226d007467d679288e3632f615942c19f1f4ed389f3ba566b"
+    },
+    "outputs/stage8/plan.json": {
+      "declaration": {
+        "C_time_convention": "naive schedule timestamps as supplied, no invented timezone conversion; weekday Mon-Fri, weekend Sat-Sun; floor(start_hour/4)",
+        "bootstrap": {
+          "caveat": "conditional descriptive, not selection-adjusted; overlapping historical backtests",
+          "interval": "paired-user percentile 95%, all 3 cohorts",
+          "resamples": 10000,
+          "seed": 137
+        },
+        "boundaries": "interaction airings must end by cutoff; target schedule includes crossing-validation-end airings",
+        "combined_unique": 35,
+        "controls": [
+          "repeat_50",
+          "stage5_hybrid_70_30",
+          "submitted_stage6",
+          "submitted_stage7"
+        ],
+        "coverage": "actual unioned seconds/original duration, no gap bridging",
+        "fallback_and_ranking": {
+          "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+          "fusion": "weighted sum of normalized scores; no score rounding",
+          "normalization": "per-user max normalization over eligible candidate scores",
+          "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+          "zero_score_handling": "scores <= 0 are not ranked"
+        },
+        "new_configurations": {
+          "A_repeat50_hybrid85": {
+            "association": {
+              "aggregate": "max",
+              "interaction_counts": "qualifying_airings_primary_>=80%",
+              "max_antecedents_per_user": 50,
+              "max_rules_per_antecedent": 50,
+              "min_confidence": 0.005,
+              "min_count": 5,
+              "min_lift": 1.0,
+              "name": "ar_c5_conf_max_80",
+              "score_scheme": "confidence",
+              "tie_break": "training_popularity_then_id"
+            },
+            "association_weight": 0.15,
+            "repeat": "original repeat_50",
+            "repeat_weight": 0.85
+          },
+          "B_schedule_adjusted_hybrid70": {
+            "association": {
+              "aggregate": "max",
+              "interaction_counts": "qualifying_airings_primary_>=80%",
+              "max_antecedents_per_user": 50,
+              "max_rules_per_antecedent": 50,
+              "min_confidence": 0.005,
+              "min_count": 5,
+              "min_lift": 1.0,
+              "name": "ar_c5_conf_max_80",
+              "score_scheme": "confidence",
+              "tie_break": "training_popularity_then_id"
+            },
+            "association_weight": 0.3,
+            "repeat": "original repeat_50 times sqrt(clip(future_weekly_airings / past_weekly_airings, .25, 4))",
+            "repeat_weight": 0.7,
+            "zero_personal_repeat_remains_zero": true
+          },
+          "C_channel_time": {
+            "interpretation": "forecasting heuristic, not calibrated probability",
+            "p_uc": "watched_airings_uc / scheduled_airings_c, zero if unavailable",
+            "p_ucb": "(watched_airings_ucb + 20*p_uc) / (scheduled_airings_cb + 20)",
+            "smoothing": 20,
+            "target_score": "sum p_ucb over program target airings",
+            "time_bins": "weekday/weekend x six 4-hour start bins",
+            "training_interactions": ">=80% actual coverage"
+          },
+          "D_hybrid90_schedule10": {
+            "normalization": "per-user max-normalize original hybrid score and C score before fusion",
+            "original_stage5_hybrid_weight": 0.9,
+            "prerequisite": "C individually evaluated first",
+            "scheduling_model_C_weight": 0.1
+          }
+        },
+        "no_additional_configurations": true,
+        "no_final_refit_or_submission_generation": true,
+        "planned_new_unique": 4,
+        "predeclared_before_stage8_evaluation": true,
+        "previous_unique": 31,
+        "recommendation_rule": "tiny gains alone do not warrant refitting; compare both splits, effect size, uncertainty and model selection",
+        "repeats_allowed": true,
+        "schedule_rules": "nominal start ownership, identity dedupe by channel/start/end/program, first source then source row wins; labelled positive duration only",
+        "splits": {
+          "horizon12": {
+            "train": [
+              "2020-03-09",
+              "2020-05-04"
+            ],
+            "validation": [
+              "2020-05-04",
+              "2020-07-27"
+            ]
+          },
+          "original10": {
+            "train": [
+              "2020-03-09",
+              "2020-05-18"
+            ],
+            "validation": [
+              "2020-05-18",
+              "2020-07-27"
+            ]
+          }
+        },
+        "stage5_designated_best": true
+      },
+      "sha256": "01d045c9eb11b570b69ddd21f02fa31b68e9f6605ec24a74bf70d4dc14f5f60a"
+    },
+    "outputs/stage9/configuration.json": {
+      "declaration": {
+        "association": {
+          "aggregate": "max",
+          "interaction_counts": "qualifying_airings_primary_>=80%",
+          "max_antecedents_per_user": 50,
+          "max_rules_per_antecedent": 50,
+          "min_confidence": 0.005,
+          "min_count": 5,
+          "min_lift": 1.0,
+          "name": "ar_c5_conf_max_80",
+          "score_scheme": "confidence",
+          "tie_break": "training_popularity_then_id"
+        },
+        "association_weight": 0.3,
+        "best_scored_submission": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+        "best_sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+        "column_labels": "cropped score-column identities remain unconfirmed",
+        "expected_candidates": 6632,
+        "fallback": "full-history >=80% training popularity restricted to target candidates",
+        "name": "B_schedule_adjusted_hybrid70",
+        "new_unique_configurations": 0,
+        "normalization": "independent per-user max normalization of each component over eligible candidates",
+        "operation": "fixed final refit; no improvement study or search",
+        "opportunity_adjustment": {
+          "formula": "sqrt(clip((target_count/target_weeks)/(historical_count/training_weeks),0.25,4.0))",
+          "no_personal_history": "zero remains zero; no invented repeat evidence",
+          "order": "multiply eligible personal repeat scores before per-user candidate-only max normalization",
+          "zero_historical_opportunities": "no factor; any positive personal evidence without historical opportunity is an inconsistency"
+        },
+        "output": "outputs/stage9/kuznetsov_vladimir_midterm_submission_schedule.csv",
+        "ranking": "exact score descending, primary80 training-user popularity descending, primary80 airing popularity descending, program ID ascending",
+        "repeat": {
+          "coverage": ">=50% actual unioned observed seconds / original airing duration",
+          "time_decay": null,
+          "weighting": "qualifying-airing count"
+        },
+        "repeat_weight": 0.7,
+        "repeats_allowed": true,
+        "stage8_parameter_file": "outputs/stage8/horizon12/methods/B_schedule_adjusted_hybrid70/parameters.json",
+        "stage8_parameter_sha256": "c440e95dbf1261daf4a5963830565b6bcf4b516debd4212eb908b2419467da20",
+        "stage8_parameters": {
+          "association": {
+            "aggregate": "max",
+            "interaction_counts": "qualifying_airings_primary_>=80%",
+            "max_antecedents_per_user": 50,
+            "max_rules_per_antecedent": 50,
+            "min_confidence": 0.005,
+            "min_count": 5,
+            "min_lift": 1.0,
+            "name": "ar_c5_conf_max_80",
+            "score_scheme": "confidence",
+            "tie_break": "training_popularity_then_id"
+          },
+          "association_weight": 0.3,
+          "repeat": "original repeat_50 times sqrt(clip(future_weekly_airings / past_weekly_airings, .25, 4))",
+          "repeat_weight": 0.7,
+          "zero_personal_repeat_remains_zero": true
+        },
+        "target_schedule_rule": "owned labelled positive airings, deterministic identity dedupe, starts in target window including end-crossing airings",
+        "target_window": {
+          "epochs": [
+            1595808000,
+            1603065600
+          ],
+          "iso": [
+            "2020-07-27T00:00:00",
+            "2020-10-19T00:00:00"
+          ],
+          "weeks": 12.0
+        },
+        "train_window": {
+          "epochs": [
+            1583712000,
+            1595808000
+          ],
+          "iso": [
+            "2020-03-09T00:00:00",
+            "2020-07-27T00:00:00"
+          ],
+          "weeks": 20.0
+        },
+        "training_schedule_rule": "owned labelled positive airings, deterministic identity dedupe, starts in training window and ends <= cutoff",
+        "unique_configurations_after": 35,
+        "unique_configurations_before": 35
+      },
+      "sha256": "123a30140e606b49a17cbbe673c588a35e1c72ae871b1c10ea1b88252e58cda7"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "count_variant": "sens50",
+  "name": "repeat_50",
+  "ranking": "training_qualifying_airings_sensitivity",
+  "threshold": ">=50%",
+  "tie_break": "training_popularity_then_id"
+}

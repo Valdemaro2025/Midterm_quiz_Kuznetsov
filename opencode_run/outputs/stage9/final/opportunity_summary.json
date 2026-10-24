@@ -1,0 +1,31 @@
+{
+  "factor_programs": 5195,
+  "factor_quantile_probabilities": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    1
+  ],
+  "factor_quantiles": [
+    0.5,
+    0.6454972243679028,
+    0.8856148855400953,
+    1.0850668323108212,
+    1.2909944487358058,
+    1.8257418583505536,
+    2.0
+  ],
+  "historical_airings": 236489,
+  "historical_programs": 8227,
+  "raw_ratio_above_upper_clip": 355,
+  "raw_ratio_below_lower_clip": 185,
+  "source": "recomputed full-history and test opportunities, not validation factors",
+  "target_airings": 144517,
+  "target_programs": 6632,
+  "target_programs_without_historical_opportunities": 1437,
+  "target_weeks": 12.0,
+  "training_weeks": 20.0
+}

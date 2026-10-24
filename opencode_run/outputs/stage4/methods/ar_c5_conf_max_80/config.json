@@ -1,0 +1,11 @@
+{
+  "aggregate": "max",
+  "interaction_counts": "qualifying_airings_primary_>=80%",
+  "max_antecedents_per_user": 50,
+  "max_rules_per_antecedent": 50,
+  "min_confidence": 0.005,
+  "min_count": 5,
+  "min_lift": 1.0,
+  "score_scheme": "confidence",
+  "tie_break": "program_id"
+}

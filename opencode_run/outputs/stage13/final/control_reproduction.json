@@ -1,0 +1,5 @@
+{
+  "full_S9_top5_exact": true,
+  "full_Stage12_top5_exact": true,
+  "full_training_scalar_exact": true
+}

@@ -1,0 +1,32 @@
+{
+  "candidates": 6632,
+  "designated_best_scored_submission": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+  "full_history_counts": "outputs/stage5/interactions/history_user_program_counts.csv",
+  "future_viewing_behavior_used": false,
+  "name": "B_schedule_adjusted_hybrid70",
+  "new_unique_configurations": 0,
+  "official_rendered_page_verification": "external Codex review; not personal verification by the human user or a rendered-browser execution in this OpenCode session",
+  "opportunity_sources": [
+    "sweettv-tv-program-recommender/export_arh_11-20-final.csv",
+    "sweettv-tv-program-recommender/export_arh_21-30-final.csv",
+    "sweettv-tv-program-recommender/export_arh_31-42-final.csv"
+  ],
+  "score_column_labels": "unconfirmed; official 50/50 user split does not resolve cropped column identities",
+  "stage9_kaggle_score": null,
+  "submission": "outputs/stage9/kuznetsov_vladimir_midterm_submission_schedule.csv",
+  "submission_sha256": "f88ac045cd9c4347e72fd7a3a90f4c97748d44a055af8faf5c93a684fa0f9ea9",
+  "target_airings": 144517,
+  "target_weeks": 12.0,
+  "target_window": [
+    1595808000,
+    1603065600
+  ],
+  "training_airings": 236489,
+  "training_weeks": 20.0,
+  "training_window": [
+    1583712000,
+    1595808000
+  ],
+  "unique_configurations": 35,
+  "validation_factors_reused": false
+}

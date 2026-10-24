@@ -1,0 +1,198 @@
+{
+  "horizon12": {
+    "A_repeat50_hybrid85": {
+      "cohort_size": 1260,
+      "delta_map": 0.0010180776014109343,
+      "map": 0.39754298941798943,
+      "paired_95_interval": [
+        -0.0023741622574955925,
+        0.004479613095238097
+      ],
+      "users_better": 177,
+      "users_tied": 882,
+      "users_worse": 201
+    },
+    "B_schedule_adjusted_hybrid70": {
+      "cohort_size": 1260,
+      "delta_map": 0.009633156966490298,
+      "map": 0.40615806878306876,
+      "paired_95_interval": [
+        0.006447949735449733,
+        0.012895083774250434
+      ],
+      "users_better": 230,
+      "users_tied": 916,
+      "users_worse": 114
+    },
+    "C_channel_time": {
+      "cohort_size": 1260,
+      "delta_map": -0.02230930335097002,
+      "map": 0.3742156084656085,
+      "paired_95_interval": [
+        -0.030584821428571385,
+        -0.013793033509700178
+      ],
+      "users_better": 369,
+      "users_tied": 372,
+      "users_worse": 519
+    },
+    "D_hybrid90_schedule10": {
+      "cohort_size": 1260,
+      "delta_map": 0.005950837742504409,
+      "map": 0.4024757495590829,
+      "paired_95_interval": [
+        0.0035673390652557306,
+        0.008440299823633148
+      ],
+      "users_better": 164,
+      "users_tied": 1005,
+      "users_worse": 91
+    },
+    "repeat_50": {
+      "cohort_size": 1260,
+      "delta_map": -0.003997795414462083,
+      "map": 0.3925271164021164,
+      "paired_95_interval": [
+        -0.008458179012345676,
+        0.0005336419753086385
+      ],
+      "users_better": 234,
+      "users_tied": 717,
+      "users_worse": 309
+    },
+    "stage5_hybrid_70_30": {
+      "cohort_size": 1260,
+      "delta_map": 0.0,
+      "map": 0.39652491181657845,
+      "paired_95_interval": [
+        0.0,
+        0.0
+      ],
+      "users_better": 0,
+      "users_tied": 1260,
+      "users_worse": 0
+    },
+    "submitted_stage6": {
+      "cohort_size": 1260,
+      "delta_map": 0.005184744268077602,
+      "map": 0.4017096560846561,
+      "paired_95_interval": [
+        0.00022926587301587336,
+        0.010381051587301595
+      ],
+      "users_better": 334,
+      "users_tied": 631,
+      "users_worse": 295
+    },
+    "submitted_stage7": {
+      "cohort_size": 1260,
+      "delta_map": 0.0047828483245149905,
+      "map": 0.40130776014109354,
+      "paired_95_interval": [
+        0.00045543981481481434,
+        0.009314539241622578
+      ],
+      "users_better": 278,
+      "users_tied": 718,
+      "users_worse": 264
+    }
+  },
+  "original10": {
+    "A_repeat50_hybrid85": {
+      "cohort_size": 1260,
+      "delta_map": 0.00043915343915343856,
+      "map": 0.37898544973544973,
+      "paired_95_interval": [
+        -0.0027540178571428572,
+        0.003573693783068781
+      ],
+      "users_better": 173,
+      "users_tied": 898,
+      "users_worse": 189
+    },
+    "B_schedule_adjusted_hybrid70": {
+      "cohort_size": 1260,
+      "delta_map": 0.009267636684303351,
+      "map": 0.3878139329805997,
+      "paired_95_interval": [
+        0.006516523368606696,
+        0.012017002865961182
+      ],
+      "users_better": 228,
+      "users_tied": 925,
+      "users_worse": 107
+    },
+    "C_channel_time": {
+      "cohort_size": 1260,
+      "delta_map": -0.01591115520282187,
+      "map": 0.3626351410934744,
+      "paired_95_interval": [
+        -0.02427846119929455,
+        -0.007398214285714291
+      ],
+      "users_better": 377,
+      "users_tied": 389,
+      "users_worse": 494
+    },
+    "D_hybrid90_schedule10": {
+      "cohort_size": 1260,
+      "delta_map": 0.006076940035273369,
+      "map": 0.3846232363315697,
+      "paired_95_interval": [
+        0.003894604276895942,
+        0.008300931437389771
+      ],
+      "users_better": 157,
+      "users_tied": 1012,
+      "users_worse": 91
+    },
+    "repeat_50": {
+      "cohort_size": 1260,
+      "delta_map": -0.004449294532627867,
+      "map": 0.37409700176366845,
+      "paired_95_interval": [
+        -0.008825,
+        -8.678902116402145e-05
+      ],
+      "users_better": 220,
+      "users_tied": 747,
+      "users_worse": 293
+    },
+    "stage5_hybrid_70_30": {
+      "cohort_size": 1260,
+      "delta_map": 0.0,
+      "map": 0.3785462962962963,
+      "paired_95_interval": [
+        0.0,
+        0.0
+      ],
+      "users_better": 0,
+      "users_tied": 1260,
+      "users_worse": 0
+    },
+    "submitted_stage6": {
+      "cohort_size": 1260,
+      "delta_map": 0.0031679894179894178,
+      "map": 0.3817142857142857,
+      "paired_95_interval": [
+        -0.0017284171075837753,
+        0.008194830246913578
+      ],
+      "users_better": 329,
+      "users_tied": 616,
+      "users_worse": 315
+    },
+    "submitted_stage7": {
+      "cohort_size": 1260,
+      "delta_map": 0.0006106701940035271,
+      "map": 0.37915696649029984,
+      "paired_95_interval": [
+        -0.003178356481481483,
+        0.004491358024691356
+      ],
+      "users_better": 244,
+      "users_tied": 772,
+      "users_worse": 244
+    }
+  }
+}

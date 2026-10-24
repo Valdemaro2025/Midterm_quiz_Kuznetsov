@@ -1,0 +1,23 @@
+{
+  "binary_metrics": {
+    "cohort_sizes": {
+      "map_at_k": 1260,
+      "map_with_at_least_k_positive": 1150,
+      "map_with_positive": 1238
+    },
+    "map_at_k": 0.3059865520282187,
+    "map_with_at_least_k_positive": 0.32305797101449274,
+    "map_with_positive": 0.31142411595763775
+  },
+  "binary_source": "outputs/stage11/original10/methods/ease_l100_b100",
+  "count_minus_binary_metrics": {
+    "map_at_k": 0.03996340388007058,
+    "map_with_at_least_k_positive": 0.04474492753623194,
+    "map_with_positive": 0.040673577454676035
+  },
+  "prediction_changes": {
+    "mean_common_top5_ids": 3.8944444444444444,
+    "users_changed_list": 1207,
+    "users_changed_top1": 477
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "actor_limit": 0,
+  "fields": [
+    "category"
+  ],
+  "profile_counts": "positive_airings",
+  "profile_weight": "logcount",
+  "tie_break": "training_popularity_then_id",
+  "use_idf": true
+}

@@ -1,0 +1,10 @@
+{
+  "category": "control_reproduction",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "a6cbb053c36cf2cecba085c41edc381abe0d70f00a07635b2dbaba0393933665",
+  "repeats_allowed": true,
+  "scope": "primary",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "primary/provenance.json",
+  "training_cutoff": 1589760000
+}

@@ -1,0 +1,5 @@
+{
+  "count_variant": "sens50",
+  "threshold": ">=50%",
+  "tie_break": "training_popularity_then_id"
+}

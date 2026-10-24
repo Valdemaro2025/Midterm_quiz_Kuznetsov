@@ -1,0 +1,20 @@
+{
+  "EASE_adjustment_order": "complete scores -> clip zero -> multiply factor -> candidate-only per-user max",
+  "S9_renormalized": false,
+  "normalization_scalar": 0.8906002416547741,
+  "scalar_recalculated_from_full_training": true,
+  "selected": {
+    "EASE_opportunity_adjustment": true,
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "E_EASE_opportunity"
+  },
+  "target_window": [
+    1595808000,
+    1603065600
+  ],
+  "training_window": [
+    1583712000,
+    1595808000
+  ]
+}

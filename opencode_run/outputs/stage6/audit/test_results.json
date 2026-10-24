@@ -1,0 +1,17 @@
+{
+  "command": "python3 -m pytest -q tests outputs/stage6/code/test_study.py",
+  "exit_code": 0,
+  "passed": 43,
+  "failed": 0,
+  "existing_tests": 34,
+  "stage6_tests_including_parameterized_cases": 9,
+  "focused_checks": [
+    "inclusive coverage thresholds and original duration weighting",
+    "14/28/56-day half-life and airing-end recency",
+    "future airing rejection",
+    "bridged gap seconds are ignored",
+    "per-airing fraction summation",
+    "cross-cutoff exclusions and invariance to future behavior",
+    "mismatched original duration cache rejection"
+  ]
+}

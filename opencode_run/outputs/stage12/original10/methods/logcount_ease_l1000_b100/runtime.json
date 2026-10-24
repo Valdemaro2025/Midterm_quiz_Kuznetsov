@@ -1,0 +1,7 @@
+{
+  "direct_fusion_and_rank_seconds": 1.2241222500015283,
+  "measured_cost_for_selection_seconds": 1.4430547500014654,
+  "scope": "shared fit reused across beta variants; not standalone end-to-end cost",
+  "shared_fit_and_score_seconds": 0.21893249999993714,
+  "shared_matrix_transform_Gram_seconds": 0.06690870800230186
+}

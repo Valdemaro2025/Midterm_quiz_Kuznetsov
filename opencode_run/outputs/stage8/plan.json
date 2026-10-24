@@ -1,0 +1,108 @@
+{
+  "C_time_convention": "naive schedule timestamps as supplied, no invented timezone conversion; weekday Mon-Fri, weekend Sat-Sun; floor(start_hour/4)",
+  "bootstrap": {
+    "caveat": "conditional descriptive, not selection-adjusted; overlapping historical backtests",
+    "interval": "paired-user percentile 95%, all 3 cohorts",
+    "resamples": 10000,
+    "seed": 137
+  },
+  "boundaries": "interaction airings must end by cutoff; target schedule includes crossing-validation-end airings",
+  "combined_unique": 35,
+  "controls": [
+    "repeat_50",
+    "stage5_hybrid_70_30",
+    "submitted_stage6",
+    "submitted_stage7"
+  ],
+  "coverage": "actual unioned seconds/original duration, no gap bridging",
+  "fallback_and_ranking": {
+    "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "normalization": "per-user max normalization over eligible candidate scores",
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "zero_score_handling": "scores <= 0 are not ranked"
+  },
+  "new_configurations": {
+    "A_repeat50_hybrid85": {
+      "association": {
+        "aggregate": "max",
+        "interaction_counts": "qualifying_airings_primary_>=80%",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "name": "ar_c5_conf_max_80",
+        "score_scheme": "confidence",
+        "tie_break": "training_popularity_then_id"
+      },
+      "association_weight": 0.15,
+      "repeat": "original repeat_50",
+      "repeat_weight": 0.85
+    },
+    "B_schedule_adjusted_hybrid70": {
+      "association": {
+        "aggregate": "max",
+        "interaction_counts": "qualifying_airings_primary_>=80%",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "name": "ar_c5_conf_max_80",
+        "score_scheme": "confidence",
+        "tie_break": "training_popularity_then_id"
+      },
+      "association_weight": 0.3,
+      "repeat": "original repeat_50 times sqrt(clip(future_weekly_airings / past_weekly_airings, .25, 4))",
+      "repeat_weight": 0.7,
+      "zero_personal_repeat_remains_zero": true
+    },
+    "C_channel_time": {
+      "interpretation": "forecasting heuristic, not calibrated probability",
+      "p_uc": "watched_airings_uc / scheduled_airings_c, zero if unavailable",
+      "p_ucb": "(watched_airings_ucb + 20*p_uc) / (scheduled_airings_cb + 20)",
+      "smoothing": 20,
+      "target_score": "sum p_ucb over program target airings",
+      "time_bins": "weekday/weekend x six 4-hour start bins",
+      "training_interactions": ">=80% actual coverage"
+    },
+    "D_hybrid90_schedule10": {
+      "normalization": "per-user max-normalize original hybrid score and C score before fusion",
+      "original_stage5_hybrid_weight": 0.9,
+      "prerequisite": "C individually evaluated first",
+      "scheduling_model_C_weight": 0.1
+    }
+  },
+  "no_additional_configurations": true,
+  "no_final_refit_or_submission_generation": true,
+  "planned_new_unique": 4,
+  "predeclared_before_stage8_evaluation": true,
+  "previous_unique": 31,
+  "recommendation_rule": "tiny gains alone do not warrant refitting; compare both splits, effect size, uncertainty and model selection",
+  "repeats_allowed": true,
+  "schedule_rules": "nominal start ownership, identity dedupe by channel/start/end/program, first source then source row wins; labelled positive duration only",
+  "splits": {
+    "horizon12": {
+      "train": [
+        "2020-03-09",
+        "2020-05-04"
+      ],
+      "validation": [
+        "2020-05-04",
+        "2020-07-27"
+      ]
+    },
+    "original10": {
+      "train": [
+        "2020-03-09",
+        "2020-05-18"
+      ],
+      "validation": [
+        "2020-05-18",
+        "2020-07-27"
+      ]
+    }
+  },
+  "stage5_designated_best": true
+}

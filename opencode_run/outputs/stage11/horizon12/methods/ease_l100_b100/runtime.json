@@ -1,0 +1,7 @@
+{
+  "direct_fusion_and_rank_seconds": 0.9590778749989113,
+  "measured_component_cost_for_tie_break_seconds": 1.1238676249995478,
+  "scope": "lambda model reused for four beta variants; component-attributed cost is not independently measured end-to-end runtime",
+  "shared_EASE_fit_score_seconds": 0.16478975000063656,
+  "shared_binary_matrix_Gram_seconds": 0.030500374999974156
+}

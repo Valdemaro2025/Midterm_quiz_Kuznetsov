@@ -1,0 +1,29 @@
+{
+  "boundary_limitation": "Validation candidates include airings starting in the window even if they end after it. Validation labels use only fully observed airings. Therefore crossing-end-only candidate IDs are recommendable but cannot become label positives under the conservative rule.",
+  "protocol_version": "stage3_v2",
+  "rule": "labelled_positive_duration_airing_start_in_target_window_including_crossing_end",
+  "test": {
+    "candidate_count": 6632,
+    "candidate_ids_only_in_crossing_end_airings": [
+      90055587,
+      90066197,
+      90073877,
+      90077840,
+      90078863
+    ],
+    "note": "No local test labels; candidate availability is reported descriptively."
+  },
+  "val": {
+    "candidate_count": 6361,
+    "candidate_ids_only_in_crossing_end_airings": [
+      90058363,
+      90069772,
+      90072264,
+      90072815,
+      90075287,
+      90079060
+    ],
+    "interaction_ids_not_candidates": [],
+    "interaction_label_id_count": 6355
+  }
+}

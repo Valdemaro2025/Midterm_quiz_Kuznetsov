@@ -1,0 +1,85 @@
+{
+  "association": {
+    "aggregate": "max",
+    "interaction_counts": "qualifying_airings_primary_>=80%",
+    "max_antecedents_per_user": 50,
+    "max_rules_per_antecedent": 50,
+    "min_confidence": 0.005,
+    "min_count": 5,
+    "min_lift": 1.0,
+    "name": "ar_c5_conf_max_80",
+    "score_scheme": "confidence",
+    "tie_break": "training_popularity_then_id"
+  },
+  "association_weight": 0.3,
+  "best_scored_submission": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+  "best_sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+  "column_labels": "cropped score-column identities remain unconfirmed",
+  "expected_candidates": 6632,
+  "fallback": "full-history >=80% training popularity restricted to target candidates",
+  "name": "B_schedule_adjusted_hybrid70",
+  "new_unique_configurations": 0,
+  "normalization": "independent per-user max normalization of each component over eligible candidates",
+  "operation": "fixed final refit; no improvement study or search",
+  "opportunity_adjustment": {
+    "formula": "sqrt(clip((target_count/target_weeks)/(historical_count/training_weeks),0.25,4.0))",
+    "no_personal_history": "zero remains zero; no invented repeat evidence",
+    "order": "multiply eligible personal repeat scores before per-user candidate-only max normalization",
+    "zero_historical_opportunities": "no factor; any positive personal evidence without historical opportunity is an inconsistency"
+  },
+  "output": "outputs/stage9/kuznetsov_vladimir_midterm_submission_schedule.csv",
+  "ranking": "exact score descending, primary80 training-user popularity descending, primary80 airing popularity descending, program ID ascending",
+  "repeat": {
+    "coverage": ">=50% actual unioned observed seconds / original airing duration",
+    "time_decay": null,
+    "weighting": "qualifying-airing count"
+  },
+  "repeat_weight": 0.7,
+  "repeats_allowed": true,
+  "stage8_parameter_file": "outputs/stage8/horizon12/methods/B_schedule_adjusted_hybrid70/parameters.json",
+  "stage8_parameter_sha256": "c440e95dbf1261daf4a5963830565b6bcf4b516debd4212eb908b2419467da20",
+  "stage8_parameters": {
+    "association": {
+      "aggregate": "max",
+      "interaction_counts": "qualifying_airings_primary_>=80%",
+      "max_antecedents_per_user": 50,
+      "max_rules_per_antecedent": 50,
+      "min_confidence": 0.005,
+      "min_count": 5,
+      "min_lift": 1.0,
+      "name": "ar_c5_conf_max_80",
+      "score_scheme": "confidence",
+      "tie_break": "training_popularity_then_id"
+    },
+    "association_weight": 0.3,
+    "repeat": "original repeat_50 times sqrt(clip(future_weekly_airings / past_weekly_airings, .25, 4))",
+    "repeat_weight": 0.7,
+    "zero_personal_repeat_remains_zero": true
+  },
+  "target_schedule_rule": "owned labelled positive airings, deterministic identity dedupe, starts in target window including end-crossing airings",
+  "target_window": {
+    "epochs": [
+      1595808000,
+      1603065600
+    ],
+    "iso": [
+      "2020-07-27T00:00:00",
+      "2020-10-19T00:00:00"
+    ],
+    "weeks": 12.0
+  },
+  "train_window": {
+    "epochs": [
+      1583712000,
+      1595808000
+    ],
+    "iso": [
+      "2020-03-09T00:00:00",
+      "2020-07-27T00:00:00"
+    ],
+    "weeks": 20.0
+  },
+  "training_schedule_rule": "owned labelled positive airings, deterministic identity dedupe, starts in training window and ends <= cutoff",
+  "unique_configurations_after": 35,
+  "unique_configurations_before": 35
+}

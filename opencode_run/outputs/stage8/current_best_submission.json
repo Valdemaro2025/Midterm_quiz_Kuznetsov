@@ -1,0 +1,12 @@
+{
+  "column_labels": null,
+  "designation": "current best, retained per user instruction",
+  "observed_values": [
+    0.40974,
+    0.42586
+  ],
+  "path": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+  "sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+  "stage": 5,
+  "stage7_must_not_replace": true
+}

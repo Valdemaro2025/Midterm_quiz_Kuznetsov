@@ -1,0 +1,18 @@
+{
+  "command": "python3 -B -m pytest -q -p no:cacheprovider --import-mode=importlib tests outputs/stage6/code/test_study.py outputs/stage8/code/test_study.py outputs/stage9/code/test_refit.py --junitxml=outputs/stage9/audit/tests.xml",
+  "exit_code": 0,
+  "passed": 59,
+  "failed": 0,
+  "new_stage9_focused_cases": 9,
+  "coverage": [
+    "timestamp-derived 20-week and 12-week opportunity-rate normalization",
+    "clip rate ratio before square root",
+    "zero historical opportunities and zero personal evidence",
+    "reject inconsistent personal evidence without opportunity",
+    "adjustment before independent component max normalization",
+    "candidate filtering before adjustment and normalization",
+    "invalid and overlapping window rejection",
+    "target ownership, deduplication and crossing-end eligibility",
+    "shared final prediction path uses fixed adjustment, fusion and fallback"
+  ]
+}

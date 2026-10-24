@@ -1,0 +1,30 @@
+{
+  "new_configurations": [
+    {
+      "beta": 0.1,
+      "lambda": 100,
+      "name": "logcount_ease_l100_b10"
+    },
+    {
+      "beta": 1.0,
+      "lambda": 100,
+      "name": "logcount_ease_l100_b100"
+    },
+    {
+      "beta": 0.1,
+      "lambda": 1000,
+      "name": "logcount_ease_l1000_b10"
+    },
+    {
+      "beta": 1.0,
+      "lambda": 1000,
+      "name": "logcount_ease_l1000_b100"
+    }
+  ],
+  "new_unique": 4,
+  "previous_unique": 49,
+  "prior_history": "outputs/stage11/search_history.json",
+  "prior_history_sha256": "8278a89d1fcb20803b2c004698cbcf5bf46143dc4d94c1d64f06c7e39855c3f1",
+  "refits_reproductions_and_reused_controls_not_new_configurations": true,
+  "total_unique": 53
+}

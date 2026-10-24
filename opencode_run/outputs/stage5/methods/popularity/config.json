@@ -1,0 +1,5 @@
+{
+  "count_variant": "primary80",
+  "name": "popularity_fallback",
+  "ranking": "distinct_full_history_training_users_primary_desc, qualifying_airings_primary_desc, program_id_asc"
+}

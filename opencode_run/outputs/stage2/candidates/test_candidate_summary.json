@@ -1,0 +1,8 @@
+{
+  "cohort_users": 1260,
+  "cohort_users_with_any_training_positive": 1250,
+  "note": "No test labels are available locally; these are descriptive candidate/cohort checks, not Kaggle outcomes.",
+  "test_candidate_count": 6632,
+  "test_candidates_with_any_training_positive": 2220,
+  "test_candidates_with_no_training_positive": 4412
+}

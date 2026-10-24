@@ -1,0 +1,30 @@
+{
+  "alpha": 0.75,
+  "association_weight": 0.3,
+  "canonical_signature": {
+    "alpha": 0.75,
+    "architecture": "schedule_adjusted_repeat50_ar80_max",
+    "association": {
+      "aggregate": "max",
+      "interaction_counts": "qualifying_airings_primary_>=80%",
+      "max_antecedents_per_user": 50,
+      "max_rules_per_antecedent": 50,
+      "min_confidence": 0.005,
+      "min_count": 5,
+      "min_lift": 1.0,
+      "name": "ar_c5_conf_max_80",
+      "score_scheme": "confidence",
+      "tie_break": "training_popularity_then_id"
+    },
+    "association_weight": 0.3,
+    "clip_ratio": [
+      0.25,
+      4.0
+    ],
+    "decay": null,
+    "repeat_coverage": 0.5,
+    "repeat_weight": 0.7
+  },
+  "name": "alpha075_w70",
+  "repeat_weight": 0.7
+}

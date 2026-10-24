@@ -1,0 +1,16 @@
+{
+  "actor_limit": 0,
+  "candidates_with_training_metadata": 3967,
+  "feature_count": 71,
+  "features": [
+    "category",
+    "genres"
+  ],
+  "mean_scored_candidates_per_user": 3921.236507936508,
+  "metadata_show_count": 5834,
+  "method": "cbf",
+  "profile_weight": "logcount",
+  "use_idf": true,
+  "users_needing_fallback": 10,
+  "users_with_training_metadata": 1250
+}

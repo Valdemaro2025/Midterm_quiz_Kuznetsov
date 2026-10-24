@@ -1,0 +1,9 @@
+{
+  "aggregate": "max",
+  "max_antecedents_per_user": 50,
+  "max_rules_per_antecedent": 50,
+  "min_confidence": 0.005,
+  "min_count": 5,
+  "min_lift": 1.0,
+  "score_scheme": "confidence"
+}

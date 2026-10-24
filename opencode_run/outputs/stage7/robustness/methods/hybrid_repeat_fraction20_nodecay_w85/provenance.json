@@ -1,0 +1,10 @@
+{
+  "category": "fixed_temporal_robustness",
+  "coverage": "actual unioned seconds; original duration",
+  "parameters_sha256": "5ec83ae53da69b6fe7014dffd79f5c8a66eefe62972c61926c5296ab0b382867",
+  "repeats_allowed": true,
+  "scope": "robustness",
+  "source_manifest": "preservation_before.json",
+  "split_provenance": "robustness/provenance.json",
+  "training_cutoff": 1592179200
+}

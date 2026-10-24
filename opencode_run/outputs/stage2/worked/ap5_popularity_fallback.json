@@ -1,0 +1,90 @@
+{
+  "cohort_size": 1260,
+  "examples": [
+    {
+      "ap_at_5": 0.0,
+      "hit_positions": [],
+      "label_size": 5,
+      "predictions": [
+        2400480,
+        240081,
+        2400467,
+        200344,
+        2400508
+      ],
+      "relevant": [
+        12001682,
+        12001734,
+        12002355,
+        12002771,
+        12002856
+      ],
+      "relevant_count": 5,
+      "user_id": "10008352999832730058"
+    },
+    {
+      "ap_at_5": 0.25,
+      "hit_positions": [
+        1
+      ],
+      "label_size": 4,
+      "predictions": [
+        2400480,
+        240081,
+        2400467,
+        200344,
+        2400508
+      ],
+      "relevant": [
+        1000589,
+        2400480,
+        10002514,
+        90080647
+      ],
+      "relevant_count": 4,
+      "user_id": "10404433339356312846"
+    },
+    {
+      "ap_at_5": 0.0,
+      "hit_positions": [],
+      "label_size": 0,
+      "predictions": [
+        2400480,
+        240081,
+        2400467,
+        200344,
+        2400508
+      ],
+      "relevant": [],
+      "relevant_count": 0,
+      "user_id": "10246214960655461086"
+    }
+  ],
+  "label_integrity": {
+    "label_ids_missing_from_val_candidates": 0,
+    "primary_not_subset_of_any_positive": 0,
+    "primary_top5_not_subset_of_all_primary": 0,
+    "top5_size_gt_5": 0,
+    "users": 1260
+  },
+  "not_a_model_result": true,
+  "prediction_rule": "top 5 validation candidate ids by distinct training users with >=1 qualifying (>=80%) airing; ties by qualifying airing count then ascending id",
+  "predictions": [
+    2400480,
+    240081,
+    2400467,
+    200344,
+    2400508
+  ],
+  "purpose": "Smoke-test the AP@5 implementation and the frozen-label format using the training-only popularity fallback, not a trained recommender.",
+  "summary": {
+    "cohort_size": 1260,
+    "cohort_with_at_least_k_positive_size": 1150,
+    "cohort_with_positive_size": 1238,
+    "k": 5,
+    "map_at_k": 0.2650127865961193,
+    "map_with_at_least_k_positive": 0.2770985507246371,
+    "map_with_positive": 0.2697222222222216,
+    "users_with_no_positive": 22
+  }
+}

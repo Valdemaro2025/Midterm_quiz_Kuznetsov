@@ -1,0 +1,33 @@
+{
+  "association": {
+    "aggregate": "max",
+    "antecedents_with_rules": 3100,
+    "max_antecedents_per_user": 50,
+    "score": "confidence",
+    "total_rules": 123243,
+    "training_items": 3864,
+    "training_users": 4841,
+    "users_with_rules": 1255
+  },
+  "fusion": {
+    "association_weight": 0.3,
+    "fusion": "weighted sum of normalized scores; no score rounding",
+    "mean_scored_candidates_per_user": 163.27857142857144,
+    "normalization": "per-user max normalization of each method's candidate scores",
+    "repeat_weight": 0.7,
+    "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+    "users_needing_fallback": 5,
+    "users_with_association_only": 0,
+    "users_with_both_sources": 1255,
+    "users_with_repeat_only": 1
+  },
+  "repeat": {
+    "users_with_scored_candidates": 1256
+  },
+  "selected_strategy": "hybrid_70_30",
+  "test_candidate_count": 6632,
+  "training_window": [
+    "2020-03-09 00:00:00",
+    "2020-07-27 00:00:00"
+  ]
+}

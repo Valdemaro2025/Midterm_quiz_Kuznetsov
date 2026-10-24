@@ -1,0 +1,1574 @@
+{
+  "failure_case": {
+    "cause": "With category-only features, every candidate in a category has an identical score after IDF weighting. All 1,260 users have at least 19 candidates tied at their maximum score (median 3,211), so the Top-5 is determined entirely by the tie-break. This user's maximum category is Фильмы, and popularity-then-ID returns five films, none of which is a validation hit.",
+    "kind": "category-only CBF",
+    "method": "cbf_category_log_pop",
+    "top5": [
+      {
+        "category": "Фильмы",
+        "global_item_coverage": {
+          "positive_airings": 1721,
+          "primary80_airings": 225,
+          "sens50_airings": 459,
+          "training_users_any_positive": 1322,
+          "training_users_at_least_50": 412,
+          "training_users_at_least_80": 213
+        },
+        "in_training_history": false,
+        "personal_seen_any_positive_coverage": false,
+        "personal_seen_at_least_50_percent_coverage": false,
+        "personal_seen_at_least_80_percent_coverage": false,
+        "rank": 1,
+        "title": "Х/ф 'Геракл: Начало легенды'.",
+        "training_counts": {
+          "positive": 0,
+          "primary80": 0,
+          "sens50": 0
+        },
+        "tv_show_id": 90077217,
+        "validation_all_qualifying_hit": false,
+        "validation_primary_hit": false,
+        "validation_primary_label_rank": null
+      },
+      {
+        "category": "Фильмы",
+        "global_item_coverage": {
+          "positive_airings": 1656,
+          "primary80_airings": 178,
+          "sens50_airings": 368,
+          "training_users_any_positive": 1275,
+          "training_users_at_least_50": 340,
+          "training_users_at_least_80": 167
+        },
+        "in_training_history": false,
+        "personal_seen_any_positive_coverage": false,
+        "personal_seen_at_least_50_percent_coverage": false,
+        "personal_seen_at_least_80_percent_coverage": false,
+        "rank": 2,
+        "title": "Х/ф 'Пророк'.",
+        "training_counts": {
+          "positive": 0,
+          "primary80": 0,
+          "sens50": 0
+        },
+        "tv_show_id": 90064639,
+        "validation_all_qualifying_hit": false,
+        "validation_primary_hit": false,
+        "validation_primary_label_rank": null
+      },
+      {
+        "category": "Фильмы",
+        "global_item_coverage": {
+          "positive_airings": 2031,
+          "primary80_airings": 172,
+          "sens50_airings": 421,
+          "training_users_any_positive": 1548,
+          "training_users_at_least_50": 390,
+          "training_users_at_least_80": 162
+        },
+        "in_training_history": true,
+        "personal_seen_any_positive_coverage": true,
+        "personal_seen_at_least_50_percent_coverage": false,
+        "personal_seen_at_least_80_percent_coverage": false,
+        "rank": 3,
+        "title": "Х/ф 'Великий уравнитель'.",
+        "training_counts": {
+          "positive": 2,
+          "primary80": 0,
+          "sens50": 0
+        },
+        "tv_show_id": 90077687,
+        "validation_all_qualifying_hit": false,
+        "validation_primary_hit": false,
+        "validation_primary_label_rank": null
+      },
+      {
+        "category": "Фильмы",
+        "global_item_coverage": {
+          "positive_airings": 1485,
+          "primary80_airings": 170,
+          "sens50_airings": 317,
+          "training_users_any_positive": 1207,
+          "training_users_at_least_50": 288,
+          "training_users_at_least_80": 159
+        },
+        "in_training_history": true,
+        "personal_seen_any_positive_coverage": true,
+        "personal_seen_at_least_50_percent_coverage": false,
+        "personal_seen_at_least_80_percent_coverage": false,
+        "rank": 4,
+        "title": "Х/ф 'DOA: Живым или мёртвым'.",
+        "training_counts": {
+          "positive": 1,
+          "primary80": 0,
+          "sens50": 0
+        },
+        "tv_show_id": 90064086,
+        "validation_all_qualifying_hit": false,
+        "validation_primary_hit": false,
+        "validation_primary_label_rank": null
+      },
+      {
+        "category": "Фильмы",
+        "global_item_coverage": {
+          "positive_airings": 1588,
+          "primary80_airings": 170,
+          "sens50_airings": 334,
+          "training_users_any_positive": 1214,
+          "training_users_at_least_50": 309,
+          "training_users_at_least_80": 159
+        },
+        "in_training_history": true,
+        "personal_seen_any_positive_coverage": true,
+        "personal_seen_at_least_50_percent_coverage": false,
+        "personal_seen_at_least_80_percent_coverage": false,
+        "rank": 5,
+        "title": "Х/ф 'Безбашенные'.",
+        "training_counts": {
+          "positive": 2,
+          "primary80": 0,
+          "sens50": 0
+        },
+        "tv_show_id": 90080832,
+        "validation_all_qualifying_hit": false,
+        "validation_primary_hit": false,
+        "validation_primary_label_rank": null
+      }
+    ],
+    "training_history_flag_definition": "in_training_history and personal_seen_* flags are keyed by the selected user's train_idx and describe that user's personal training history. in_training_history means that user's positive_airings > 0 for the item. global_item_coverage is separately aggregated across all training users.",
+    "user": "13571199046623737884",
+    "validation_hits": []
+  },
+  "global_item_coverage_definition": "global_item_coverage counts distinct training users and their airings for the item across all training users, split by any-positive, >=50%, and >=80% coverage. It does not describe the selected user's history.",
+  "heavy_user": {
+    "distinct_positive": 834,
+    "distinct_primary80": 225,
+    "distinct_sens50": 322,
+    "total_positive": 2630,
+    "total_primary80": 901,
+    "total_sens50": 1239,
+    "train_idx": 2482,
+    "user_id": "13571199046623737884",
+    "validation_positive_count": 5
+  },
+  "light_user": {
+    "distinct_positive": 22,
+    "distinct_primary80": 1,
+    "distinct_sens50": 2,
+    "total_positive": 24,
+    "total_primary80": 1,
+    "total_sens50": 2,
+    "train_idx": 4659,
+    "user_id": "390859419742464109",
+    "validation_positive_count": 0
+  },
+  "limitations": [
+    "The light user has no primary validation positives, so AP@5 is 0 by definition for every method; this is not evidence of which method is better for light users.",
+    "Titles/categories shown are from training-period metadata only.",
+    "in_training_history is personal to the selected user; global_item_coverage is reported separately."
+  ],
+  "methods": [
+    {
+      "ap5_by_user": {
+        "13571199046623737884": 0.1,
+        "390859419742464109": 0.0
+      },
+      "kind": "baseline",
+      "name": "popularity",
+      "top5_by_user": {
+        "13571199046623737884": [
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 1,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 96,
+              "primary80": 70,
+              "sens50": 75
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 94,
+              "primary80": 67,
+              "sens50": 77
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": true,
+            "validation_primary_hit": true,
+            "validation_primary_label_rank": 1
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 3,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 27,
+              "primary80": 21,
+              "sens50": 22
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 4,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 8,
+              "primary80": 6,
+              "sens50": 6
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 5,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 68,
+              "primary80": 36,
+              "sens50": 45
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ],
+        "390859419742464109": [
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ]
+      }
+    },
+    {
+      "ap5_by_user": {
+        "13571199046623737884": 0.1,
+        "390859419742464109": 0.0
+      },
+      "kind": "repeat >=50%",
+      "name": "repeat_50",
+      "top5_by_user": {
+        "13571199046623737884": [
+          {
+            "category": "Детям",
+            "global_item_coverage": {
+              "positive_airings": 50053,
+              "primary80_airings": 26199,
+              "sens50_airings": 32790,
+              "training_users_any_positive": 2501,
+              "training_users_at_least_50": 1766,
+              "training_users_at_least_80": 1556
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 1,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "training_counts": {
+              "positive": 126,
+              "primary80": 65,
+              "sens50": 84
+            },
+            "tv_show_id": 12001682,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 94,
+              "primary80": 67,
+              "sens50": 77
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": true,
+            "validation_primary_hit": true,
+            "validation_primary_label_rank": 1
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 3,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 96,
+              "primary80": 70,
+              "sens50": 75
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 4,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 68,
+              "primary80": 36,
+              "sens50": 45
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 45008,
+              "primary80_airings": 12796,
+              "sens50_airings": 18947,
+              "training_users_any_positive": 3199,
+              "training_users_at_least_50": 2248,
+              "training_users_at_least_80": 1937
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 5,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "training_counts": {
+              "positive": 47,
+              "primary80": 39,
+              "sens50": 40
+            },
+            "tv_show_id": 20088,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ],
+        "390859419742464109": [
+          {
+            "category": "Фильмы",
+            "global_item_coverage": {
+              "positive_airings": 775,
+              "primary80_airings": 54,
+              "sens50_airings": 134,
+              "training_users_any_positive": 720,
+              "training_users_at_least_50": 132,
+              "training_users_at_least_80": 54
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "Х/ф '22 мили'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 1
+            },
+            "tv_show_id": 90081810,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ]
+      }
+    },
+    {
+      "ap5_by_user": {
+        "13571199046623737884": 0.0,
+        "390859419742464109": 0.0
+      },
+      "kind": "CBF",
+      "name": "cbf_genre_cast_log_pop",
+      "top5_by_user": {
+        "13571199046623737884": [
+          {
+            "category": "Фильмы",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "Премьера. Х/ф 'Нерв'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 90081945,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Фильмы",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "Х/ф 'Погоня'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 90073724,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Детям",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "Марафон. М/с 'Новая школа императора'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 12002038,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Детям",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "М/с 'Котопёс', 10 с.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 12001820,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Фильмы",
+            "global_item_coverage": {
+              "positive_airings": 303,
+              "primary80_airings": 16,
+              "sens50_airings": 29,
+              "training_users_any_positive": 290,
+              "training_users_at_least_50": 29,
+              "training_users_at_least_80": 16
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "Х/ф 'Большой и добрый великан'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 90079688,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ],
+        "390859419742464109": [
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "'Засекреченные списки'. Документальный спецпроект.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200497,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 0,
+              "primary80_airings": 0,
+              "sens50_airings": 0,
+              "training_users_any_positive": 0,
+              "training_users_at_least_50": 0,
+              "training_users_at_least_80": 0
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "'Вечерний Ургант'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 500314,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 12908,
+              "primary80_airings": 1261,
+              "sens50_airings": 2773,
+              "training_users_any_positive": 3060,
+              "training_users_at_least_50": 1202,
+              "training_users_at_least_80": 729
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "Дизель-шоу. Дайджест.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200432,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 12432,
+              "primary80_airings": 1050,
+              "sens50_airings": 2102,
+              "training_users_any_positive": 2641,
+              "training_users_at_least_50": 913,
+              "training_users_at_least_80": 565
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "Варьяты.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200469,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ]
+      }
+    },
+    {
+      "ap5_by_user": {
+        "13571199046623737884": 0.1,
+        "390859419742464109": 0.0
+      },
+      "kind": "association rules >=80%",
+      "name": "ar_c5_conf_max_80",
+      "top5_by_user": {
+        "13571199046623737884": [
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 1,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 96,
+              "primary80": 70,
+              "sens50": 75
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 94,
+              "primary80": 67,
+              "sens50": 77
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": true,
+            "validation_primary_hit": true,
+            "validation_primary_label_rank": 1
+          },
+          {
+            "category": "Детям",
+            "global_item_coverage": {
+              "positive_airings": 50053,
+              "primary80_airings": 26199,
+              "sens50_airings": 32790,
+              "training_users_any_positive": 2501,
+              "training_users_at_least_50": 1766,
+              "training_users_at_least_80": 1556
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 3,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "training_counts": {
+              "positive": 126,
+              "primary80": 65,
+              "sens50": 84
+            },
+            "tv_show_id": 12001682,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 4,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 68,
+              "primary80": 36,
+              "sens50": 45
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 5,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 27,
+              "primary80": 21,
+              "sens50": 22
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ],
+        "390859419742464109": [
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ]
+      }
+    },
+    {
+      "ap5_by_user": {
+        "13571199046623737884": 0.1,
+        "390859419742464109": 0.0
+      },
+      "kind": "hybrid 70/30",
+      "name": "hybrid_70_30",
+      "top5_by_user": {
+        "13571199046623737884": [
+          {
+            "category": "Детям",
+            "global_item_coverage": {
+              "positive_airings": 50053,
+              "primary80_airings": 26199,
+              "sens50_airings": 32790,
+              "training_users_any_positive": 2501,
+              "training_users_at_least_50": 1766,
+              "training_users_at_least_80": 1556
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 1,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "training_counts": {
+              "positive": 126,
+              "primary80": 65,
+              "sens50": 84
+            },
+            "tv_show_id": 12001682,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 2,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 94,
+              "primary80": 67,
+              "sens50": 77
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": true,
+            "validation_primary_hit": true,
+            "validation_primary_label_rank": 1
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 3,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 96,
+              "primary80": 70,
+              "sens50": 75
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 49546,
+              "primary80_airings": 10829,
+              "sens50_airings": 18008,
+              "training_users_any_positive": 3978,
+              "training_users_at_least_50": 2851,
+              "training_users_at_least_80": 2276
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 4,
+            "title": "Сегодня.",
+            "training_counts": {
+              "positive": 68,
+              "primary80": 36,
+              "sens50": 45
+            },
+            "tv_show_id": 2400508,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 45008,
+              "primary80_airings": 12796,
+              "sens50_airings": 18947,
+              "training_users_any_positive": 3199,
+              "training_users_at_least_50": 2248,
+              "training_users_at_least_80": 1937
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": true,
+            "rank": 5,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "training_counts": {
+              "positive": 47,
+              "primary80": 39,
+              "sens50": 40
+            },
+            "tv_show_id": 20088,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ],
+        "390859419742464109": [
+          {
+            "category": "Фильмы",
+            "global_item_coverage": {
+              "positive_airings": 775,
+              "primary80_airings": 54,
+              "sens50_airings": 134,
+              "training_users_any_positive": 720,
+              "training_users_at_least_50": 132,
+              "training_users_at_least_80": 54
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": true,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 1,
+            "title": "Х/ф '22 мили'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 1
+            },
+            "tv_show_id": 90081810,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 110120,
+              "primary80_airings": 39941,
+              "sens50_airings": 57181,
+              "training_users_any_positive": 4492,
+              "training_users_at_least_50": 4056,
+              "training_users_at_least_80": 3714
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 2,
+            "title": "ТСН.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400480,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 73090,
+              "primary80_airings": 27032,
+              "sens50_airings": 41458,
+              "training_users_any_positive": 4269,
+              "training_users_at_least_50": 3797,
+              "training_users_at_least_80": 3399
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 3,
+            "title": "Факты.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 240081,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Инфо",
+            "global_item_coverage": {
+              "positive_airings": 34639,
+              "primary80_airings": 9352,
+              "sens50_airings": 15267,
+              "training_users_any_positive": 3842,
+              "training_users_at_least_50": 3040,
+              "training_users_at_least_80": 2492
+            },
+            "in_training_history": true,
+            "personal_seen_any_positive_coverage": true,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 4,
+            "title": "'Викна-Новости'.",
+            "training_counts": {
+              "positive": 1,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 2400467,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          },
+          {
+            "category": "Развлечения",
+            "global_item_coverage": {
+              "positive_airings": 11083,
+              "primary80_airings": 6381,
+              "sens50_airings": 7777,
+              "training_users_any_positive": 3025,
+              "training_users_at_least_50": 2538,
+              "training_users_at_least_80": 2303
+            },
+            "in_training_history": false,
+            "personal_seen_any_positive_coverage": false,
+            "personal_seen_at_least_50_percent_coverage": false,
+            "personal_seen_at_least_80_percent_coverage": false,
+            "rank": 5,
+            "title": "'Чистоnews'.",
+            "training_counts": {
+              "positive": 0,
+              "primary80": 0,
+              "sens50": 0
+            },
+            "tv_show_id": 200344,
+            "validation_all_qualifying_hit": false,
+            "validation_primary_hit": false,
+            "validation_primary_label_rank": null
+          }
+        ]
+      }
+    }
+  ],
+  "selection_rule": {
+    "eligible_cohort_size": 1260,
+    "heavy": "maximum distinct training programs with >=80% qualifying airings; ties by total >=80% qualifying airings then ascending user_id",
+    "light": "minimum distinct training programs with >=80% qualifying airings among users with at least one such program; ties by total >=80% qualifying airings then ascending user_id",
+    "outcome_blind": true
+  },
+  "training_history_flag_definition": "in_training_history and personal_seen_* fields use counts keyed by the selected user's train_idx; they describe that user's personal training history. in_training_history means the user has positive_airings > 0 for the item. global_item_coverage is a separate item-level calculation across all training users.",
+  "worked_ap_at_5": {
+    "ap_at_5": 0.1,
+    "calculation": "AP@5 = (1/2) / min(5, 5) = 0.100000000000",
+    "hit_rank_positions": [
+      2
+    ],
+    "labels": [
+      240081,
+      12001734,
+      200352,
+      700369,
+      2500413
+    ],
+    "method": "repeat_50",
+    "note": "Arithmetic shown for independent checking; not claimed to be user-verified.",
+    "predictions": [
+      12001682,
+      240081,
+      2400480,
+      2400508,
+      20088
+    ],
+    "relevant_count_m": 5,
+    "user_id": "13571199046623737884"
+  }
+}

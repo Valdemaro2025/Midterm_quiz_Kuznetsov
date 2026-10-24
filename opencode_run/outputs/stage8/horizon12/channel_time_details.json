@@ -1,0 +1,11 @@
+{
+  "channels": 191,
+  "future_viewing_used": false,
+  "interpretation": "forecasting heuristic; program sums are not calibrated probabilities",
+  "maximum_p_uc": 1.0,
+  "maximum_p_ucb": 1.0,
+  "scheduled_training_airings": 91608,
+  "smoothing": 20,
+  "target_airings": 144877,
+  "watched_qualifying_cohort_airings": 78860
+}

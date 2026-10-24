@@ -1,0 +1,10 @@
+{
+  "association_fit_score_seconds": 0.601426375003939,
+  "direct_fit_predict_seconds": 1.1834979170016595,
+  "factor_repeat_adjust_seconds": 0.025240958006179426,
+  "fusion_rank_seconds": 0.5568298329963,
+  "interaction_cache_loading_and_popularity_refit_seconds": 1.7695387920030043,
+  "raw_schedule_reconstruction_and_cache_consistency_seconds": 9.481650541005365,
+  "scope": "directly measured fit/predict using already-loaded counts and opportunity counts; cache loading and schedule parsing excluded",
+  "total_full_refit_seconds_including_schedule_cache_io_and_csv": 12.542813457999728
+}

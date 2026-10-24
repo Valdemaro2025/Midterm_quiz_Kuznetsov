@@ -5,3 +5,6 @@ cache/
 *.pkl
 *.npz
 .DS_Store
+reproduction_cache/
+reproduced_stage13.csv
+reproduced_stage13.audit.json

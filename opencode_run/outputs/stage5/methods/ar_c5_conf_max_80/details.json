@@ -1,0 +1,13 @@
+{
+  "aggregate": "max",
+  "antecedents_with_rules": 3100,
+  "association_cooccurrence_nnz": 4591132,
+  "association_index_items": 3864,
+  "association_index_users": 4841,
+  "max_antecedents_per_user": 50,
+  "score": "confidence",
+  "total_rules": 123243,
+  "training_items": 3864,
+  "training_users": 4841,
+  "users_with_rules": 1255
+}

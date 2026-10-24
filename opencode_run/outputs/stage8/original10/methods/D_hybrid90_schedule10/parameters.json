@@ -1,0 +1,6 @@
+{
+  "normalization": "per-user max-normalize original hybrid score and C score before fusion",
+  "original_stage5_hybrid_weight": 0.9,
+  "prerequisite": "C individually evaluated first",
+  "scheduling_model_C_weight": 0.1
+}

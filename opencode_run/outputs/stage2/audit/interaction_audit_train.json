@@ -1,0 +1,37 @@
+{
+  "airing_duration_leq_zero_excluded": 0,
+  "bridged_positive_airings": 1821940,
+  "bridged_primary_qualifying_airings": 316770,
+  "channels_with_views": 199,
+  "coverage_primary_qualifying_airings": 316314,
+  "coverage_quantiles": {
+    "max": 1.0,
+    "median": 0.17272727272727273,
+    "min": 6.116207951070337e-05,
+    "p10": 0.015,
+    "p90": 1.0
+  },
+  "coverage_sensitivity_qualifying_airings": 515163,
+  "merged_bridged_sessions": 2685995,
+  "merged_primary_sessions": 2875194,
+  "merged_sessions_without_labelled_airing_overlap": 1128063,
+  "outputs": {
+    "user_airing_npz": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/interactions/train_user_airing.npz",
+    "user_program_csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/interactions/train_user_program_counts.csv"
+  },
+  "positive_coverage_airings": 1821940,
+  "runtime_seconds": 19.167,
+  "seconds_on_channel_absent_from_schedule": 123322127,
+  "seconds_on_channel_with_schedule_but_no_labelled_airings": 739943570,
+  "seconds_without_labelled_airing_overlap": 1106751921,
+  "show_id_zero_excluded": 0,
+  "user_airing_npz": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/interactions/train_user_airing.npz",
+  "user_airing_rows": 1821940,
+  "user_program_csv": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage2/interactions/train_user_program_counts.csv",
+  "user_program_rows": 855314,
+  "users_with_views": 4876,
+  "views_loaded": 3945173,
+  "views_on_channel_absent_from_schedule": 113854,
+  "views_on_channel_with_schedule_but_no_labelled_airings": 725261,
+  "window": "train"
+}

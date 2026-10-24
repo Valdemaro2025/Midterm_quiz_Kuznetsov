@@ -1,0 +1,741 @@
+{
+  "scope": "Codex report audit, outside the unmodified OpenCode export; two frozen standalone-component reporting checks, no refit/search/selection",
+  "methods": {
+    "Adjusted repeat": {
+      "original10": {
+        "metrics": {
+          "all": 0.37747045855379213,
+          "positive": 0.3841783342308385,
+          "five": 0.3993710144927539,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            12001682,
+            240081,
+            2400480,
+            2400508,
+            20088
+          ],
+          "390859419742464109": [
+            90081810,
+            2400480,
+            240081,
+            2400467,
+            200344
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      },
+      "horizon12": {
+        "metrics": {
+          "all": 0.39276895943562606,
+          "positive": 0.39910394265232974,
+          "five": 0.407047539616347,
+          "sizes": [
+            1260,
+            1240,
+            1199
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            12001682,
+            240081,
+            2400480,
+            2400508,
+            20088
+          ],
+          "390859419742464109": [
+            90081810,
+            700390,
+            2400480,
+            240081,
+            2400467
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      }
+    },
+    "Adjusted EASE": {
+      "original10": {
+        "metrics": {
+          "all": 0.3517859347442678,
+          "positive": 0.35803738108059563,
+          "five": 0.3726173913043476,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            2400480,
+            240081,
+            12001682,
+            2400508,
+            2400467
+          ],
+          "390859419742464109": [
+            700389,
+            200469,
+            2400480,
+            400361,
+            2400467
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      },
+      "horizon12": {
+        "metrics": {
+          "all": 0.36885537918871203,
+          "positive": 0.3748046594982074,
+          "five": 0.3822880177926045,
+          "sizes": [
+            1260,
+            1240,
+            1199
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            2400480,
+            240081,
+            12001682,
+            2400508,
+            2400467
+          ],
+          "390859419742464109": [
+            700389,
+            200469,
+            240081,
+            2400480,
+            2400508
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      }
+    },
+    "Final hybrid": {
+      "original10": {
+        "metrics": {
+          "all": 0.39266490299823675,
+          "positive": 0.3996427930353621,
+          "five": 0.4144608695652178,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            12001682,
+            240081,
+            2400480,
+            2400508,
+            20088
+          ],
+          "390859419742464109": [
+            90081810,
+            2400480,
+            240081,
+            700389,
+            2400467
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      },
+      "horizon12": {
+        "metrics": {
+          "all": 0.41206261022927704,
+          "positive": 0.41870878136200734,
+          "five": 0.42715596330275246,
+          "sizes": [
+            1260,
+            1240,
+            1199
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            12001682,
+            240081,
+            2400480,
+            2400508,
+            20088
+          ],
+          "390859419742464109": [
+            90081810,
+            2400480,
+            240081,
+            700389,
+            2400467
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      }
+    },
+    "Popularity": {
+      "original10": {
+        "metrics": {
+          "all": 0.26501278659611965,
+          "positive": 0.2697222222222219,
+          "five": 0.2770985507246373,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            2400480,
+            240081,
+            2400467,
+            200344,
+            2400508
+          ],
+          "390859419742464109": [
+            2400480,
+            240081,
+            2400467,
+            200344,
+            2400508
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      }
+    },
+    "CBF": {
+      "original10": {
+        "metrics": {
+          "all": 0.014949735449735426,
+          "positive": 0.015215401184706493,
+          "five": 0.015350724637681133,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            90081945,
+            90073724,
+            12002038,
+            12001820,
+            90079688
+          ],
+          "390859419742464109": [
+            200497,
+            500314,
+            200344,
+            200432,
+            200469
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.0,
+          "390859419742464109": 0.0
+        }
+      }
+    },
+    "AR": {
+      "original10": {
+        "metrics": {
+          "all": 0.2960723104056437,
+          "positive": 0.30133369233530777,
+          "five": 0.31073043478260864,
+          "sizes": [
+            1260,
+            1238,
+            1150
+          ]
+        },
+        "two_users": {
+          "13571199046623737884": [
+            2400480,
+            240081,
+            12001682,
+            2400508,
+            2400467
+          ],
+          "390859419742464109": [
+            2400480,
+            240081,
+            2400467,
+            200344,
+            2400508
+          ]
+        },
+        "two_user_AP": {
+          "13571199046623737884": 0.1,
+          "390859419742464109": 0.0
+        }
+      }
+    }
+  },
+  "controls": {
+    "original10": {
+      "exact_final_top5": true,
+      "independent_MAP": true,
+      "cohort": 1260,
+      "candidates": 6361,
+      "repeat_matches_stage10_pure_repeat": true,
+      "repeat_reuses_previously_evaluated_policy": true
+    },
+    "horizon12": {
+      "exact_final_top5": true,
+      "independent_MAP": true,
+      "cohort": 1260,
+      "candidates": 7039,
+      "repeat_matches_stage10_pure_repeat": true,
+      "repeat_reuses_previously_evaluated_policy": true
+    }
+  },
+  "example_labels": {
+    "13571199046623737884": [
+      240081,
+      12001734,
+      200352,
+      700369,
+      2500413
+    ],
+    "390859419742464109": []
+  },
+  "users": {
+    "heavy_user": {
+      "distinct_positive": 834,
+      "distinct_primary80": 225,
+      "distinct_sens50": 322,
+      "total_positive": 2630,
+      "total_primary80": 901,
+      "total_sens50": 1239,
+      "train_idx": 2482,
+      "user_id": "13571199046623737884",
+      "validation_positive_count": 5
+    },
+    "light_user": {
+      "distinct_positive": 22,
+      "distinct_primary80": 1,
+      "distinct_sens50": 2,
+      "total_positive": 24,
+      "total_primary80": 1,
+      "total_sens50": 2,
+      "train_idx": 4659,
+      "user_id": "390859419742464109",
+      "validation_positive_count": 0
+    },
+    "selection_rule": {
+      "eligible_cohort_size": 1260,
+      "heavy": "maximum distinct training programs with >=80% qualifying airings; ties by total >=80% qualifying airings then ascending user_id",
+      "light": "minimum distinct training programs with >=80% qualifying airings among users with at least one such program; ties by total >=80% qualifying airings then ascending user_id",
+      "outcome_blind": true
+    }
+  },
+  "metadata": {
+    "20088": {
+      "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+      "category": "Развлечения"
+    },
+    "200344": {
+      "title": "'Чистоnews'.",
+      "category": "Развлечения"
+    },
+    "200352": {
+      "title": "'Вечерний квартал'.",
+      "category": "Развлечения"
+    },
+    "200432": {
+      "title": "Дизель-шоу. Дайджест.",
+      "category": "Развлечения"
+    },
+    "200469": {
+      "title": "Варьяты.",
+      "category": "Развлечения"
+    },
+    "200497": {
+      "title": "'Засекреченные списки'. Документальный спецпроект.",
+      "category": "Развлечения"
+    },
+    "240081": {
+      "title": "Факты.",
+      "category": "Инфо"
+    },
+    "400361": {
+      "title": "'МастерШеф'.",
+      "category": "Познавательное"
+    },
+    "500314": {
+      "title": "'Вечерний Ургант'.",
+      "category": "Развлечения"
+    },
+    "700369": {
+      "title": "'Ліга сміху'.",
+      "category": "Развлечения"
+    },
+    "700389": {
+      "title": "Кто сверху?, 7 сезон, 5 эп.",
+      "category": "Развлечения"
+    },
+    "700390": {
+      "title": "Премьера. Суперинтуиция, 5 сезон, 10 эп. Леся Никитюк и Антон Савлепов.",
+      "category": "Развлечения"
+    },
+    "2400467": {
+      "title": "'Викна-Новости'.",
+      "category": "Инфо"
+    },
+    "2400480": {
+      "title": "ТСН.",
+      "category": "Инфо"
+    },
+    "2400508": {
+      "title": "Сегодня.",
+      "category": "Инфо"
+    },
+    "2500413": {
+      "title": "Гражданская оборона.",
+      "category": "Инфо"
+    },
+    "12001682": {
+      "title": "М/с 'Губка Боб Квадратные Штаны'.",
+      "category": "Детям"
+    },
+    "12001734": {
+      "title": "М/с 'Волшебные покровители'.",
+      "category": "Детям"
+    },
+    "12001820": {
+      "title": "М/с 'Котопёс', 10 с.",
+      "category": "Детям"
+    },
+    "12002038": {
+      "title": "Марафон. М/с 'Новая школа императора'.",
+      "category": "Детям"
+    },
+    "90073724": {
+      "title": "Х/ф 'Погоня'.",
+      "category": "Фильмы"
+    },
+    "90079688": {
+      "title": "Х/ф 'Большой и добрый великан'.",
+      "category": "Фильмы"
+    },
+    "90081810": {
+      "title": "Х/ф '22 мили'.",
+      "category": "Фильмы"
+    },
+    "90081945": {
+      "title": "Премьера. Х/ф 'Нерв'.",
+      "category": "Фильмы"
+    }
+  },
+  "submission": {
+    "sha256": "628edd64a9c4ecc26df1f0c2174d7378db4c15ebc4f01615a51f841ff44779d4",
+    "header": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "users": 1260,
+    "candidates": 6632,
+    "format_checks": true
+  },
+  "session": {
+    "sha256": "b74ad9b33d45c30e64d6ec04f3996b8f4389eb4d5bb028311c118fd94970bb12",
+    "bytes": 10911451,
+    "messages": 551,
+    "parts": {
+      "text": 103,
+      "step-start": 497,
+      "reasoning": 531,
+      "tool": 587,
+      "step-finish": 490,
+      "compaction": 4
+    },
+    "native_shape": [
+      "info",
+      "messages"
+    ],
+    "unmodified": true
+  },
+  "prior_audit": {
+    "all_passed": true,
+    "checks": {
+      "Stage13_best_required_SHA_preserved": true,
+      "all_earlier_files_and_raw_inputs_preserved_byte_for_byte": true,
+      "best_scored_designation_Stage13": true,
+      "declaration_before_first_evaluation": true,
+      "horizon12/A/independent_candidate_max_normalization": true,
+      "horizon12/A_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/A_hybrid/independent_AP_from_saved_predictions": true,
+      "horizon12/A_hybrid/independent_three_cohort_metrics": true,
+      "horizon12/A_hybrid/selection_gain_independent": true,
+      "horizon12/A_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/A_hybrid/valid_predictions": true,
+      "horizon12/A_original_completed_scores_adjusted_before_normalization": true,
+      "horizon12/A_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/A_standalone/independent_AP_from_saved_predictions": true,
+      "horizon12/A_standalone/independent_three_cohort_metrics": true,
+      "horizon12/A_standalone/selection_gain_independent": true,
+      "horizon12/A_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/A_standalone/valid_predictions": true,
+      "horizon12/B/all_training_axes_and_original_AR_population": true,
+      "horizon12/B/binary_any_primary80_A_exact": true,
+      "horizon12/B/complete_pruned_rules_and_tie_order": true,
+      "horizon12/B/correct_antecedent_and_consequent_marginals": true,
+      "horizon12/B/float64_fractional_asymmetric_statistics": true,
+      "horizon12/B/independent_C_column_reference": true,
+      "horizon12/B/independent_antecedents_and_max_aggregation": true,
+      "horizon12/B/independent_candidate_max_normalization": true,
+      "horizon12/B/independent_full_catalogue_fractional_memberships": true,
+      "horizon12/B/retained_rule_mass_confidence_correct_Y_lift": true,
+      "horizon12/B/total_membership_mass": true,
+      "horizon12/B_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/B_hybrid/independent_AP_from_saved_predictions": true,
+      "horizon12/B_hybrid/independent_three_cohort_metrics": true,
+      "horizon12/B_hybrid/selection_gain_independent": true,
+      "horizon12/B_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/B_hybrid/valid_predictions": true,
+      "horizon12/B_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/B_standalone/independent_AP_from_saved_predictions": true,
+      "horizon12/B_standalone/independent_three_cohort_metrics": true,
+      "horizon12/B_standalone/selection_gain_independent": true,
+      "horizon12/B_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/B_standalone/valid_predictions": true,
+      "horizon12/C/all_training_axes_and_original_AR_population": true,
+      "horizon12/C/binary_any_primary80_A_exact": true,
+      "horizon12/C/complete_pruned_rules_and_tie_order": true,
+      "horizon12/C/correct_antecedent_and_consequent_marginals": true,
+      "horizon12/C/float64_fractional_asymmetric_statistics": true,
+      "horizon12/C/independent_C_column_reference": true,
+      "horizon12/C/independent_antecedents_and_max_aggregation": true,
+      "horizon12/C/independent_candidate_max_normalization": true,
+      "horizon12/C/independent_full_catalogue_fractional_memberships": true,
+      "horizon12/C/retained_rule_mass_confidence_correct_Y_lift": true,
+      "horizon12/C/total_membership_mass": true,
+      "horizon12/C_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/C_hybrid/independent_AP_from_saved_predictions": true,
+      "horizon12/C_hybrid/independent_three_cohort_metrics": true,
+      "horizon12/C_hybrid/selection_gain_independent": true,
+      "horizon12/C_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/C_hybrid/valid_predictions": true,
+      "horizon12/C_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/C_standalone/independent_AP_from_saved_predictions": true,
+      "horizon12/C_standalone/independent_three_cohort_metrics": true,
+      "horizon12/C_standalone/selection_gain_independent": true,
+      "horizon12/C_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/C_standalone/valid_predictions": true,
+      "horizon12/all_learning_uses_pre_cutoff_counts": true,
+      "horizon12/all_users/paired_intervals_reproduced": true,
+      "horizon12/at_least_5/paired_intervals_reproduced": true,
+      "horizon12/control_MAP_verified_without_rounded_values": true,
+      "horizon12/exact_Stage13_control_reproduction": true,
+      "horizon12/immutable_labels_users_and_candidate_pool": true,
+      "horizon12/positive/paired_intervals_reproduced": true,
+      "horizon12/stage13_control/familiar_unobserved_diagnostic_AP_accounting": true,
+      "horizon12/stage13_control/independent_AP_from_saved_predictions": true,
+      "horizon12/stage13_control/independent_three_cohort_metrics": true,
+      "horizon12/stage13_control/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "horizon12/stage13_control/valid_predictions": true,
+      "no_failed_actual_attempts": true,
+      "no_qualifying_hybrid_no_refit_no_CSV": true,
+      "only_six_authorized_recommendation_configurations": true,
+      "original10/A/independent_candidate_max_normalization": true,
+      "original10/A_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/A_hybrid/independent_AP_from_saved_predictions": true,
+      "original10/A_hybrid/independent_three_cohort_metrics": true,
+      "original10/A_hybrid/selection_gain_independent": true,
+      "original10/A_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/A_hybrid/valid_predictions": true,
+      "original10/A_original_completed_scores_adjusted_before_normalization": true,
+      "original10/A_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/A_standalone/independent_AP_from_saved_predictions": true,
+      "original10/A_standalone/independent_three_cohort_metrics": true,
+      "original10/A_standalone/selection_gain_independent": true,
+      "original10/A_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/A_standalone/valid_predictions": true,
+      "original10/B/all_training_axes_and_original_AR_population": true,
+      "original10/B/binary_any_primary80_A_exact": true,
+      "original10/B/complete_pruned_rules_and_tie_order": true,
+      "original10/B/correct_antecedent_and_consequent_marginals": true,
+      "original10/B/float64_fractional_asymmetric_statistics": true,
+      "original10/B/independent_C_column_reference": true,
+      "original10/B/independent_antecedents_and_max_aggregation": true,
+      "original10/B/independent_candidate_max_normalization": true,
+      "original10/B/independent_full_catalogue_fractional_memberships": true,
+      "original10/B/retained_rule_mass_confidence_correct_Y_lift": true,
+      "original10/B/total_membership_mass": true,
+      "original10/B_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/B_hybrid/independent_AP_from_saved_predictions": true,
+      "original10/B_hybrid/independent_three_cohort_metrics": true,
+      "original10/B_hybrid/selection_gain_independent": true,
+      "original10/B_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/B_hybrid/valid_predictions": true,
+      "original10/B_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/B_standalone/independent_AP_from_saved_predictions": true,
+      "original10/B_standalone/independent_three_cohort_metrics": true,
+      "original10/B_standalone/selection_gain_independent": true,
+      "original10/B_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/B_standalone/valid_predictions": true,
+      "original10/C/all_training_axes_and_original_AR_population": true,
+      "original10/C/binary_any_primary80_A_exact": true,
+      "original10/C/complete_pruned_rules_and_tie_order": true,
+      "original10/C/correct_antecedent_and_consequent_marginals": true,
+      "original10/C/float64_fractional_asymmetric_statistics": true,
+      "original10/C/independent_C_column_reference": true,
+      "original10/C/independent_antecedents_and_max_aggregation": true,
+      "original10/C/independent_candidate_max_normalization": true,
+      "original10/C/independent_full_catalogue_fractional_memberships": true,
+      "original10/C/retained_rule_mass_confidence_correct_Y_lift": true,
+      "original10/C/total_membership_mass": true,
+      "original10/C_hybrid/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/C_hybrid/independent_AP_from_saved_predictions": true,
+      "original10/C_hybrid/independent_three_cohort_metrics": true,
+      "original10/C_hybrid/selection_gain_independent": true,
+      "original10/C_hybrid/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/C_hybrid/valid_predictions": true,
+      "original10/C_standalone/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/C_standalone/independent_AP_from_saved_predictions": true,
+      "original10/C_standalone/independent_three_cohort_metrics": true,
+      "original10/C_standalone/selection_gain_independent": true,
+      "original10/C_standalone/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/C_standalone/valid_predictions": true,
+      "original10/all_learning_uses_pre_cutoff_counts": true,
+      "original10/all_users/paired_intervals_reproduced": true,
+      "original10/at_least_5/paired_intervals_reproduced": true,
+      "original10/control_MAP_verified_without_rounded_values": true,
+      "original10/exact_Stage13_control_reproduction": true,
+      "original10/immutable_labels_users_and_candidate_pool": true,
+      "original10/positive/paired_intervals_reproduced": true,
+      "original10/stage13_control/familiar_unobserved_diagnostic_AP_accounting": true,
+      "original10/stage13_control/independent_AP_from_saved_predictions": true,
+      "original10/stage13_control/independent_three_cohort_metrics": true,
+      "original10/stage13_control/unchanged_repeat_EASE_exact_hybrid_arithmetic": true,
+      "original10/stage13_control/valid_predictions": true,
+      "selection/A_hybrid/hybrid_only_predeclared_screen": true,
+      "selection/A_standalone/hybrid_only_predeclared_screen": true,
+      "selection/B_hybrid/hybrid_only_predeclared_screen": true,
+      "selection/B_standalone/hybrid_only_predeclared_screen": true,
+      "selection/C_hybrid/hybrid_only_predeclared_screen": true,
+      "selection/C_standalone/hybrid_only_predeclared_screen": true,
+      "standalone_included_unique_count_max64": true
+    },
+    "checks_passed": 158,
+    "checks_total": 158,
+    "independent_metrics": {
+      "horizon12/A_hybrid": {
+        "map_at_k": 0.41531459435626106,
+        "map_with_at_least_k_positive": 0.4303614122880178,
+        "map_with_positive": 0.42201321684587817
+      },
+      "horizon12/A_standalone": {
+        "map_at_k": 0.33738403880070544,
+        "map_with_at_least_k_positive": 0.3488935223797609,
+        "map_with_positive": 0.34282571684587815
+      },
+      "horizon12/B_hybrid": {
+        "map_at_k": 0.41279960317460324,
+        "map_with_at_least_k_positive": 0.4279177092021129,
+        "map_with_positive": 0.41945766129032264
+      },
+      "horizon12/B_standalone": {
+        "map_at_k": 0.3459005731922399,
+        "map_with_at_least_k_positive": 0.35853489018626633,
+        "map_with_positive": 0.3514796146953405
+      },
+      "horizon12/C_hybrid": {
+        "map_at_k": 0.4124609788359788,
+        "map_with_at_least_k_positive": 0.4275618571031415,
+        "map_with_positive": 0.4191135752688172
+      },
+      "horizon12/C_standalone": {
+        "map_at_k": 0.3426093474426808,
+        "map_with_at_least_k_positive": 0.35480400333611345,
+        "map_with_positive": 0.3481353046594982
+      },
+      "horizon12/stage13_control": {
+        "map_at_k": 0.41206261022927687,
+        "map_with_at_least_k_positive": 0.42715596330275224,
+        "map_with_positive": 0.4187087813620071
+      },
+      "original10/A_hybrid": {
+        "map_at_k": 0.3921796737213404,
+        "map_with_at_least_k_positive": 0.41407536231884057,
+        "map_with_positive": 0.3991489409441752
+      },
+      "original10/A_standalone": {
+        "map_at_k": 0.26929519400352736,
+        "map_with_at_least_k_positive": 0.27977971014492753,
+        "map_with_positive": 0.27408073056901816
+      },
+      "original10/B_hybrid": {
+        "map_at_k": 0.3917740299823633,
+        "map_with_at_least_k_positive": 0.4131623188405797,
+        "map_with_positive": 0.3987360886734877
+      },
+      "original10/B_standalone": {
+        "map_at_k": 0.3184404761904762,
+        "map_with_at_least_k_positive": 0.33528405797101446,
+        "map_with_positive": 0.3240993537964459
+      },
+      "original10/C_hybrid": {
+        "map_at_k": 0.39204717813051143,
+        "map_with_at_least_k_positive": 0.4135739130434783,
+        "map_with_positive": 0.39901409082749956
+      },
+      "original10/C_standalone": {
+        "map_at_k": 0.31920480599647266,
+        "map_with_at_least_k_positive": 0.3365333333333333,
+        "map_with_positive": 0.3248772661999641
+      },
+      "original10/stage13_control": {
+        "map_at_k": 0.39266490299823636,
+        "map_with_at_least_k_positive": 0.4144608695652174,
+        "map_with_positive": 0.3996427930353617
+      }
+    },
+    "new_unique": 6,
+    "preserved_workspace_files": 1677,
+    "selected": null,
+    "total_unique": 64,
+    "verification": "automated within this OpenCode session, not personal user verification",
+    "verification_seconds": 22.405519166000886
+  },
+  "search_accounting": {
+    "OpenCode_through_Stage14_unique": 64,
+    "report_only_fixed_checks": 2,
+    "repeat_policy_already_evaluated_in_Stage10": true,
+    "additional_unique_component_policy_in_report_audit": 1,
+    "all_evaluated_policies_including_reporting": 65,
+    "new_selection_or_hyperparameter_search": false,
+    "Stage15_executed": false
+  }
+}

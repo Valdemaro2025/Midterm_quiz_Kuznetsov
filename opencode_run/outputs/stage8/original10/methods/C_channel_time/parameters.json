@@ -1,0 +1,9 @@
+{
+  "interpretation": "forecasting heuristic, not calibrated probability",
+  "p_uc": "watched_airings_uc / scheduled_airings_c, zero if unavailable",
+  "p_ucb": "(watched_airings_ucb + 20*p_uc) / (scheduled_airings_cb + 20)",
+  "smoothing": 20,
+  "target_score": "sum p_ucb over program target airings",
+  "time_bins": "weekday/weekend x six 4-hour start bins",
+  "training_interactions": ">=80% actual coverage"
+}

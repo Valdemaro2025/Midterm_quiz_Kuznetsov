@@ -1,0 +1,22 @@
+[
+  {
+    "MAP": 0.38995458553791884,
+    "name": "logcount_ease_l100_b10",
+    "status": "completed"
+  },
+  {
+    "MAP": 0.34594995590828925,
+    "name": "logcount_ease_l100_b100",
+    "status": "completed"
+  },
+  {
+    "MAP": 0.39010141093474426,
+    "name": "logcount_ease_l1000_b10",
+    "status": "completed"
+  },
+  {
+    "MAP": 0.34050727513227513,
+    "name": "logcount_ease_l1000_b100",
+    "status": "completed"
+  }
+]

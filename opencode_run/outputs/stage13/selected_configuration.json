@@ -1,0 +1,13 @@
+{
+  "declaration_sha256": "a76f9819ad3d98a8708544581530b7991fca8fae766a2b90f597e084e7e4eb37",
+  "new_unique_from_refit": 0,
+  "parameters": {
+    "EASE_opportunity_adjustment": true,
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "E_EASE_opportunity"
+  },
+  "postprocessing": "study.predict is the exact common historical/final implementation",
+  "selection_sha256": "97ff4c80feea18c4ed3e8794390a288d72dc6a23d67de22d5f2a31ce10acb476",
+  "total_unique": 58
+}

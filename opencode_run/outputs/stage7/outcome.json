@@ -1,0 +1,37 @@
+{
+  "comparisons": {
+    "primary": {
+      "no_decay": 0.37915696649029984,
+      "no_decay_minus_decay": -0.002557319223985499,
+      "no_decay_minus_stage5_control": 0.0006106701940036818,
+      "stage5_strategy_control": 0.37854629629629616,
+      "stage6_with_decay": 0.38171428571428534
+    },
+    "robustness": {
+      "no_decay": 0.35223633156966494,
+      "no_decay_minus_decay": -0.002471340388007337,
+      "no_decay_minus_stage5_control": 0.0004261463844795754,
+      "stage5_strategy_control": 0.35181018518518536,
+      "stage6_with_decay": 0.3547076719576723
+    }
+  },
+  "current_best": {
+    "column_labels": null,
+    "designation": "current best, retained per user instruction",
+    "observed_values": [
+      0.40974,
+      0.42586
+    ],
+    "path": "outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+    "sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb",
+    "stage": 5,
+    "stage7_must_not_replace": true
+  },
+  "motivation": "Kaggle-feedback-motivated follow-up; not preplanned",
+  "negative_result": "Stage 6 worsened both Kaggle score columns; local gains did not transfer",
+  "no_decay_helps_both_local_splits": false,
+  "recommendation": "Keep Stage 5 designated best regardless of this local ablation; no further search or upload",
+  "stage7_kaggle_score": null,
+  "stage7_uploaded": false,
+  "temporal_robustness": "later split overlaps original holdout and is not independent untouched evidence"
+}

@@ -1,0 +1,10 @@
+{
+  "EASE_scores_source": "outputs/stage12/original10/models/lambda1000/scores.npz",
+  "EASE_scores_source_sha256": "1adb251b8944a951259a8634e83caa69772af2b324b1051943dbcdc278b9f34b",
+  "S9_renormalized": false,
+  "category": "fixed_control_reproduction",
+  "declaration": "declaration.json",
+  "labels_used_as_training_features": false,
+  "source_manifest": "preservation_before.json",
+  "training_cutoff": 1589760000
+}

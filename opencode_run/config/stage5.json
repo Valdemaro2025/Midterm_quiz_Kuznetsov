@@ -1,0 +1,51 @@
+{
+  "data_dir": "sweettv-tv-program-recommender",
+  "output_dir": "outputs/stage5",
+  "view_file": "dataset11-30.csv",
+  "submission_file": "submission.csv",
+  "schedule_files": {
+    "history_11_20": "export_arh_11-20-final.csv",
+    "history_21_30": "export_arh_21-30-final.csv",
+    "test": "export_arh_31-42-final.csv"
+  },
+  "windows": {
+    "train": [
+      "2020-03-09T00:00:00",
+      "2020-07-27T00:00:00"
+    ],
+    "test": [
+      "2020-07-27T00:00:00",
+      "2020-10-19T00:00:00"
+    ]
+  },
+  "schedule_windows": {
+    "history_11_20": [
+      "2020-03-09T00:00:00",
+      "2020-05-18T00:00:00"
+    ],
+    "history_21_30": [
+      "2020-05-18T00:00:00",
+      "2020-07-27T00:00:00"
+    ],
+    "test": [
+      "2020-07-27T00:00:00",
+      "2020-10-19T00:00:00"
+    ]
+  },
+  "primary_coverage": 0.8,
+  "sensitivity_coverage": 0.5,
+  "merge_gap_primary_seconds": 0,
+  "merge_gap_sensitivity_seconds": 60,
+  "top_k": 5,
+  "tie_break": "training_popularity_then_id",
+  "primary_evaluation_cohort": "submission_users",
+  "allow_repeats_initial": true,
+  "popularity_fallback": "global_full_history_qualifying_user_count",
+  "schedule_ownership": "row_start_in_nominal_window; spillover_rows_dropped; deterministic_identity_dedupe",
+  "interaction_airing_rule": "airing_start_in_full_history_window_and_airing_end_at_or_before_window_end",
+  "test_candidate_rule": "labelled_positive_duration_airing_start_in_test_window_including_crossing_end",
+  "protocol_version": "stage5_v1",
+  "candidate_rule": "labelled_positive_duration_airing_start_in_test_window_including_crossing_end",
+  "training_window": "full_observed_history_weeks_11_30_strictly_before_2020-07-27",
+  "narrative_note": "Stage 5 freezes the Stage 4 hybrid_70_30 strategy, refits all components on the full historical period, and writes a separate submission without changing Stage 3/4 results."
+}

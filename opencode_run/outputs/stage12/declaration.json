@@ -1,0 +1,85 @@
+{
+  "bootstrap": {
+    "cohorts": "all, positive, >=5 positives",
+    "interval": "paired-user percentile descriptive 95%",
+    "order": "template order",
+    "resamples": 10000,
+    "seed": 137
+  },
+  "comparison": "three-cohort metrics and per-user AP; paired deltas vs Stage 9; matched log-count minus binary differences; relevant-pair repeat50 partitions are diagnostic only",
+  "conditional_refit": "only one qualifying winner; fresh full-history scalar and S9 factors; no CSV if none",
+  "configurations": [
+    {
+      "beta": 0.1,
+      "lambda": 100,
+      "name": "logcount_ease_l100_b10"
+    },
+    {
+      "beta": 1.0,
+      "lambda": 100,
+      "name": "logcount_ease_l100_b100"
+    },
+    {
+      "beta": 0.1,
+      "lambda": 1000,
+      "name": "logcount_ease_l1000_b10"
+    },
+    {
+      "beta": 1.0,
+      "lambda": 1000,
+      "name": "logcount_ease_l1000_b100"
+    }
+  ],
+  "controls": "reuse Stage 9 and matched Stage 11 binary lambda/beta predictions; independently recompute their metrics, do not refit controls",
+  "declared_before_model_evaluation": true,
+  "fixed": {
+    "B": "column-wise -P_ij/P_jj, exact zero diagonal; negative coefficients retained",
+    "EASE_schedule_adjusted": false,
+    "S9": "exact Stage 9 adjusted repeat50/AR80, 70/30, no decay; no setting changes",
+    "dtype": "float64",
+    "fallback_and_ranking": {
+      "fallback": "cutoff-specific >=80% training popularity restricted to the applicable candidate pool",
+      "fusion": "weighted sum of normalized scores; no score rounding",
+      "normalization": "per-user max normalization over eligible candidate scores",
+      "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+      "zero_score_handling": "scores <= 0 are not ranked"
+    },
+    "feature_coverage": 0.8,
+    "fusion": "(1-beta)*S9 + beta*normalized_positive_EASE; S9 is not additionally normalized",
+    "prediction": "X_user @ B with weighted query rows; filter target candidates then clip completed scores and max-normalize positives",
+    "seen_items_excluded": false,
+    "solver": "Stage 11 Cholesky solve of G+lambda I against identity"
+  },
+  "hypothesis": "preserving >=80% qualifying-airing frequency in EASE input may complement Stage 9 more effectively than binary EASE",
+  "input": {
+    "X": "scale*Z",
+    "axes": "same positive support and learned axes as Stage 11; noncohort users and noncandidate historical programs included",
+    "convention": "global normalization is an explicitly declared experiment convention, not standard paper preprocessing or proven optimal",
+    "count": "number of distinct qualifying training user-airing interactions at >=80% actual observed coverage",
+    "degenerate": "no positive entries => scale=0, empty X, no solve, all EASE scores zero, established fallback; no division by zero",
+    "duplicate_policy": "unioned user-airing cache, deduplicate representations of (user_idx,airing_idx); distinct repeated airings each count once",
+    "scale": "sqrt(nnz(Z)/sum(Z_ui**2))",
+    "scale_fit_scope": "all qualifying training users/programs only, before cutoff; no labels or target data",
+    "transform": "Z_ui=log1p(n_ui)"
+  },
+  "kaggle_scores_not_targets": true,
+  "maximum_total_unique": 53,
+  "new_unique_budget": 4,
+  "only_change": "training input representation relative to matched Stage 11 models",
+  "output": "outputs/stage12/kuznetsov_vladimir_midterm_submission_frequency_ease.csv",
+  "personal_analysis_or_verification_claimed": false,
+  "personal_verification": "pending",
+  "previous_unique": 49,
+  "resources": "same sequential fits, matrix memory estimate and fixed cap min(4 GiB, physical_memory/4) as Stage 11; no replacement on failure",
+  "selection": {
+    "gain_each_split_at_least": 0.002,
+    "horizon12_interval_lower_strictly_above": 0.0,
+    "objective": "maximize smaller gain across the two splits",
+    "remaining_exact_tie": "retain Stage 9 rather than invent another rule",
+    "tie_break_1": "lower beta",
+    "tie_break_2": "lower measured computational cost summed across splits: shared EASE fit/score plus direct fusion"
+  },
+  "splits": "unchanged Stage 8 horizon12 and original10 users, labels, pools, boundaries and evaluation rules",
+  "suggestion_source": "external AI assistant Codex",
+  "uncertainty": "overlapping, repeatedly used historical periods; selection-unadjusted descriptive intervals, not independent confirmation"
+}

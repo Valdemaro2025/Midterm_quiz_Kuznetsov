@@ -1,0 +1,15 @@
+{
+  "allowed": true,
+  "assumed_dense_buffers": 8,
+  "binary_nnz": 82809,
+  "cohort_score_buffer_bytes": 233241120,
+  "conservative_peak_bytes": 544986428,
+  "dense_item_square_buffer_bytes": 32707872,
+  "fixed_fit_budget_bytes": 4294967296,
+  "note": "conservative pre-allocation estimate; fit sequentially, no simultaneous lambda models",
+  "physical_memory_bytes": 25769803776,
+  "sparse_X_bytes": 1012432,
+  "training_programs": 2022,
+  "training_users": 4680,
+  "worst_sparse_Gram_bytes": 49069900
+}

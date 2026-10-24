@@ -1,0 +1,19 @@
+{
+  "identity": "channel/start/end/program",
+  "labelled_kept": 236547,
+  "source_priority": "history_11_20 before history_21_30 then row",
+  "sources": {
+    "history_11_20": {
+      "labelled_rows": 115613,
+      "owned_labelled_positive_rows": 115309,
+      "raw_rows": 1074235,
+      "spillover_dropped": 304
+    },
+    "history_21_30": {
+      "labelled_rows": 121505,
+      "owned_labelled_positive_rows": 121238,
+      "raw_rows": 1074394,
+      "spillover_dropped": 267
+    }
+  }
+}

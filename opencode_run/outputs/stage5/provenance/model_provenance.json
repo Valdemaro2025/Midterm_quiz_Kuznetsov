@@ -1,0 +1,147 @@
+{
+  "alternative": "repeat_50",
+  "counts": {
+    "cohort_users": 1260,
+    "history_airings": 236489,
+    "history_user_airing_rows": 3011224,
+    "history_user_program_rows": 1369604,
+    "history_view_channels": 202,
+    "history_view_users": 4914,
+    "history_views_loaded": 5821987,
+    "restored_may18_crossing_airings": 66,
+    "test_candidate_airings": 144517,
+    "test_candidates": 6632
+  },
+  "data_sources": {
+    "schedule_history_11_20": {
+      "bytes": 153322643,
+      "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_11-20-final.csv",
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "schedule_history_21_30": {
+      "bytes": 154366907,
+      "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_21-30-final.csv",
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "schedule_test": {
+      "bytes": 185952991,
+      "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/export_arh_31-42-final.csv",
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "submission_template": {
+      "bytes": 38348,
+      "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/submission.csv",
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    },
+    "view_file": {
+      "bytes": 396216555,
+      "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/sweettv-tv-program-recommender/dataset11-30.csv",
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    }
+  },
+  "fitted_on": "full historical period, not Stage 3 weeks 11-20 models",
+  "limitations": [
+    "The earlier local validation MAP@5 is 0.378546; no Kaggle score is known.",
+    "The hybrid gain over repeat_50 is small and not statistically established or independently confirmed.",
+    "Test labels are unavailable locally; only format, candidate, and provenance checks are possible."
+  ],
+  "models": {
+    "ar_c5_conf_max_80": {
+      "details": {
+        "aggregate": "max",
+        "antecedents_with_rules": 3100,
+        "association_cooccurrence_nnz": 4591132,
+        "association_index_items": 3864,
+        "association_index_users": 4841,
+        "max_antecedents_per_user": 50,
+        "score": "confidence",
+        "total_rules": 123243,
+        "training_items": 3864,
+        "training_users": 4841,
+        "users_with_rules": 1255
+      },
+      "parameters": {
+        "aggregate": "max",
+        "interaction_counts": "qualifying_airings_primary_>=80%",
+        "max_antecedents_per_user": 50,
+        "max_rules_per_antecedent": 50,
+        "min_confidence": 0.005,
+        "min_count": 5,
+        "min_lift": 1.0,
+        "name": "ar_c5_conf_max_80",
+        "score_scheme": "confidence",
+        "tie_break": "training_popularity_then_id"
+      }
+    },
+    "hybrid_70_30": {
+      "details": {
+        "association_weight": 0.3,
+        "fusion": "weighted sum of normalized scores; no score rounding",
+        "mean_scored_candidates_per_user": 163.27857142857144,
+        "normalization": "per-user max normalization of each method's candidate scores",
+        "repeat_weight": 0.7,
+        "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+        "users_needing_fallback": 5,
+        "users_with_association_only": 0,
+        "users_with_both_sources": 1255,
+        "users_with_repeat_only": 1
+      },
+      "parameters": {
+        "association_source": "ar_c5_conf_max_80",
+        "association_weight": 0.3,
+        "fallback": "full-history training popularity restricted to test candidates",
+        "fusion": "weighted sum of normalized scores; no score rounding",
+        "name": "hybrid_70_30",
+        "normalization": "per-user max normalization over eligible candidate scores",
+        "repeat_source": "repeat_50",
+        "repeat_weight": 0.7,
+        "tie_break": "exact_score_desc, training_popularity_desc, program_id_asc",
+        "zero_score_handling": "scores <= 0 are not ranked"
+      }
+    },
+    "popularity_fallback": {
+      "distinct_training_users": 3995,
+      "parameters": {
+        "count_variant": "primary80",
+        "name": "popularity_fallback",
+        "ranking": "distinct_full_history_training_users_primary_desc, qualifying_airings_primary_desc, program_id_asc"
+      },
+      "top5_global": [
+        2400480,
+        240081,
+        2400467,
+        2400508,
+        200344
+      ]
+    },
+    "repeat_50": {
+      "count_variant": "qualifying_airings_sensitivity",
+      "coverage_threshold": ">=50%",
+      "details": {
+        "users_with_scored_candidates": 1256
+      }
+    }
+  },
+  "raw_integrity_unchanged": true,
+  "reproduction": {
+    "command": "python3 scripts/run_stage5.py && python3 scripts/validate_stage5.py",
+    "instructions": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/REPRODUCTION.md"
+  },
+  "runtime_seconds": {
+    "model_fit_and_predict": 0.918,
+    "pipeline_total": 117.629
+  },
+  "stage": 5,
+  "strategy": "hybrid_70_30",
+  "submission": {
+    "header": "user_id,tv_show_id",
+    "path": "/Users/vladimirkuznecov/Desktop/Midterm_quiz/outputs/stage5/kuznetsov_vladimir_midterm_submission.csv",
+    "rows": 1260,
+    "sha256": "cc0f9b56dd56200adc2075b4977dd9dbdf2fcd0ba2682ffe10529d8241b0cdcb"
+  },
+  "template_sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02",
+  "training_window": [
+    "2020-03-09 00:00:00",
+    "2020-07-27 00:00:00"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "half_life_days": 28,
+  "name": "repeat_fraction20_h28",
+  "threshold": 0.2,
+  "weighting": "fraction"
+}

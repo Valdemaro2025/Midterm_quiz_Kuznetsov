@@ -1,0 +1,11 @@
+{
+  "historical_artifacts_updated": false,
+  "source": "user confirms returned Stage 12 scores",
+  "stage12": {
+    "private": 0.42267,
+    "public": 0.44041,
+    "sha256": "5128cb80f1fa160b08a26a67539cd3a8059640dac6bb8038b55e43ccbd639aee",
+    "submission": "outputs/stage12/kuznetsov_vladimir_midterm_submission_frequency_ease.csv"
+  },
+  "used_for_optimization": false
+}

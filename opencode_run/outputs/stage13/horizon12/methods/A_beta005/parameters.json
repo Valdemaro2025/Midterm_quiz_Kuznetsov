@@ -1,0 +1,6 @@
+{
+  "EASE_opportunity_adjustment": false,
+  "beta": 0.05,
+  "lambda": 1000,
+  "name": "A_beta005"
+}

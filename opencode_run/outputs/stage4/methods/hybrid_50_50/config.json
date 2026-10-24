@@ -1,0 +1,8 @@
+{
+  "association_source": "ar_c5_conf_max_80",
+  "association_weight": 0.5,
+  "normalization": "per-user max normalization",
+  "repeat_source": "repeat_50",
+  "repeat_weight": 0.5,
+  "tie_break": "training_popularity_then_id"
+}

@@ -1,0 +1,19 @@
+{
+  "assistance": "Codex suggested the experiment; implementation and automated checks performed in this OpenCode session; personal verification pending",
+  "best_scored_submission": "outputs/stage9/kuznetsov_vladimir_midterm_submission_schedule.csv",
+  "candidates": 6632,
+  "code_provenance": "code_provenance.json",
+  "full_refit_with_schedule_counts_IO_seconds": 13.578023916001257,
+  "future_viewing_used": false,
+  "normalization_convention": "explicit experiment convention, not standard/proven-optimal paper preprocessing",
+  "returned_score": null,
+  "selected": {
+    "beta": 0.1,
+    "lambda": 1000,
+    "name": "logcount_ease_l1000_b10"
+  },
+  "sha256": "5128cb80f1fa160b08a26a67539cd3a8059640dac6bb8038b55e43ccbd639aee",
+  "source_manifest": "preservation_before.json",
+  "submission": "outputs/stage12/kuznetsov_vladimir_midterm_submission_frequency_ease.csv",
+  "template_users": 1260
+}

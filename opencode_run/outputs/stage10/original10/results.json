@@ -1,0 +1,37 @@
+[
+  {
+    "category": "control_reproduction",
+    "map_at_5": 0.3878139329805997,
+    "name": "stage9_control"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.38426763668430336,
+    "name": "alpha025_w70"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.3888670634920635,
+    "name": "alpha075_w70"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.3862367724867725,
+    "name": "alpha100_w70"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.38159149029982364,
+    "name": "alpha050_w50"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.3874217372134039,
+    "name": "alpha050_w85"
+  },
+  {
+    "category": "repeated_backtest_fit",
+    "map_at_5": 0.3774704585537919,
+    "name": "alpha050_w100"
+  }
+]
